@@ -336,7 +336,7 @@
       : "";
     const saleTag = it.sale ? `<span class="tag tag--sale">Распродажа</span>` : "";
     return `<li class="card${it.sale ? " card--sale" : ""}">
-      <p class="card__name" data-name="1">${escapeHtml(it.name)}</p>
+      <p class="card__name">${escapeHtml(it.name)}</p>
       <div class="card__qty">${it.qty} шт</div>
       <div class="card__meta">${tags}${saleTag}${warn}</div>
       ${sale}
@@ -527,11 +527,6 @@
       renderSheet();
       applyFilters();
     }
-  });
-
-  $("list").addEventListener("click", (e) => {
-    const name = e.target.closest("[data-name]");
-    if (name) name.classList.toggle("is-open");
   });
 
   const scroller = document.querySelector(".main");

@@ -29,7 +29,9 @@
     shown: 0,
     filtered: [],
     generatedAt: "",
+    publishedAt: "",
     stockIntervalSec: 1800,
+    agentOnlineTtlSec: 600,
   };
 
   const THEME_KEY = "askona-stock-theme";
@@ -220,27 +222,28 @@
     return `${n} ${ruCount(n, "день", "дня", "дней")} назад`;
   }
 
-  function agentIsOnline(iso, intervalSec) {
+  function agentIsOnline(iso, ttlSec) {
     const d = new Date(iso);
     if (Number.isNaN(d.getTime())) return false;
-    const ttl = Math.max(120, (Number(intervalSec) || 1800) * 2);
+    const ttl = Math.max(120, Number(ttlSec) || 600);
     return Date.now() - d.getTime() <= ttl * 1000;
   }
 
   function renderLive() {
-    const iso = state.generatedAt;
-    const on = agentIsOnline(iso, state.stockIntervalSec);
+    const stockIso = state.generatedAt;
+    const beatIso = state.publishedAt || stockIso;
+    const on = agentIsOnline(beatIso, state.agentOnlineTtlSec);
     const pill = $("livePill");
     const label = $("liveLabel");
     const text = $("liveText");
     if (!pill || !label || !text) return;
     pill.classList.toggle("is-on", on);
     label.textContent = on ? "Онлайн" : "Офлайн";
-    const when = formatRuDateTime(iso);
-    const ago = formatAgo(iso);
+    const when = formatRuDateTime(stockIso);
+    const ago = formatAgo(stockIso);
     const mins = Math.max(1, Math.round((Number(state.stockIntervalSec) || 1800) / 60));
-    text.innerHTML = iso
-      ? `Обновлено <time datetime="${iso}">${when}</time> · ${ago}<span class="live__cadence"> · каждые ${mins} мин</span>`
+    text.innerHTML = stockIso
+      ? `Обновлено <time datetime="${stockIso}">${when}</time> · ${ago}<span class="live__cadence"> · каждые ${mins} мин</span>`
       : "Нет отметки обновления";
   }
 
@@ -472,7 +475,9 @@
         .catch(() => null),
     ]);
     state.generatedAt = (status && status.generatedAt) || stock.meta.generatedAt;
+    state.publishedAt = (status && status.publishedAt) || state.generatedAt;
     state.stockIntervalSec = (status && status.stockIntervalSec) || 1800;
+    state.agentOnlineTtlSec = (status && status.agentOnlineTtlSec) || 600;
     state.items = merge(stock, sale);
     renderLive();
     renderChips();

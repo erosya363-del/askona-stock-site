@@ -3,9 +3,9 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-27T02:33:01+04:00",
+    "generatedAt": "2026-08-27T03:03:51+04:00",
     "timezone": "Europe/Astrakhan",
-    "skuCount": 11589
+    "skuCount": 11590
   },
   "items": [
     {
@@ -22931,10 +22931,10 @@
     {
       "productId": "8b0a4c9f-860e-4dc7-9ac3-34e0161270f2",
       "name": "Журнальный стол Атрей черная лакобель",
-      "qty": 3,
+      "qty": 2,
       "feature": "Журнальные столы",
       "size": "",
-      "modifiedDate": "2026-08-23"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "ce12aa42-7d51-44fd-b605-da99024e3d18",
@@ -27339,7 +27339,7 @@
     {
       "productId": "8a0049c6-0a1b-4e3e-b708-45434f3c1a13",
       "name": "Комплект Elso Small",
-      "qty": 317,
+      "qty": 315,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -27811,7 +27811,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 11198,
+      "qty": 11196,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -31027,10 +31027,10 @@
     {
       "productId": "0d2d8239-116a-4bef-8a9d-86d6b27ca6d4",
       "name": "КПБ Natural Balance Floral (евро)",
-      "qty": 79,
+      "qty": 81,
       "feature": "КПБ",
       "size": "",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "a6c148af-c16f-4548-8621-3b0e0ad84298",
@@ -31195,10 +31195,10 @@
     {
       "productId": "4f43c006-4db2-46d9-9799-0f6afac192e1",
       "name": "КПБ Organic Cotton (односп) Голубой",
-      "qty": 109,
+      "qty": 107,
       "feature": "КПБ",
       "size": "",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "285aa490-6e54-4ea4-a9c9-5058464d060d",
@@ -57451,7 +57451,7 @@
     {
       "productId": "4453a465-4ea9-4d52-94d6-112bed260794",
       "name": "Одеяло 110*140 Askona Kids Happy (pink)",
-      "qty": 145,
+      "qty": 144,
       "feature": "Одеяла",
       "size": "110*140",
       "modifiedDate": "2026-08-27"
@@ -57667,7 +57667,7 @@
     {
       "productId": "3cc86207-e873-4bfd-8c8b-ccdc5b367182",
       "name": "Одеяло 205*140 Elso",
-      "qty": 194,
+      "qty": 193,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-27"
@@ -57691,7 +57691,7 @@
     {
       "productId": "950dbe06-ecd2-4255-b1eb-c09c38cc798c",
       "name": "Одеяло 205*140 Freshly",
-      "qty": 444,
+      "qty": 443,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-27"
@@ -57907,7 +57907,7 @@
     {
       "productId": "8501adaa-18cd-4752-ab14-290fb9a5999b",
       "name": "Одеяло 220*200 Elso",
-      "qty": 203,
+      "qty": 201,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-27"
@@ -60115,7 +60115,7 @@
     {
       "productId": "8478bbba-b800-40a6-a5b9-0cea312283a6",
       "name": "Основание с ламелями База 202*122 (200*120)",
-      "qty": 25,
+      "qty": 26,
       "feature": "Решетки",
       "size": "202*122",
       "modifiedDate": "2026-08-27"
@@ -63371,7 +63371,7 @@
     {
       "productId": "1ae3b9a9-8e51-410c-b407-9e3abc58bc59",
       "name": "Подушка Askona Kids Dino (Дино)",
-      "qty": 256,
+      "qty": 255,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63419,7 +63419,7 @@
     {
       "productId": "204da748-c318-4180-bced-82f6db7c02ee",
       "name": "Подушка Baby 1+ Cloud",
-      "qty": 465,
+      "qty": 464,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63627,7 +63627,7 @@
     {
       "productId": "5a333729-fe81-4722-9f2c-9b02eebc4d58",
       "name": "Подушка Pillo New",
-      "qty": 73,
+      "qty": 71,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -64667,10 +64667,10 @@
     {
       "productId": "b96cea83-5f4d-49a4-b4ad-96f2e187120e",
       "name": "Подушка ортопедическая Tween",
-      "qty": 439,
+      "qty": 438,
       "feature": "Подушки",
       "size": "",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "a622c9ef-e2fb-4e65-8746-c6c1e84a385d",
@@ -70611,10 +70611,10 @@
     {
       "productId": "bee21f93-8580-45c0-b19a-2d41ca62aece",
       "name": "Простынь 160*200 Askona Comfort Cotton Синий",
-      "qty": 23,
+      "qty": 22,
       "feature": "КПБ",
       "size": "160*200",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "1998cd47-8e6a-4c45-9542-c280ddcc2552",
@@ -70875,10 +70875,10 @@
     {
       "productId": "12b778c4-4f59-4b19-ab97-49eafca5ea51",
       "name": "Простынь 180*200 Askona Comfort Cotton Светло-серый",
-      "qty": 43,
+      "qty": 44,
       "feature": "КПБ",
       "size": "180*200",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "25258124-eeed-458e-8466-08fe4c2f55d1",
@@ -71171,10 +71171,10 @@
     {
       "productId": "2f33a1e7-f8a5-4524-8188-ae203126adcc",
       "name": "Простынь 180*200*50 Askona Comfort Maco Sateen, Белоснежный",
-      "qty": 20,
+      "qty": 21,
       "feature": "КПБ",
       "size": "180*200",
-      "modifiedDate": "2026-08-25"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "08738a19-8829-4f29-88cd-b2ffd6e85700",
@@ -72039,6 +72039,14 @@
       "feature": "КПБ",
       "size": "200*200",
       "modifiedDate": "2026-06-18"
+    },
+    {
+      "productId": "6569511d-ac5a-4633-b4e8-6f9c0fc5e5f9",
+      "name": "Простынь натяжная 200*200*45 Grether&Wells Frame",
+      "qty": 1,
+      "feature": "КПБ",
+      "size": "200*200",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "c3dfa596-ad23-4410-b379-0aed3d7b6316",
@@ -89147,10 +89155,10 @@
     {
       "productId": "890dca25-4f97-4988-8310-66aba2004f61",
       "name": "Чехол 200*180*45 Signature",
-      "qty": 1313,
+      "qty": 1314,
       "feature": "Чехлы",
       "size": "200*180",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "f195a84b-9e29-4d1e-922f-66d402f67882",
@@ -89171,10 +89179,10 @@
     {
       "productId": "716cd79d-7bbb-4a0e-b9bf-6572ab116701",
       "name": "Чехол 200*200*45 Signature",
-      "qty": 183,
+      "qty": 184,
       "feature": "Чехлы",
       "size": "200*200",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "83adaf1a-be34-4398-9316-cc286a92cb9d",
@@ -89859,10 +89867,10 @@
     {
       "productId": "90eaa9f3-47fe-437e-bea7-db0117fac70e",
       "name": "Чехол на матрас 200*180*35,6 Protect-a-bed Tencel",
-      "qty": 265,
+      "qty": 266,
       "feature": "Чехлы",
       "size": "200*180",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "b7a1d5cd-e0ee-4b76-98ad-982e47bb1b62",

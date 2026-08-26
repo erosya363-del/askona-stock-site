@@ -280,12 +280,20 @@ html.light .top {
   flex-wrap: wrap;
 }
 
+.brand-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px 14px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
 .brand {
   display: flex;
   align-items: center;
   gap: 10px;
   min-width: 0;
-  flex: 1 1 auto;
+  flex: 0 0 auto;
   text-decoration: none;
   color: inherit;
 }
@@ -453,26 +461,27 @@ html.light .top {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
-  padding: 12px 12px 28px;
+  padding: 10px 12px 24px;
 }
 
 .live {
-  margin: 0 auto 8px;
-  max-width: 920px;
+  margin: 0;
+  min-width: 0;
+  flex: 1 1 12rem;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 8px 10px;
+  gap: 6px 8px;
 }
 
 .live__pill {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   flex: 0 0 auto;
-  border-radius: 8px;
-  padding: 4px 9px;
-  font-size: 11px;
+  border-radius: 6px;
+  padding: 2px 7px;
+  font-size: 10px;
   font-weight: 600;
   letter-spacing: 0.02em;
   background: var(--warning-soft);
@@ -502,8 +511,11 @@ html.light .live__pill.is-on {
 .live__text {
   min-width: 0;
   color: var(--secondary);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .live__text time {
@@ -518,7 +530,7 @@ html.light .live__pill.is-on {
 }
 
 .meta {
-  margin: 0 auto 12px;
+  margin: 0 auto 10px;
   max-width: 920px;
   color: var(--muted);
   font-size: 12px;
@@ -533,19 +545,19 @@ html.light .live__pill.is-on {
   max-width: 920px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 7px;
 }
 
 .card {
   background: var(--panel);
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 12px 14px;
+  border-radius: 14px;
+  padding: 10px 12px;
   min-width: 0;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 8px 10px;
-  align-items: start;
+  gap: 7px 8px;
+  align-items: center;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.03) inset, var(--shadow-card);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
@@ -576,6 +588,7 @@ html.light .card--sale {
   margin: 0;
   font-size: 14px;
   font-weight: 600;
+  line-height: 1.3;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -588,12 +601,11 @@ html.light .card--sale {
 }
 
 .card__qty {
-  font-family: var(--font-display);
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: -0.03em;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.3;
   color: var(--primary);
-  line-height: 1;
   white-space: nowrap;
 }
 
@@ -601,7 +613,7 @@ html.light .card--sale {
   grid-column: 1 / -1;
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 5px;
   min-width: 0;
 }
 
@@ -612,7 +624,7 @@ html.light .card--sale {
   color: var(--secondary);
   border: 1px solid var(--border);
   border-radius: 999px;
-  padding: 3px 8px;
+  padding: 2px 7px;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -633,7 +645,7 @@ html.light .card--sale {
 
 .price {
   grid-column: 1 / -1;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   min-width: 0;
   color: var(--primary);
@@ -771,6 +783,10 @@ html.light .card--sale {
 
 @media (max-width: 430px) {
   .brand__copy {
+    display: none;
+  }
+
+  .live__cadence {
     display: none;
   }
 }

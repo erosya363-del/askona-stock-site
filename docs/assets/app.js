@@ -240,7 +240,7 @@
     const ago = formatAgo(iso);
     const mins = Math.max(1, Math.round((Number(state.stockIntervalSec) || 1800) / 60));
     text.innerHTML = iso
-      ? `Обновлено <time datetime="${iso}">${when}</time> · ${ago} · каждые ${mins} мин`
+      ? `Обновлено <time datetime="${iso}">${when}</time> · ${ago}<span class="live__cadence"> · каждые ${mins} мин</span>`
       : "Нет отметки обновления";
   }
 

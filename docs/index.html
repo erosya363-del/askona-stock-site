@@ -36,13 +36,22 @@
 
     <header class="top">
       <div class="top__row">
-        <a class="brand" href="./" aria-label="Askona — остатки Обухово">
-          <span class="brand__logo" role="img" aria-hidden="true"></span>
-          <span class="brand__copy">
-            <span class="brand__title">Остатки</span>
-            <span class="brand__sub">Обухово</span>
-          </span>
-        </a>
+        <div class="brand-wrap">
+          <a class="brand" href="./" aria-label="Askona — остатки Обухово">
+            <span class="brand__logo" role="img" aria-hidden="true"></span>
+            <span class="brand__copy">
+              <span class="brand__title">Остатки</span>
+              <span class="brand__sub">Обухово</span>
+            </span>
+          </a>
+          <p class="live" id="liveLine" role="status">
+            <span class="live__pill" id="livePill">
+              <span class="live__dot" aria-hidden="true"></span>
+              <span id="liveLabel">…</span>
+            </span>
+            <span class="live__text" id="liveText">Загрузка статуса…</span>
+          </p>
+        </div>
         <div class="top__tools">
           <div class="theme-switch" role="radiogroup" aria-label="Тема оформления">
             <button
@@ -98,13 +107,6 @@
     </header>
 
     <main class="main">
-      <p class="live" id="liveLine" role="status">
-        <span class="live__pill" id="livePill">
-          <span class="live__dot" aria-hidden="true"></span>
-          <span id="liveLabel">…</span>
-        </span>
-        <span class="live__text" id="liveText">Загрузка статуса…</span>
-      </p>
       <p class="meta" id="metaLine">Загрузка…</p>
       <ul class="list" id="list"></ul>
       <p class="empty" id="empty" hidden>Ничего не найдено. Попробуйте «чехол» или «200*160».</p>

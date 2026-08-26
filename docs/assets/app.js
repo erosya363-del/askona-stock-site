@@ -29,6 +29,7 @@
     shown: 0,
     filtered: [],
     generatedAt: "",
+    stockIntervalSec: 1800,
   };
 
   const THEME_KEY = "askona-stock-theme";
@@ -190,10 +191,57 @@
     return `${Number(n).toLocaleString("ru-RU")} ₽`;
   }
 
-  function formatDateShort(iso) {
-    const m = String(iso || "").match(/^(\d{4})-(\d{2})-(\d{2})/);
-    if (!m) return iso || "";
-    return `${m[3]}.${m[2]}.${m[1]}`;
+  function formatRuDateTime(iso) {
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return "—";
+    return d.toLocaleString("ru-RU", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+  }
+
+  function formatAgo(iso) {
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return "";
+    const sec = Math.round((Date.now() - d.getTime()) / 1000);
+    if (sec < 45) return "только что";
+    if (sec < 3600) {
+      const n = Math.max(1, Math.round(sec / 60));
+      return `${n} ${ruCount(n, "минуту", "минуты", "минут")} назад`;
+    }
+    if (sec < 86400) {
+      const n = Math.max(1, Math.round(sec / 3600));
+      return `${n} ${ruCount(n, "час", "часа", "часов")} назад`;
+    }
+    const n = Math.max(1, Math.round(sec / 86400));
+    return `${n} ${ruCount(n, "день", "дня", "дней")} назад`;
+  }
+
+  function agentIsOnline(iso, intervalSec) {
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return false;
+    const ttl = Math.max(120, (Number(intervalSec) || 1800) * 2);
+    return Date.now() - d.getTime() <= ttl * 1000;
+  }
+
+  function renderLive() {
+    const iso = state.generatedAt;
+    const on = agentIsOnline(iso, state.stockIntervalSec);
+    const pill = $("livePill");
+    const label = $("liveLabel");
+    const text = $("liveText");
+    if (!pill || !label || !text) return;
+    pill.classList.toggle("is-on", on);
+    label.textContent = on ? "Онлайн" : "Офлайн";
+    const when = formatRuDateTime(iso);
+    const ago = formatAgo(iso);
+    const mins = Math.max(1, Math.round((Number(state.stockIntervalSec) || 1800) / 60));
+    text.innerHTML = iso
+      ? `Обновлено <time datetime="${iso}">${when}</time> · ${ago} · каждые ${mins} мин`
+      : "Нет отметки обновления";
   }
 
   function merge(stock, sale) {
@@ -266,7 +314,7 @@
     $("empty").hidden = state.filtered.length > 0;
     const n = state.filtered.length;
     const stale = state.filtered.filter((x) => x.stale).length;
-    $("metaLine").textContent = `${n} ${ruCount(n, "товар", "товара", "товаров")} · Обухово · обновлено ${formatDateShort(state.generatedAt)}${stale ? ` · проверить дату: ${stale}` : ""}`;
+    $("metaLine").textContent = `${n} ${ruCount(n, "товар", "товара", "товаров")} · Обухово${stale ? ` · проверить дату: ${stale}` : ""}`;
   }
 
   function cardHtml(it) {
@@ -416,12 +464,17 @@
   }
 
   async function boot() {
-    const [stock, sale] = await Promise.all([
-      fetch("./data/stock.json").then((r) => r.json()),
-      fetch("./data/sale.json").then((r) => r.json()),
+    const [stock, sale, status] = await Promise.all([
+      fetch("./data/stock.json", { cache: "no-store" }).then((r) => r.json()),
+      fetch("./data/sale.json", { cache: "no-store" }).then((r) => r.json()),
+      fetch("./data/status.json", { cache: "no-store" })
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => null),
     ]);
-    state.generatedAt = stock.meta.generatedAt;
+    state.generatedAt = (status && status.generatedAt) || stock.meta.generatedAt;
+    state.stockIntervalSec = (status && status.stockIntervalSec) || 1800;
     state.items = merge(stock, sale);
+    renderLive();
     renderChips();
     applyFilters();
   }
@@ -492,6 +545,12 @@
 
   boot().catch((err) => {
     $("metaLine").textContent = "Не удалось загрузить данные. Запустите локальный сервер.";
+    const label = $("liveLabel");
+    const text = $("liveText");
+    if (label) label.textContent = "Офлайн";
+    if (text) text.textContent = "Нет данных";
     console.error(err);
   });
+
+  setInterval(renderLive, 30000);
 })();

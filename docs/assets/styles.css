@@ -456,6 +456,67 @@ html.light .top {
   padding: 12px 12px 28px;
 }
 
+.live {
+  margin: 0 auto 8px;
+  max-width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+}
+
+.live__pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  padding: 4px 9px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  background: var(--warning-soft);
+  color: var(--warning);
+}
+
+.live__pill.is-on {
+  background: rgba(52, 211, 153, 0.16);
+  color: var(--success);
+}
+
+html.light .live__pill.is-on {
+  background: rgba(56, 161, 105, 0.12);
+}
+
+.live__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.live__pill.is-on .live__dot {
+  animation: live-pulse 2.4s ease-in-out infinite;
+}
+
+.live__text {
+  min-width: 0;
+  color: var(--secondary);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.live__text time {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+@keyframes live-pulse {
+  50% {
+    opacity: 0.35;
+  }
+}
+
 .meta {
   margin: 0 auto 12px;
   max-width: 920px;
@@ -715,6 +776,10 @@ html.light .card--sale {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .live__pill.is-on .live__dot {
+    animation: none;
+  }
+
   .card,
   .btn {
     transition: none;

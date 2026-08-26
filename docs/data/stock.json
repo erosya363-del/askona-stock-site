@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-27T03:03:51+04:00",
+    "generatedAt": "2026-08-27T03:34:43+04:00",
     "timezone": "Europe/Astrakhan",
     "skuCount": 11590
   },
@@ -27811,7 +27811,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 11196,
+      "qty": 11194,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -42585,6 +42585,14 @@
       "modifiedDate": "2026-08-13"
     },
     {
+      "productId": "ae681553-5a6a-4b21-af93-f803a039dd55",
+      "name": "Кровать с ПМ 200*160 Richard New (Ричард Нью) Тк. Casanova Ice",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "1e39883e-0b31-4c96-8035-0dfb555cad38",
       "name": "Кровать с ПМ 200*160 Richard New (Ричард Нью) Тк. Sky Velvet 08",
       "qty": 2,
@@ -46763,10 +46771,10 @@
     {
       "productId": "3930309e-6bea-4647-aa84-c5eaea3ad22b",
       "name": "Лонгслив жен. Stay Warm сезон осень-зима 2023-2024 цвет черный размер M",
-      "qty": 9,
+      "qty": 8,
       "feature": "Одежда",
       "size": "",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "dc5eb272-08e0-4266-8c2e-12819eaa6104",
@@ -48823,14 +48831,6 @@
       "feature": "Доп элементы к кроватям",
       "size": "",
       "modifiedDate": "2026-07-10"
-    },
-    {
-      "productId": "fef10791-4863-4db8-84b2-8e88f310dc5f",
-      "name": "Механизм Тик-так 343",
-      "qty": 1,
-      "feature": "Доп элементы к кроватям",
-      "size": "",
-      "modifiedDate": "2026-08-26"
     },
     {
       "productId": "c7e962cd-60c7-4e70-b22b-b6d3969f5d63",
@@ -52227,10 +52227,10 @@
     {
       "productId": "d1c6fd4d-c547-4598-bd7f-f2781fe420c3",
       "name": "Наволочка без молнии 40*60 Askona Kids Миндаль (Almond)",
-      "qty": 30,
+      "qty": 29,
       "feature": "КПБ",
       "size": "40*60",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "3c7d59e7-24c1-4707-ba7c-8e1194f6618e",
@@ -57459,7 +57459,7 @@
     {
       "productId": "e1b6bf9b-c70f-4a00-8870-89916566579e",
       "name": "Одеяло 110*140 Effi",
-      "qty": 228,
+      "qty": 227,
       "feature": "Одеяла",
       "size": "110*140",
       "modifiedDate": "2026-08-27"
@@ -63203,7 +63203,7 @@
     {
       "productId": "0176f436-f99d-4656-950f-229b78a45a94",
       "name": "Подушка 070*050 Ray",
-      "qty": 942,
+      "qty": 941,
       "feature": "Подушки",
       "size": "070*050",
       "modifiedDate": "2026-08-27"
@@ -63387,10 +63387,10 @@
     {
       "productId": "357c2e8e-d1e7-416f-b581-79a1692ae0e7",
       "name": "Подушка Askona Kids Happy (blue)",
-      "qty": 323,
+      "qty": 322,
       "feature": "Подушки",
       "size": "",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "b0e8dccf-2ac4-4e43-9f4e-d896b4395c82",
@@ -63435,7 +63435,7 @@
     {
       "productId": "f7e97fa8-d3e0-48a1-817a-01f2a0ca1e69",
       "name": "Подушка Baby 3+ GIRL",
-      "qty": 167,
+      "qty": 166,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63659,7 +63659,7 @@
     {
       "productId": "13889d87-668e-424c-a226-361fd058fc08",
       "name": "Подушка Serta Kids Trio (Серта Кидс Трио)",
-      "qty": 4,
+      "qty": 3,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63675,7 +63675,7 @@
     {
       "productId": "207267d4-0f77-403b-999e-462eed93f1a5",
       "name": "Подушка Sleepy 3+",
-      "qty": 574,
+      "qty": 573,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -89123,7 +89123,7 @@
     {
       "productId": "48b79d3d-4ad9-43a8-98b2-faeee59d819d",
       "name": "Чехол 200*180*35,6 Nesty",
-      "qty": 148,
+      "qty": 147,
       "feature": "Чехлы",
       "size": "200*180",
       "modifiedDate": "2026-08-27"

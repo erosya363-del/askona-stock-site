@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#121214" id="themeColor" />
+    <title>Остатки Обухово · Askona</title>
+    <script>
+      (function () {
+        var KEY = "askona-stock-theme";
+        var pref = localStorage.getItem(KEY);
+        if (pref !== "light" && pref !== "dark") pref = "system";
+        var dark =
+          pref === "dark" ||
+          (pref !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+        var root = document.documentElement;
+        root.classList.add(dark ? "dark" : "light");
+        root.dataset.theme = pref;
+        root.style.colorScheme = dark ? "dark" : "light";
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="ambient" aria-hidden="true">
+      <span class="ambient-dots"></span>
+      <span class="ambient-glow ambient-glow-a"></span>
+      <span class="ambient-glow ambient-glow-b"></span>
+    </div>
+
+    <header class="top">
+      <div class="top__row">
+        <a class="brand" href="./" aria-label="Askona — остатки Обухово">
+          <span class="brand__logo" role="img" aria-hidden="true"></span>
+          <span class="brand__copy">
+            <span class="brand__title">Остатки</span>
+            <span class="brand__sub">Обухово</span>
+          </span>
+        </a>
+        <div class="top__tools">
+          <div class="theme-switch" role="radiogroup" aria-label="Тема оформления">
+            <button
+              type="button"
+              data-theme-pref="system"
+              aria-pressed="true"
+              title="Как в системе"
+            >
+              <span class="visually-hidden">Как в системе</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <rect x="3.5" y="4.5" width="17" height="12" rx="2" />
+                <path d="M8 19.5h8M12 16.5v3" stroke-linecap="round" />
+              </svg>
+            </button>
+            <button type="button" data-theme-pref="light" aria-pressed="false" title="Светлая">
+              <span class="visually-hidden">Светлая</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <circle cx="12" cy="12" r="3.6" />
+                <path
+                  d="M12 3.5v2.2M12 18.3v2.2M3.5 12h2.2M18.3 12h2.2M6.1 6.1l1.6 1.6M16.3 16.3l1.6 1.6M6.1 17.9l1.6-1.6M16.3 7.7l1.6-1.6"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+            <button type="button" data-theme-pref="dark" aria-pressed="false" title="Тёмная">
+              <span class="visually-hidden">Тёмная</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path
+                  d="M20 13.4A7.6 7.6 0 0 1 10.6 4 7.2 7.2 0 1 0 20 13.4z"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <button class="btn btn--ghost" id="resetBtn" type="button">Сбросить</button>
+        </div>
+      </div>
+      <label class="search">
+        <span class="visually-hidden">Найти товар</span>
+        <input
+          id="q"
+          type="search"
+          enterkeyhint="search"
+          autocomplete="off"
+          placeholder="Найти товар: Elisa 160, чехол 180…"
+        />
+      </label>
+      <div class="top__actions">
+        <button class="btn btn--sale" id="saleBtn" type="button" aria-pressed="false">Распродажа</button>
+        <button class="btn btn--primary" id="filtersBtn" type="button">Категории / фильтры</button>
+      </div>
+      <div class="chips" id="desktopChips" aria-label="Категории"></div>
+    </header>
+
+    <main class="main">
+      <p class="meta" id="metaLine">Загрузка…</p>
+      <ul class="list" id="list"></ul>
+      <p class="empty" id="empty" hidden>Ничего не найдено. Попробуйте «чехол» или «200*160».</p>
+      <div id="sentinel" aria-hidden="true"></div>
+    </main>
+
+    <div class="sheet" id="sheet" hidden>
+      <button class="sheet__backdrop" id="sheetBackdrop" type="button" aria-label="Закрыть"></button>
+      <div class="sheet__panel" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+        <div class="sheet__grab"></div>
+        <div class="sheet__head">
+          <h2 id="sheetTitle">Категории и фильтры</h2>
+          <button class="btn btn--ghost" id="sheetClose" type="button">Готово</button>
+        </div>
+        <div class="sheet__body" id="sheetBody"></div>
+      </div>
+    </div>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>

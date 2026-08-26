@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "warehouseId": "obukhovo",
+    "generatedAt": "2026-08-26T05:30:00+04:00"
+  },
+  "items": [
+    {
+      "name": "Кровать с ПМ 200*180 Elisa nova (Элиза нова) Тк. Royal I Sandy",
+      "series": "Elisa",
+      "finalPrice": 29990,
+      "oldPrice": 49990,
+      "discountPercent": 40,
+      "saleQty": 2
+    },
+    {
+      "name": "Диван угловой Ральф Тк. Hilton 01",
+      "series": "Ральф",
+      "finalPrice": 45990,
+      "oldPrice": 79990,
+      "discountPercent": 42,
+      "saleQty": 1
+    },
+    {
+      "name": "Матрас 200*160 Classic Medium",
+      "series": "Classic",
+      "finalPrice": 12990,
+      "oldPrice": 18990,
+      "discountPercent": 32,
+      "saleQty": 12
+    },
+    {
+      "name": "Товар которого нет в остатках Обухово",
+      "series": "Test",
+      "finalPrice": 1000,
+      "oldPrice": 2000,
+      "discountPercent": 50,
+      "saleQty": 1
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "warehouseId": "obukhovo",
+    "warehouseName": "Обухово",
+    "generatedAt": "2026-08-26T05:30:00+04:00",
+    "timezone": "Europe/Astrakhan",
+    "skuCount": 24
+  },
+  "items": [
+    {
+      "productId": "a1000001-0000-4000-8000-000000000001",
+      "name": "Кровать с ПМ 200*160 Extra nova (Экстра нова) Тк. Sky Velvet 03",
+      "qty": 4,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-25"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000002",
+      "name": "Кровать 200*160 Extra nova (Экстра нова) Тк. Casanova Lilac",
+      "qty": 2,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-24"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000003",
+      "name": "Диван прямой Ральф Тк. Casanova Scandy",
+      "qty": 3,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-22"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000004",
+      "name": "Диван угловой Ральф Тк. Hilton 01",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-21"
+    },
+    {
+      "productId": "8d0d076e-132c-4f97-b711-09538b85bd19",
+      "name": "Основание Ergomotion 200*180 серия 450 Grey",
+      "qty": 1,
+      "feature": "Ergomotion",
+      "size": "200*180",
+      "modifiedDate": "2026-08-07"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000006",
+      "name": "Матрас 200*160 Classic Medium",
+      "qty": 12,
+      "feature": "Матрасы",
+      "size": "200*160",
+      "modifiedDate": "2026-08-25"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000007",
+      "name": "Кресло-кровать Лофт Тк. Velvet",
+      "qty": 5,
+      "feature": "Кресла",
+      "size": "",
+      "modifiedDate": "2026-08-23"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000008",
+      "name": "Подушка 50*70 Protect-a-Bed Tencel",
+      "qty": 40,
+      "feature": "Подушки",
+      "size": "50*70",
+      "modifiedDate": "2026-08-25"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000009",
+      "name": "Одеяло 200*220 All-season",
+      "qty": 18,
+      "feature": "Одеяла",
+      "size": "200*220",
+      "modifiedDate": "2026-08-20"
+    },
+    {
+      "productId": "0ed4737d-9f0a-4c47-b808-e6cf743ba9d0",
+      "name": "Чехол 200*180*35,6 Protect-a-Bed Simple",
+      "qty": 459,
+      "feature": "Чехлы",
+      "size": "200*180",
+      "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000011",
+      "name": "КПБ Tencel Евро Casanova Milk",
+      "qty": 8,
+      "feature": "КПБ",
+      "size": "",
+      "modifiedDate": "2026-08-19"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000012",
+      "name": "Простыня на резинке 200*180 Tencel",
+      "qty": 15,
+      "feature": "Простыни",
+      "size": "200*180",
+      "modifiedDate": "2026-08-18"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000013",
+      "name": "Комплектующие к диванам Механизм клик-клак",
+      "qty": 7,
+      "feature": "Комплектующие к диванам",
+      "size": "",
+      "modifiedDate": "2026-08-15"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000014",
+      "name": "Кровать с ПМ 200*180 Elisa nova (Элиза нова) Тк. Royal I Sandy",
+      "qty": 2,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-24"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000015",
+      "name": "Кровать 160*200 Mira nova (Мира нова) Тк. Forte 01",
+      "qty": 3,
+      "feature": "Кровати",
+      "size": "160*200",
+      "modifiedDate": "2026-08-10"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000016",
+      "name": "Диван прямой Лофт Тк. Sky Velvet 02",
+      "qty": 2,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-25"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000017",
+      "name": "Диван угловой Манхэттен Тк. Casanova Grey",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-12"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000018",
+      "name": "Основание Ergomotion Ergo Duetto 200*180 Grey",
+      "qty": 17,
+      "feature": "Ergomotion",
+      "size": "200*180",
+      "modifiedDate": "2026-08-25"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000019",
+      "name": "Матрас 200*180 Serta Denver Hard",
+      "qty": 6,
+      "feature": "Матрасы",
+      "size": "200*180",
+      "modifiedDate": "2026-08-25"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000020",
+      "name": "Наволочка 50*70 КПБ Tencel",
+      "qty": 22,
+      "feature": "КПБ",
+      "size": "50*70",
+      "modifiedDate": "2026-08-17"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000021",
+      "name": "Пододеяльник 200*220 КПБ Tencel",
+      "qty": 9,
+      "feature": "КПБ",
+      "size": "200*220",
+      "modifiedDate": "2026-08-17"
+    },
+    {
+      "productId": "063e354e-babf-457d-b3a7-51793b58e436",
+      "name": "Чехол 200*160*35,6 Protect-a-Bed Simple",
+      "qty": 292,
+      "feature": "Чехлы",
+      "size": "200*160",
+      "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000023",
+      "name": "Доп элементы к кроватям Матрасодержатель к Ergomotion (200*180) 450",
+      "qty": 22,
+      "feature": "Доп элементы к кроватям",
+      "size": "200*180",
+      "modifiedDate": "2026-08-08"
+    },
+    {
+      "productId": "a1000001-0000-4000-8000-000000000024",
+      "name": "Кровать с ПМ 200*180 Margot nova (Марго нова) Тк. Hilton 18 коллекция премиум с высоким изголовьем и дополнительными декоративными подушками в комплекте для салона Обухово",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-05"
+    }
+  ]
+}

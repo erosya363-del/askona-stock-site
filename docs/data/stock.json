@@ -3,9 +3,9 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-27T06:41:50+04:00",
+    "generatedAt": "2026-08-27T07:12:37+04:00",
     "timezone": "Europe/Astrakhan",
-    "skuCount": 11513
+    "skuCount": 11530
   },
   "items": [
     {
@@ -2299,7 +2299,7 @@
     {
       "productId": "44fcfef8-7738-42cc-852c-3e5e2213296c",
       "name": "100105 Газовая пружина 1150N (шарнир)",
-      "qty": 186,
+      "qty": 188,
       "feature": "Метизы",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -4331,7 +4331,7 @@
     {
       "productId": "20ef1304-8733-4fb6-a093-62f1b8089f17",
       "name": "Аромадиффузор Siam 0,2 л Midnight shadow",
-      "qty": 37,
+      "qty": 38,
       "feature": "Ароматы",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -5275,7 +5275,7 @@
     {
       "productId": "276bed41-25be-4e6a-96b5-288292ea1d2d",
       "name": "Бирка для детской кровати Loo 2.0 (Лу 2.0)",
-      "qty": 66,
+      "qty": 67,
       "feature": "Кровати",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -5323,7 +5323,7 @@
     {
       "productId": "c6e0533f-ce60-40f9-9d5f-28467f7d2472",
       "name": "Бирка для детской кровати Oliva Pro (Олива Про)",
-      "qty": 85,
+      "qty": 87,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -5331,7 +5331,7 @@
     {
       "productId": "7766b7e0-c175-4108-947f-4be86140ff58",
       "name": "Бирка для детской кровати Olly (Олли)",
-      "qty": 27,
+      "qty": 28,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -5371,7 +5371,7 @@
     {
       "productId": "ac2cc75e-d591-441e-a1c3-f5b1fd3cb8ac",
       "name": "Бирка для детской кровати Shell (Шелл)",
-      "qty": 19,
+      "qty": 20,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -6571,7 +6571,7 @@
     {
       "productId": "e574d77f-2284-48f8-b8cb-58df7c2356b5",
       "name": "Брюки жен. Stay Warm сезон осень-зима 2023-2024 цвет светло-голубой размер L",
-      "qty": 47,
+      "qty": 48,
       "feature": "Одежда",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -6579,7 +6579,7 @@
     {
       "productId": "c099bb02-2457-4c20-8161-0cf35c14b631",
       "name": "Брюки жен. Stay Warm сезон осень-зима 2023-2024 цвет черный размер L",
-      "qty": 75,
+      "qty": 77,
       "feature": "Одежда",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -7803,7 +7803,7 @@
     {
       "productId": "4c29a713-86b7-4334-bbdd-b198292d4d20",
       "name": "Воблер прозрачный, 20 см, пылесос с черным текстом",
-      "qty": 33,
+      "qty": 34,
       "feature": "Прочее",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -8403,7 +8403,7 @@
     {
       "productId": "d7588ecf-8730-49f6-8fec-c51a53e4c411",
       "name": "Вставка Расширенная гарантия 10 лет при покупке услуги Сборка и профилактика, Аскона",
-      "qty": 21,
+      "qty": 29,
       "feature": "Прочее",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -8419,7 +8419,7 @@
     {
       "productId": "7a93497a-fce3-44aa-85e3-fe4bdc9df455",
       "name": "Вставка Расширенная гарантия 10 лет при покупке услуги Сборка, Аскона",
-      "qty": 2408,
+      "qty": 2510,
       "feature": "Прочее",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -8435,7 +8435,7 @@
     {
       "productId": "5be1a983-6afc-4d20-a078-37a75a06343f",
       "name": "Вставка Расширенная гарантия 2 года при покупке с защитным чехлом, Аскона",
-      "qty": 495,
+      "qty": 511,
       "feature": "Прочее",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -8459,7 +8459,7 @@
     {
       "productId": "d9f9d96e-8faf-4126-b662-78b7d335a07e",
       "name": "Вставка Расширенная гарантия 7 лет при покупке с защитным чехлом, Аскона",
-      "qty": 267,
+      "qty": 271,
       "feature": "Прочее",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -21161,6 +21161,14 @@
       "modifiedDate": "2026-06-17"
     },
     {
+      "productId": "0d3a81a2-45b6-41b0-ba95-5655a4e684e2",
+      "name": "Диван угловой Джордан-Тк. Balance 235+Balance 130",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "04bd606a-fd22-4ef2-82a9-b192ed0df6b7",
       "name": "Диван угловой Джордан-Тк. Balance 784+Balance 130",
       "qty": 2,
@@ -21249,6 +21257,14 @@
       "modifiedDate": "2026-08-27"
     },
     {
+      "productId": "3076f0ac-fbe9-43bd-b26c-c9621ea40fd0",
+      "name": "Диван-кровать Бингем-Тк. Balance 290",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "c9e2eb3c-7ca2-4859-ba08-05b7b18528f2",
       "name": "Диван-кровать Бингем-Тк. Balance 784",
       "qty": 2,
@@ -21260,6 +21276,14 @@
       "productId": "3a18a889-f68d-49fb-a928-286b36ea5fa7",
       "name": "Диван-кровать Бингем-Тк. Balance 996",
       "qty": 2,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "2a4ad6fa-f2f6-49ff-863f-06818af7dde7",
+      "name": "Диван-кровать Бонни-Тк. Velutto 06",
+      "qty": 1,
       "feature": "Диваны",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -21299,7 +21323,7 @@
     {
       "productId": "e66d48c7-a532-4ab8-b26d-058064e990cd",
       "name": "Диван-кровать Джерси-Тк. Bond 994",
-      "qty": 2,
+      "qty": 3,
       "feature": "Диваны",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -21699,7 +21723,7 @@
     {
       "productId": "8809ed2b-8d42-42fe-a37c-46f3c4f92a8c",
       "name": "Диван-кровать Ститч-Тк. Баланс 996",
-      "qty": 4,
+      "qty": 5,
       "feature": "Диваны",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -21723,7 +21747,7 @@
     {
       "productId": "e13471bc-5169-4aaa-b46e-38455164a775",
       "name": "Диван-кровать Тедди-Тк. Плума пломбир",
-      "qty": 1,
+      "qty": 2,
       "feature": "Диваны",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -23841,6 +23865,14 @@
       "modifiedDate": "2026-08-26"
     },
     {
+      "productId": "69455068-c56c-404d-a753-74f575d7dcb1",
+      "name": "Игрушка Краб 33 см (Orange Toys)",
+      "qty": 1,
+      "feature": "Игрушки",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "51f52159-cce3-4669-9b8a-ca011768987c",
       "name": "Игрушка Краб 60 см (Orange Toys)",
       "qty": 1,
@@ -23867,7 +23899,7 @@
     {
       "productId": "2c296aeb-fcb7-402c-9907-e28f1734fd19",
       "name": "Игрушка Медведь 50 см (Orange Toys)",
-      "qty": 6,
+      "qty": 8,
       "feature": "Игрушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -26315,7 +26347,7 @@
     {
       "productId": "ff54d75a-f067-41db-8759-5a8a32d4b503",
       "name": "Ковер Soft nova 80*80 rose",
-      "qty": 6,
+      "qty": 16,
       "feature": "Текстиль",
       "size": "80*80",
       "modifiedDate": "2026-08-27"
@@ -27211,7 +27243,7 @@
     {
       "productId": "fb46577a-e258-4d6a-a10c-11e5b16af998",
       "name": "Комод Vesta Pro (Веста про) массив сосны цв. белый",
-      "qty": 6,
+      "qty": 7,
       "feature": "Малые формы",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -27323,10 +27355,10 @@
     {
       "productId": "69ac0538-bc35-42ff-a31c-299ad10cf066",
       "name": "Комплект Elso Large",
-      "qty": 572,
+      "qty": 571,
       "feature": "СЕТЫ",
       "size": "",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8a0049c6-0a1b-4e3e-b708-45434f3c1a13",
@@ -27339,7 +27371,7 @@
     {
       "productId": "36c336fc-f129-4c5c-aec9-4e2dbd0edc45",
       "name": "Комплект Light Large",
-      "qty": 10,
+      "qty": 28,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -27427,7 +27459,7 @@
     {
       "productId": "845092d2-0026-401d-8a1c-c04c9bcfac34",
       "name": "Комплект декоративный Grether & Wells №5 Тк. Sky Velvet 08 светло-серый",
-      "qty": 16,
+      "qty": 17,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -27475,7 +27507,7 @@
     {
       "productId": "ada8d9a2-aea8-4794-9de5-a983f86b9c0c",
       "name": "Комплект декоративных подушек 040*040 для Локо ПРО",
-      "qty": 73,
+      "qty": 74,
       "feature": "Доп элементы к кроватям",
       "size": "040*040",
       "modifiedDate": "2026-08-27"
@@ -27795,7 +27827,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 11187,
+      "qty": 11186,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -29627,7 +29659,7 @@
     {
       "productId": "e704126a-08fa-4372-957c-a7d2e1a3ac7e",
       "name": "КПБ Askona Comfort Maco Sateen 2.0 (евро) Пепельный",
-      "qty": 173,
+      "qty": 175,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -29691,7 +29723,7 @@
     {
       "productId": "139ce25b-ce37-43e3-a6b0-0d4e35428230",
       "name": "КПБ Askona Comfort Maco Sateen Limited 2.0 (евро) молочный шоколад",
-      "qty": 15,
+      "qty": 16,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -29699,7 +29731,7 @@
     {
       "productId": "4ce1c464-00e4-444b-bffb-e7ba1b36c7d7",
       "name": "КПБ Askona Comfort Maco Sateen Limited 2.0 (односп) белый",
-      "qty": 9,
+      "qty": 11,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -29715,7 +29747,7 @@
     {
       "productId": "4dffe411-a969-4623-9504-c0a9edcd41a0",
       "name": "КПБ Askona Comfort Maco Sateen Limited 2.0 (односп) молочный шоколад",
-      "qty": 104,
+      "qty": 109,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -29731,7 +29763,7 @@
     {
       "productId": "62debba4-8230-4de9-a3bf-03e8422154d9",
       "name": "КПБ Askona Comfort Stripe 3*3 2.0 (евро) Белый",
-      "qty": 445,
+      "qty": 447,
       "feature": "КПБ",
       "size": "3*3",
       "modifiedDate": "2026-08-27"
@@ -29779,10 +29811,10 @@
     {
       "productId": "912d6af4-d5d2-4107-9e01-9ff5fd30cbe6",
       "name": "КПБ Askona Comfort Stripe 3*3 2.0 (односп) Мята",
-      "qty": 2,
+      "qty": 3,
       "feature": "КПБ",
       "size": "3*3",
-      "modifiedDate": "2026-08-05"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "53a5b6a8-9340-40e5-8df1-5c8618e1f976",
@@ -29859,7 +29891,7 @@
     {
       "productId": "6b38e696-0339-4a01-ae6c-c0e9ffbca7ec",
       "name": "КПБ Askona Comfort Tencel (евро) Аметистовый",
-      "qty": 447,
+      "qty": 448,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -29899,7 +29931,7 @@
     {
       "productId": "57ccaa90-75b8-4d36-9f12-2f37af5f83f7",
       "name": "КПБ Askona Comfort Tencel (евро) Макиато",
-      "qty": 163,
+      "qty": 164,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -29915,7 +29947,7 @@
     {
       "productId": "55987b94-5385-4f94-b802-ff8b259f6e13",
       "name": "КПБ Askona Comfort Tencel (евро) Розовое золото",
-      "qty": 796,
+      "qty": 797,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -29955,10 +29987,10 @@
     {
       "productId": "afdcee77-371b-4c50-ac9c-e305225bdee9",
       "name": "КПБ Askona Comfort Tencel (односпал) Ванильный",
-      "qty": 2,
+      "qty": 6,
       "feature": "КПБ",
       "size": "",
-      "modifiedDate": "2026-08-15"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "6b32f572-b07c-4260-837a-89d6407127cd",
@@ -29995,7 +30027,7 @@
     {
       "productId": "f8495d4b-4c75-4735-b40c-9c66d48ee8fd",
       "name": "КПБ Askona Home (двусп) Крем-брюле",
-      "qty": 105,
+      "qty": 111,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30043,7 +30075,7 @@
     {
       "productId": "038a9278-0577-4063-aca5-3afb1fe79a06",
       "name": "КПБ Askona Home (евро) Зеленый",
-      "qty": 14,
+      "qty": 15,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30075,7 +30107,7 @@
     {
       "productId": "db73784a-a390-4e00-8396-760010bc549c",
       "name": "КПБ Askona Home (евро) Розовый зефир",
-      "qty": 337,
+      "qty": 339,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30083,7 +30115,7 @@
     {
       "productId": "82072b24-3369-465a-9dba-1770eca075a2",
       "name": "КПБ Askona Home (евро) Синий лед",
-      "qty": 176,
+      "qty": 177,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30147,7 +30179,7 @@
     {
       "productId": "a07582ec-a885-410a-96ad-ffdf8a1a4ad9",
       "name": "КПБ Askona Home (Хоум) евро Слива",
-      "qty": 263,
+      "qty": 264,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30179,7 +30211,7 @@
     {
       "productId": "615bddb9-7aa1-405a-935e-a76374d543cd",
       "name": "КПБ Askona kids Аква (Aqua) односпальный",
-      "qty": 319,
+      "qty": 320,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30203,7 +30235,7 @@
     {
       "productId": "1bd587bf-a32b-4c49-aeba-3adc78d61db1",
       "name": "КПБ Askona kids Балерина (Ballerina) односпальный",
-      "qty": 137,
+      "qty": 138,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30467,7 +30499,7 @@
     {
       "productId": "2c2c7388-f429-419e-90e1-67ccaaabc2fa",
       "name": "КПБ Askona Kids Малина (Raspberries) односпальный",
-      "qty": 1,
+      "qty": 3,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30483,7 +30515,7 @@
     {
       "productId": "e5c1819e-04e3-41bf-965e-8ee0d9609625",
       "name": "КПБ Askona kids Медвежонок (Bear) односпальный",
-      "qty": 131,
+      "qty": 132,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30587,7 +30619,7 @@
     {
       "productId": "76afb1f1-a611-4144-b36a-262036964586",
       "name": "КПБ Askona kids Юный строитель (Young Builder) односпальный",
-      "qty": 67,
+      "qty": 69,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30627,7 +30659,7 @@
     {
       "productId": "146dc7d1-d6d9-4a59-af5b-ca3d4d628d6b",
       "name": "КПБ Askona Lite Home (односп) Морская глубина",
-      "qty": 94,
+      "qty": 96,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30715,7 +30747,7 @@
     {
       "productId": "e5e51d24-731d-4af6-a7a6-fe4d717ebaa1",
       "name": "КПБ Askona Pure Bamboo (односп) Шалфей",
-      "qty": 12,
+      "qty": 13,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30723,7 +30755,7 @@
     {
       "productId": "2e6f468b-d401-4a87-bee0-d19b19943112",
       "name": "КПБ Autumn (двусп)",
-      "qty": 40,
+      "qty": 42,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30731,7 +30763,7 @@
     {
       "productId": "f186de9d-2c97-4e1c-8b91-8182efd09df5",
       "name": "КПБ Autumn (евро)",
-      "qty": 268,
+      "qty": 273,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30755,7 +30787,7 @@
     {
       "productId": "e1488eb5-6b42-4a04-884f-a9dfca6b2994",
       "name": "КПБ Charm (односп)",
-      "qty": 58,
+      "qty": 62,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30859,7 +30891,7 @@
     {
       "productId": "fd44169c-8ffb-4238-bcd9-17a30c268ad6",
       "name": "КПБ Lite Trend Floral Dreams (Лайт Тренд Флорал Дримс) односп",
-      "qty": 85,
+      "qty": 86,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30883,7 +30915,7 @@
     {
       "productId": "48231bc1-d22b-4001-bf72-cd59a6e69d77",
       "name": "КПБ Lite Trend Hush Bloom (Лайт Тренд Хаш Блум) евро",
-      "qty": 83,
+      "qty": 86,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -30947,7 +30979,7 @@
     {
       "productId": "00d459ca-d773-4113-9ef6-85c562add2a1",
       "name": "КПБ Morning (евро)",
-      "qty": 450,
+      "qty": 455,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -31099,7 +31131,7 @@
     {
       "productId": "54182b1e-6001-467c-b9cb-5d97f8a78cd9",
       "name": "КПБ Organic Cotton (евро) Бежевая полоска",
-      "qty": 40,
+      "qty": 41,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -31275,7 +31307,7 @@
     {
       "productId": "a8cb3c36-6a5f-4a00-809d-f64cc726d316",
       "name": "КПБ Tencel Lumi (односп)",
-      "qty": 100,
+      "qty": 101,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -31315,7 +31347,7 @@
     {
       "productId": "0ba464d1-fc42-4efa-a246-9c5cb586e79e",
       "name": "КПБ Tencel Summer (евро)",
-      "qty": 170,
+      "qty": 171,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -31371,7 +31403,7 @@
     {
       "productId": "206eba66-1f98-437a-b00b-dcc67625fae6",
       "name": "КПБ Tropics (двусп)",
-      "qty": 59,
+      "qty": 61,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -31899,7 +31931,7 @@
     {
       "productId": "7ab5e679-9ac5-420b-b4ac-04c006dc4b46",
       "name": "Кресло Sierra (Сиерра) серый",
-      "qty": 85,
+      "qty": 86,
       "feature": "Домашний офис",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -33185,9 +33217,17 @@
       "modifiedDate": "2026-08-20"
     },
     {
+      "productId": "27f9e55d-272d-4181-9cfa-6f3f29e9bf5c",
+      "name": "Кресло-кровать Джерси-Тк. Bond 900",
+      "qty": 1,
+      "feature": "Кресла",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "18932b11-a01b-47d9-a2f9-2f207d867106",
       "name": "Кресло-кровать Джерси-Тк. Bond 920",
-      "qty": 2,
+      "qty": 3,
       "feature": "Кресла",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -33195,7 +33235,7 @@
     {
       "productId": "0d4f89ee-e94d-45d8-bd43-f838dbbc1ca4",
       "name": "Кресло-кровать Джерси-Тк. Bond 994",
-      "qty": 2,
+      "qty": 3,
       "feature": "Кресла",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -33359,6 +33399,14 @@
       "feature": "Кресла",
       "size": "",
       "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "e114c62a-e7ca-4cac-93bf-34d17ceb2ddb",
+      "name": "Кресло-трансформер Emersund new-Тк. Velutto 06 венге",
+      "qty": 3,
+      "feature": "Кресла",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "fb81a4f5-5f12-4a3b-aebe-d2a694e2a51a",
@@ -34683,7 +34731,7 @@
     {
       "productId": "bb1b629e-d669-43f7-ac59-a8942c807d77",
       "name": "Кровать 200*090 Vesta Pro (Веста про) массив сосны цв. светло-коричневый",
-      "qty": 8,
+      "qty": 9,
       "feature": "Кровати",
       "size": "200*090",
       "modifiedDate": "2026-08-27"
@@ -35779,7 +35827,7 @@
     {
       "productId": "0ae2ad4a-147f-47e2-8a66-783555f3d00c",
       "name": "Кровать 200*160 Corsa (Корса) белый шагрень",
-      "qty": 4,
+      "qty": 5,
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -35787,7 +35835,7 @@
     {
       "productId": "967f7fe8-ac0d-4bf7-8f6b-7e18fae88207",
       "name": "Кровать 200*160 Corsa (Корса) черный шагрень",
-      "qty": 1,
+      "qty": 2,
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -40603,10 +40651,10 @@
     {
       "productId": "6b1b3483-d967-4900-a63c-9b27ffa88a07",
       "name": "Кровать с ПМ 200*120 Ralto (Ральто) Ясень Шимо Светлый",
-      "qty": 9,
+      "qty": 8,
       "feature": "Кровати",
       "size": "200*120",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "f4339f11-34bb-4979-a2ca-85cdf9cd89d0",
@@ -41603,7 +41651,7 @@
     {
       "productId": "0da89aaa-8b9d-4c8f-9ba5-f720e83688d2",
       "name": "Кровать с ПМ 200*160 Extra nova (Экстра нова) Тк. Casanova Beige",
-      "qty": 1,
+      "qty": 2,
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -41779,7 +41827,7 @@
     {
       "productId": "427eb9d5-e1b0-419b-ac00-0d4269634683",
       "name": "Кровать с ПМ 200*160 Innovo ice (Инново айс) Дуб Бардолино натуральный Тк. Casanova stone",
-      "qty": 8,
+      "qty": 9,
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -42059,7 +42107,7 @@
     {
       "productId": "cc3b59eb-8122-4a78-bad0-24673a123f12",
       "name": "Кровать с ПМ 200*160 Mira nova (Мира нова) Тк. Casanova Grey",
-      "qty": 4,
+      "qty": 5,
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -42091,7 +42139,7 @@
     {
       "productId": "4d531d94-15e5-45ad-b3d4-cc9b3bcf75ee",
       "name": "Кровать с ПМ 200*160 Mira nova (Мира нова) Тк. Sky Velvet 17",
-      "qty": 1,
+      "qty": 2,
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -45411,7 +45459,7 @@
     {
       "productId": "5ef06323-379a-4fc2-81f5-2bc1e31bcd18",
       "name": "Крючок самоклеящийся, хром, ПОСМ",
-      "qty": 75,
+      "qty": 82,
       "feature": "Прочее",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46187,7 +46235,7 @@
     {
       "productId": "479d3f28-92eb-426c-a815-a361df5180d7",
       "name": "Лента маркировочная на матрас Little Angel 2.0",
-      "qty": 13,
+      "qty": 14,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46195,7 +46243,7 @@
     {
       "productId": "e1a3c4b8-4660-4aa1-9716-f779b369c770",
       "name": "Лента маркировочная на матрас Little Prince",
-      "qty": 69,
+      "qty": 70,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46203,7 +46251,7 @@
     {
       "productId": "38ad4ee9-6e9d-4481-810f-edde0322d4aa",
       "name": "Лента маркировочная на матрас Little Princess",
-      "qty": 1,
+      "qty": 3,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46211,7 +46259,7 @@
     {
       "productId": "f030c2e9-a441-4cfa-b3ef-eb5805182252",
       "name": "Лента маркировочная на матрас Looney",
-      "qty": 30,
+      "qty": 31,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46219,7 +46267,7 @@
     {
       "productId": "59ee918f-5818-4364-bdbf-5352e9b84ad3",
       "name": "Лента маркировочная на матрас Milky Way",
-      "qty": 41,
+      "qty": 42,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46227,7 +46275,7 @@
     {
       "productId": "3bed4949-ec0b-467b-958d-54cd2a9766ee",
       "name": "Лента маркировочная на матрас Robby",
-      "qty": 90,
+      "qty": 91,
       "feature": "Рекламные блоки матрасов",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46235,7 +46283,7 @@
     {
       "productId": "cf461ad2-ad0a-43ac-86f8-91d09d3a7d6f",
       "name": "Лента маркировочная на матрас Robby High",
-      "qty": 6,
+      "qty": 7,
       "feature": "Рекламные блоки матрасов",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46243,7 +46291,7 @@
     {
       "productId": "800c0cd4-4772-43cc-b4d7-3c4c1007865f",
       "name": "Лента маркировочная на матрас Royal Baby",
-      "qty": 17,
+      "qty": 18,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46251,7 +46299,7 @@
     {
       "productId": "7104c2a5-95b0-499d-ad37-9729d8a5753f",
       "name": "Лента маркировочная на матрас Royal Kids",
-      "qty": 88,
+      "qty": 89,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46275,7 +46323,7 @@
     {
       "productId": "86397ead-8c9e-475a-802e-7f90b7545f2d",
       "name": "Лента маркировочная на матрас Teeny",
-      "qty": 62,
+      "qty": 63,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46283,7 +46331,7 @@
     {
       "productId": "e383146d-222e-4e56-bd65-f576a0d75999",
       "name": "Лента маркировочная на подушки Starline Blue/Starline Pink",
-      "qty": 171,
+      "qty": 172,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46299,7 +46347,7 @@
     {
       "productId": "2301d32b-4d54-4bff-a78e-5fcc3460405c",
       "name": "Лента маркировочная на подушку Baby 3+ BOY",
-      "qty": 134,
+      "qty": 136,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46307,7 +46355,7 @@
     {
       "productId": "9a768b50-469b-4896-834c-d691fa4bb06e",
       "name": "Лента маркировочная на подушку Baby 3+ GIRL",
-      "qty": 131,
+      "qty": 132,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46347,7 +46395,7 @@
     {
       "productId": "d2b325a1-15aa-4a6b-8585-b8510aab2cd6",
       "name": "Лента маркировочная на подушку Serta Kids Soft",
-      "qty": 3,
+      "qty": 4,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46355,7 +46403,7 @@
     {
       "productId": "1181f208-25e3-4547-8553-c07f174feee0",
       "name": "Лента маркировочная на подушку Sleepy 3+",
-      "qty": 85,
+      "qty": 86,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46363,7 +46411,7 @@
     {
       "productId": "36ea97cd-9139-43cb-877b-a1ac55c7e682",
       "name": "Лента маркировочная на подушку Teen 7+",
-      "qty": 81,
+      "qty": 82,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46371,7 +46419,7 @@
     {
       "productId": "007c25bc-b2cb-4995-ab25-873dbdc3aadc",
       "name": "Лента маркировочная на подушку Tween 5+ Cloud",
-      "qty": 15,
+      "qty": 16,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46379,7 +46427,7 @@
     {
       "productId": "a37fa4bb-4668-4412-bd26-ce86f1e36dce",
       "name": "Лента маркировочная на подушку ортопедическую Baby 1+",
-      "qty": 147,
+      "qty": 148,
       "feature": "торговое оборудование",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46603,7 +46651,7 @@
     {
       "productId": "b04fed30-f933-428e-815a-bf7529e06dbf",
       "name": "Лонгслив жен. Stay Warm сезон осень-зима 2023-2024 цвет черный размер L",
-      "qty": 44,
+      "qty": 43,
       "feature": "Одежда",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46611,7 +46659,7 @@
     {
       "productId": "3930309e-6bea-4647-aa84-c5eaea3ad22b",
       "name": "Лонгслив жен. Stay Warm сезон осень-зима 2023-2024 цвет черный размер M",
-      "qty": 6,
+      "qty": 7,
       "feature": "Одежда",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -46755,7 +46803,7 @@
     {
       "productId": "bc8f314f-2b4c-4fc0-97db-0aeb66d523dd",
       "name": "Макет \"Бокал с вином\" из смолы",
-      "qty": 21,
+      "qty": 37,
       "feature": "Прочее",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -47811,7 +47859,7 @@
     {
       "productId": "7f2b5fba-1394-4c8a-8ca2-400317e4cbff",
       "name": "Матрас 200*140 Mediform",
-      "qty": 9,
+      "qty": 12,
       "feature": "Матрасы",
       "size": "200*140",
       "modifiedDate": "2026-08-27"
@@ -51667,7 +51715,7 @@
     {
       "productId": "dfb9e0cf-f88f-4e85-a306-736390fb1007",
       "name": "Наволочка 50*70 Askona Comfort Maco Sateen Limited (Комфорт Мако Сатин Лимитед) 2.0 еловый (2 шт)",
-      "qty": 32,
+      "qty": 34,
       "feature": "КПБ",
       "size": "50*70",
       "modifiedDate": "2026-08-27"
@@ -51787,7 +51835,7 @@
     {
       "productId": "772255f2-150e-4e28-9d61-4bfffc8cbd76",
       "name": "Наволочка 50*70 Askona Lite Home Хвойный (2 шт)",
-      "qty": 52,
+      "qty": 54,
       "feature": "КПБ",
       "size": "50*70",
       "modifiedDate": "2026-08-27"
@@ -51955,7 +52003,7 @@
     {
       "productId": "67359aaa-d06d-4c7f-8e61-fcaa1ed9292c",
       "name": "Наволочка 70*70 Cotton Tencel Harmony (Коттон Тенсел Хармони) миндальный (2 шт)",
-      "qty": 15,
+      "qty": 19,
       "feature": "КПБ",
       "size": "70*70",
       "modifiedDate": "2026-08-27"
@@ -52003,7 +52051,7 @@
     {
       "productId": "217792ee-69c8-4e25-b6f7-48da712f6845",
       "name": "Наволочка без молнии 30*50 Askona Kids Мистик (Mystic)",
-      "qty": 35,
+      "qty": 43,
       "feature": "КПБ",
       "size": "30*50",
       "modifiedDate": "2026-08-27"
@@ -52067,7 +52115,7 @@
     {
       "productId": "a476b0e7-95d8-4cde-b4db-713f5436f1d4",
       "name": "Наволочка без молнии 40*60 Askona Kids Пион (Pion)",
-      "qty": 28,
+      "qty": 29,
       "feature": "КПБ",
       "size": "40*60",
       "modifiedDate": "2026-08-27"
@@ -52859,7 +52907,7 @@
     {
       "productId": "ac4e5fa9-c440-4200-b726-e4e7c03e5fe2",
       "name": "Направляющие для раздвижных дверей Keep (Кип) 150*230",
-      "qty": 32,
+      "qty": 33,
       "feature": "Доп элементы к шкафам",
       "size": "150*230",
       "modifiedDate": "2026-08-27"
@@ -53763,7 +53811,7 @@
     {
       "productId": "78e58d0e-344f-4b76-b7cb-7391aba4e992",
       "name": "Образец ЛДСП Базальт 10*10 Авокадо",
-      "qty": 5,
+      "qty": 7,
       "feature": "Образцы покупной продукции",
       "size": "10*10",
       "modifiedDate": "2026-08-27"
@@ -54267,7 +54315,7 @@
     {
       "productId": "fd342487-efd2-4215-8e80-233af6eb0896",
       "name": "Образец ЛДСП Французская ель 10*10 Фелино",
-      "qty": 3,
+      "qty": 7,
       "feature": "Образцы покупной продукции",
       "size": "10*10",
       "modifiedDate": "2026-08-27"
@@ -54379,7 +54427,7 @@
     {
       "productId": "38be0f5b-48d4-4d0a-b703-02b2df4d7b35",
       "name": "Образец Массив дуб паркетный 150*250*20 мм Стэнлес",
-      "qty": 5,
+      "qty": 6,
       "feature": "Прочее",
       "size": "150*250",
       "modifiedDate": "2026-08-27"
@@ -54683,7 +54731,7 @@
     {
       "productId": "b7b179c8-d4c1-457c-b4ae-0fcb41b0ae3a",
       "name": "Образец МДФ Глиняный серый 10*10 Зима",
-      "qty": 14,
+      "qty": 15,
       "feature": "Образцы покупной продукции",
       "size": "10*10",
       "modifiedDate": "2026-08-27"
@@ -54715,7 +54763,7 @@
     {
       "productId": "ffa02111-c65c-4101-b495-fb6b48d55c71",
       "name": "Образец МДФ Черный Графит 10*10 Селенга",
-      "qty": 21,
+      "qty": 22,
       "feature": "Образцы покупной продукции",
       "size": "10*10",
       "modifiedDate": "2026-08-27"
@@ -54811,7 +54859,7 @@
     {
       "productId": "b998b2ae-c320-4423-bc3d-5f3e8254ae37",
       "name": "Образец ткани 08*08 Тк. Alaska 19 Askona",
-      "qty": 5,
+      "qty": 7,
       "feature": "Рекламные образцы тканей",
       "size": "08*08",
       "modifiedDate": "2026-08-27"
@@ -55483,7 +55531,7 @@
     {
       "productId": "e039029c-41aa-47fa-a422-d16893cc88dc",
       "name": "Образец ткани 33*50 Тк. Bond Askona",
-      "qty": 582,
+      "qty": 583,
       "feature": "Рекламные образцы тканей",
       "size": "33*50",
       "modifiedDate": "2026-08-27"
@@ -57195,7 +57243,7 @@
     {
       "productId": "e1b6bf9b-c70f-4a00-8870-89916566579e",
       "name": "Одеяло 110*140 Effi",
-      "qty": 227,
+      "qty": 226,
       "feature": "Одеяла",
       "size": "110*140",
       "modifiedDate": "2026-08-27"
@@ -57203,7 +57251,7 @@
     {
       "productId": "420b03e0-2e7e-483b-b2be-6bbde32277f3",
       "name": "Одеяло 110*140 Forest Dream",
-      "qty": 38,
+      "qty": 39,
       "feature": "Одеяла",
       "size": "110*140",
       "modifiedDate": "2026-08-27"
@@ -57363,7 +57411,15 @@
     {
       "productId": "0f739996-a2d6-4e3f-821e-e0aa64b3b3ce",
       "name": "Одеяло 205*140 Cloud Duo",
-      "qty": 34,
+      "qty": 35,
+      "feature": "Одеяла",
+      "size": "205*140",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "ac76718d-3c31-4b62-aa51-eac0ed6bc29b",
+      "name": "Одеяло 205*140 Comfort Duck",
+      "qty": 3,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-27"
@@ -57395,7 +57451,7 @@
     {
       "productId": "3cc86207-e873-4bfd-8c8b-ccdc5b367182",
       "name": "Одеяло 205*140 Elso",
-      "qty": 149,
+      "qty": 169,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-27"
@@ -57491,7 +57547,7 @@
     {
       "productId": "ab9c6025-a79b-4112-aefe-3d62d3ed70fe",
       "name": "Одеяло 205*140 Nano Technology",
-      "qty": 323,
+      "qty": 327,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-27"
@@ -57507,7 +57563,7 @@
     {
       "productId": "3b4c3c12-4350-48d7-9525-060a3f0413d6",
       "name": "Одеяло 205*140 Natural Dream",
-      "qty": 242,
+      "qty": 243,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-27"
@@ -57531,7 +57587,7 @@
     {
       "productId": "6aa457db-00a8-43a6-a4ad-423aa32f0ca5",
       "name": "Одеяло 205*140 Антистресс Технолоджи",
-      "qty": 743,
+      "qty": 746,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-27"
@@ -57571,7 +57627,7 @@
     {
       "productId": "12a7175d-e181-4cbb-b8f6-2d71c52898e0",
       "name": "Одеяло 205*172 Fenix серия Basic",
-      "qty": 465,
+      "qty": 468,
       "feature": "Одеяла",
       "size": "205*172",
       "modifiedDate": "2026-08-27"
@@ -57595,7 +57651,15 @@
     {
       "productId": "9cf661db-7a71-4a19-8631-33fa1d56bd79",
       "name": "Одеяло 220*200 Cloud Duo",
-      "qty": 157,
+      "qty": 158,
+      "feature": "Одеяла",
+      "size": "220*200",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "54a5a080-94ba-4053-b422-a988d67c76b9",
+      "name": "Одеяло 220*200 Comfort Duck",
+      "qty": 4,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-27"
@@ -57635,7 +57699,7 @@
     {
       "productId": "77441d32-da53-402a-ade8-312f6772c7a4",
       "name": "Одеяло 220*200 Freshly",
-      "qty": 355,
+      "qty": 358,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-27"
@@ -57659,7 +57723,7 @@
     {
       "productId": "cad2a971-5091-4f58-a824-c8b73d592ffd",
       "name": "Одеяло 220*200 Nano Technology",
-      "qty": 734,
+      "qty": 737,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-27"
@@ -57691,7 +57755,7 @@
     {
       "productId": "ac6d144f-5298-4e83-9bbd-df859f74d772",
       "name": "Одеяло 220*200 Антистресс Технолоджи",
-      "qty": 471,
+      "qty": 475,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-27"
@@ -57747,7 +57811,7 @@
     {
       "productId": "f7ab1313-f5cd-43e4-aaea-29d2354cf8bf",
       "name": "Одеяло Gravity 6кг серое",
-      "qty": 56,
+      "qty": 58,
       "feature": "Одеяла",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -57755,7 +57819,7 @@
     {
       "productId": "f0c4f8bb-2be0-4172-80e6-2026f5b8bdf1",
       "name": "Одеяло Gravity 8кг серое",
-      "qty": 72,
+      "qty": 75,
       "feature": "Одеяла",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -57859,7 +57923,7 @@
     {
       "productId": "856fcd69-f2df-42b1-81dc-f0cf543bcbb7",
       "name": "Одеяло-покрывало Yukko (Юкко) 205*140 голубой",
-      "qty": 57,
+      "qty": 58,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-27"
@@ -58633,6 +58697,14 @@
       "modifiedDate": "2026-08-18"
     },
     {
+      "productId": "fcd67545-703f-4cc3-a09d-65f5a428cfb6",
+      "name": "Основание 200*180 Plato (Плато) h=300",
+      "qty": 3,
+      "feature": "Решетки",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "57d7fdc8-80bc-483b-a652-b8c1c552890d",
       "name": "Основание 200*180 Plato (Плато) h=350",
       "qty": 5,
@@ -59099,7 +59171,7 @@
     {
       "productId": "34545ce2-93d5-4117-b4dc-43b423153aa8",
       "name": "Основание с газ. пружинами 160*080",
-      "qty": 18,
+      "qty": 19,
       "feature": "Основания с ПМ",
       "size": "160*080",
       "modifiedDate": "2026-08-27"
@@ -59142,6 +59214,14 @@
       "qty": 20,
       "feature": "Основания с ПМ",
       "size": "190*090",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "b6d35192-178e-4deb-9900-6fd0a68862e1",
+      "name": "Основание с газ. пружинами 190*100",
+      "qty": 1,
+      "feature": "Основания с ПМ",
+      "size": "190*100",
       "modifiedDate": "2026-08-27"
     },
     {
@@ -59243,7 +59323,7 @@
     {
       "productId": "84bd2e51-b85c-4d0d-8fec-c7ae6f902658",
       "name": "Основание с газ. пружинами compact 200*160",
-      "qty": 6,
+      "qty": 7,
       "feature": "Основания с ПМ",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -59251,7 +59331,7 @@
     {
       "productId": "f1f89781-f5b7-44a5-b709-f9a9d72fca5d",
       "name": "Основание с газ. пружинами next 160*080",
-      "qty": 6,
+      "qty": 7,
       "feature": "Основания с ПМ",
       "size": "160*080",
       "modifiedDate": "2026-08-27"
@@ -59259,7 +59339,7 @@
     {
       "productId": "f95901d5-4c5e-486b-8b82-b53a02e3fa57",
       "name": "Основание с газ. пружинами next 190*090",
-      "qty": 1,
+      "qty": 3,
       "feature": "Основания с ПМ",
       "size": "190*090",
       "modifiedDate": "2026-08-27"
@@ -59275,7 +59355,7 @@
     {
       "productId": "07e6b062-e357-4991-ab80-46b60b653e7b",
       "name": "Основание с газ. пружинами next 200*180",
-      "qty": 25,
+      "qty": 27,
       "feature": "Основания с ПМ",
       "size": "200*180",
       "modifiedDate": "2026-08-27"
@@ -59283,7 +59363,7 @@
     {
       "productId": "da51945d-ccf5-4d80-8da3-c0d8d017bbe1",
       "name": "Основание с газ. пружинами next 200*200",
-      "qty": 30,
+      "qty": 32,
       "feature": "Основания с ПМ",
       "size": "200*200",
       "modifiedDate": "2026-08-27"
@@ -59643,7 +59723,7 @@
     {
       "productId": "a14a86b1-2271-4cff-a201-1f95530feeaf",
       "name": "Основание с ламелями База 162*082 (160*080)",
-      "qty": 2,
+      "qty": 3,
       "feature": "Решетки",
       "size": "162*082",
       "modifiedDate": "2026-08-27"
@@ -59667,7 +59747,7 @@
     {
       "productId": "72b3d9b2-18d2-40e2-bc25-3de81fd1f743",
       "name": "Основание с ламелями База 192*082 (190*080)",
-      "qty": 5,
+      "qty": 7,
       "feature": "Решетки",
       "size": "192*082",
       "modifiedDate": "2026-08-27"
@@ -59739,7 +59819,7 @@
     {
       "productId": "5dd90045-d479-4135-a4c3-8926b65ade0d",
       "name": "Основание с ламелями База 202*162 (200*160)",
-      "qty": 55,
+      "qty": 54,
       "feature": "Решетки",
       "size": "202*162",
       "modifiedDate": "2026-08-27"
@@ -59769,9 +59849,17 @@
       "modifiedDate": "2026-05-20"
     },
     {
+      "productId": "3d5782f2-3ed4-4bc5-ace0-b4f86b635b2f",
+      "name": "Основание с ламелями База compact 202*122 (200*120)",
+      "qty": 1,
+      "feature": "Решетки",
+      "size": "202*122",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "1ef7604d-286a-4b03-8acf-791c2490d4a0",
       "name": "Основание с ламелями База compact 202*142 (200*140)",
-      "qty": 13,
+      "qty": 14,
       "feature": "Решетки",
       "size": "202*142",
       "modifiedDate": "2026-08-27"
@@ -59787,7 +59875,7 @@
     {
       "productId": "569fcff9-ae0d-4606-a882-cb9af747ab3c",
       "name": "Основание с ламелями База compact 202*182 (200*180)",
-      "qty": 11,
+      "qty": 12,
       "feature": "Решетки",
       "size": "202*182",
       "modifiedDate": "2026-08-27"
@@ -59795,7 +59883,7 @@
     {
       "productId": "b68615d8-a867-4ddf-970b-621eac46b3d3",
       "name": "Основание с ламелями База compact 202*202 (200*200)",
-      "qty": 19,
+      "qty": 20,
       "feature": "Решетки",
       "size": "202*202",
       "modifiedDate": "2026-08-27"
@@ -59835,7 +59923,7 @@
     {
       "productId": "82ad0850-6c31-46e9-8e29-90c46907c278",
       "name": "Основание с ПМ 160*080 Ultra",
-      "qty": 7,
+      "qty": 9,
       "feature": "Основания детские",
       "size": "160*080",
       "modifiedDate": "2026-08-27"
@@ -59883,7 +59971,7 @@
     {
       "productId": "518dff33-a519-4e02-ba47-bf53378337b6",
       "name": "Основание с ПМ 180*090 Ultra",
-      "qty": 56,
+      "qty": 67,
       "feature": "Основания детские",
       "size": "180*090",
       "modifiedDate": "2026-08-27"
@@ -59891,7 +59979,7 @@
     {
       "productId": "5a9c199a-2c13-40f4-8ce3-78d5e7a95a89",
       "name": "Основание с ПМ 180*100 Ultra",
-      "qty": 20,
+      "qty": 22,
       "feature": "Основания детские",
       "size": "180*100",
       "modifiedDate": "2026-08-27"
@@ -60059,7 +60147,7 @@
     {
       "productId": "1c359d9d-a522-479b-ad73-7c4b45c6fe3c",
       "name": "Основание с ПМ 190*120 Ultra",
-      "qty": 5,
+      "qty": 7,
       "feature": "Основания детские",
       "size": "190*120",
       "modifiedDate": "2026-08-27"
@@ -60091,7 +60179,7 @@
     {
       "productId": "f7e05722-d94c-4f45-abfa-6580fb23437c",
       "name": "Основание с ПМ 200*090 Ultra",
-      "qty": 76,
+      "qty": 92,
       "feature": "Основания детские",
       "size": "200*090",
       "modifiedDate": "2026-08-27"
@@ -60107,7 +60195,7 @@
     {
       "productId": "531614ed-b5c5-4bec-8cc6-6910d1ec3139",
       "name": "Основание с ПМ 200*100 Ultra",
-      "qty": 16,
+      "qty": 20,
       "feature": "Основания детские",
       "size": "200*100",
       "modifiedDate": "2026-08-27"
@@ -60547,7 +60635,7 @@
     {
       "productId": "f2b5ee44-487b-4c3b-b6b8-f7c274e48181",
       "name": "Панель ящика Keep (Кип) 060*025 белый мдф волна",
-      "qty": 18,
+      "qty": 19,
       "feature": "Гостиные",
       "size": "060*025",
       "modifiedDate": "2026-08-27"
@@ -60571,7 +60659,7 @@
     {
       "productId": "7a9e8624-fb84-4c0b-80d0-c872003bda7f",
       "name": "Панель ящика Keep (Кип) 060*025 персидский жемчуг лдсп",
-      "qty": 61,
+      "qty": 62,
       "feature": "Гостиные",
       "size": "060*025",
       "modifiedDate": "2026-08-27"
@@ -60651,7 +60739,7 @@
     {
       "productId": "1383f612-be91-42d2-85cc-6f2bd16a02f7",
       "name": "Парфюм для дома Spell 0,1 л Black forest",
-      "qty": 41,
+      "qty": 43,
       "feature": "Ароматы",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -62659,7 +62747,7 @@
     {
       "productId": "16989cde-ec9b-4e5e-9620-e6f762efbe47",
       "name": "Подставка под подушку, h350 мм",
-      "qty": 57,
+      "qty": 60,
       "feature": "Прочее",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -62675,7 +62763,7 @@
     {
       "productId": "d89d5394-ac78-4e34-a3b9-4f15ef440242",
       "name": "Подушка 050*070 Balance серия Basic",
-      "qty": 607,
+      "qty": 605,
       "feature": "Подушки",
       "size": "050*070",
       "modifiedDate": "2026-08-27"
@@ -62739,7 +62827,7 @@
     {
       "productId": "acb9f257-d4af-41aa-a488-6e44fcdc023a",
       "name": "Подушка 050*070 Silver Goose",
-      "qty": 305,
+      "qty": 316,
       "feature": "Подушки",
       "size": "050*070",
       "modifiedDate": "2026-08-27"
@@ -62755,7 +62843,7 @@
     {
       "productId": "ea3c5f80-2de5-4c46-a792-d4d1f1b18e5b",
       "name": "Подушка 050*070 Флекс",
-      "qty": 2403,
+      "qty": 2432,
       "feature": "Подушки",
       "size": "050*070",
       "modifiedDate": "2026-08-27"
@@ -62763,7 +62851,7 @@
     {
       "productId": "92de50e8-0f8c-4777-83a3-69eeb7d45bce",
       "name": "Подушка 068*068 Silver Goose",
-      "qty": 51,
+      "qty": 53,
       "feature": "Подушки",
       "size": "068*068",
       "modifiedDate": "2026-08-27"
@@ -62803,7 +62891,7 @@
     {
       "productId": "982c9f05-92a7-413f-978c-098ed0ff4221",
       "name": "Подушка 070*050 Viva",
-      "qty": 2197,
+      "qty": 2199,
       "feature": "Подушки",
       "size": "070*050",
       "modifiedDate": "2026-08-27"
@@ -62811,7 +62899,7 @@
     {
       "productId": "0adfd130-9277-4270-81cc-098b5ac4c781",
       "name": "Подушка 070*070 Balance серия Basic",
-      "qty": 284,
+      "qty": 294,
       "feature": "Подушки",
       "size": "070*070",
       "modifiedDate": "2026-08-27"
@@ -62827,7 +62915,7 @@
     {
       "productId": "7ded9b86-a5f0-4049-8ce2-97d96d7f4470",
       "name": "Подушка 070*070 Флекс",
-      "qty": 765,
+      "qty": 789,
       "feature": "Подушки",
       "size": "070*070",
       "modifiedDate": "2026-08-27"
@@ -62907,7 +62995,15 @@
     {
       "productId": "cc51f8eb-6ba4-4e58-9215-b3864257916c",
       "name": "Подушка Alpha серия Technology 2.0 L",
-      "qty": 303,
+      "qty": 353,
+      "feature": "Подушки",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "925c55d7-cce6-445a-b9a7-02875c1c6e24",
+      "name": "Подушка Alpha серия Technology 2.0 M",
+      "qty": 31,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -62915,7 +63011,7 @@
     {
       "productId": "c80d188a-ddc6-4096-bb9e-45f7e985da10",
       "name": "Подушка Alpha серия Technology 2.0 S",
-      "qty": 5,
+      "qty": 37,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -62923,7 +63019,7 @@
     {
       "productId": "988eb6b4-f5ce-46eb-814e-d44a44144ef5",
       "name": "Подушка Alpha серия Technology 2.0 XS",
-      "qty": 10,
+      "qty": 12,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -62947,7 +63043,7 @@
     {
       "productId": "fd9415bf-6050-40e5-a9a4-a9e31bc21afc",
       "name": "Подушка Askona Kids Happy (beige)",
-      "qty": 106,
+      "qty": 110,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -62979,7 +63075,7 @@
     {
       "productId": "dfa8319d-b24d-4a22-98d8-55f7a0f869c9",
       "name": "Подушка Askona Kids Ася",
-      "qty": 24,
+      "qty": 27,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63011,7 +63107,7 @@
     {
       "productId": "1d32505e-2a9f-46f1-bc1f-d60926d56e30",
       "name": "Подушка Beauty Dream 2.0",
-      "qty": 26,
+      "qty": 31,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63043,7 +63139,7 @@
     {
       "productId": "b26ee03f-3251-4ab1-989c-173cb7419fe2",
       "name": "Подушка Element New",
-      "qty": 41,
+      "qty": 74,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63099,7 +63195,7 @@
     {
       "productId": "e4c6f520-27cd-4770-9a0d-328c105e2e86",
       "name": "Подушка Immuno серия Technology 2.0 M",
-      "qty": 35,
+      "qty": 97,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63107,7 +63203,23 @@
     {
       "productId": "0bbcbc2d-ebd9-42cc-a837-f24d3efdc98f",
       "name": "Подушка Immuno серия Technology 2.0 S",
-      "qty": 211,
+      "qty": 223,
+      "feature": "Подушки",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "fc49531c-e46b-4845-bac3-0a2c7aeca93f",
+      "name": "Подушка Immuno серия Technology Cool M",
+      "qty": 4,
+      "feature": "Подушки",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "ed3a9611-50b2-470e-b3ee-e0c2c75e9faa",
+      "name": "Подушка Immuno серия Technology Cool S",
+      "qty": 4,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63163,7 +63275,7 @@
     {
       "productId": "5e570662-bd90-45fa-88a2-05ac00b63e1c",
       "name": "Подушка Navi",
-      "qty": 29,
+      "qty": 52,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63203,7 +63315,7 @@
     {
       "productId": "40d351b8-b30f-418d-87e2-e826948a52dd",
       "name": "Подушка Serta Kids Soft (Серта Кидс Софт)",
-      "qty": 49,
+      "qty": 50,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63243,7 +63355,7 @@
     {
       "productId": "aa6579e0-34f6-4f2c-b35e-e2687e501caf",
       "name": "Подушка Sparkle",
-      "qty": 1,
+      "qty": 2,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63251,7 +63363,7 @@
     {
       "productId": "3fec5a69-eaf0-4f19-a85b-b2d946b26466",
       "name": "Подушка Starline blue",
-      "qty": 8,
+      "qty": 14,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63259,7 +63371,7 @@
     {
       "productId": "449dc80b-619e-48ac-8c87-3c237eb62fdd",
       "name": "Подушка Starline pink",
-      "qty": 8,
+      "qty": 20,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63291,7 +63403,7 @@
     {
       "productId": "c2258f5a-85a6-40f1-9ea5-37c55b0ccc2d",
       "name": "Подушка Vanila Ice New",
-      "qty": 695,
+      "qty": 734,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63483,7 +63595,7 @@
     {
       "productId": "1dc91af4-0be0-4a1b-b383-3b7c5d5cd5cf",
       "name": "Подушка декоративная Bloomy Серо-голубой",
-      "qty": 125,
+      "qty": 126,
       "feature": "Текстиль",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63761,6 +63873,14 @@
       "modifiedDate": "2026-08-16"
     },
     {
+      "productId": "cb206f98-2f4a-4776-96ce-5fa4a8002253",
+      "name": "Подушка декоративная М1 New 045*045 Тк. Royal I Mist",
+      "qty": 1,
+      "feature": "Текстиль",
+      "size": "045*045",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "7f260247-5944-451a-bb4a-345e50c62e0a",
       "name": "Подушка декоративная М1 New 050*030 Тdu02 (Тк. Dumont 02)",
       "qty": 1,
@@ -63855,14 +63975,6 @@
       "feature": "Текстиль",
       "size": "070*040",
       "modifiedDate": "2026-07-14"
-    },
-    {
-      "productId": "a4ee8608-3d76-45f1-bbb3-bb2be0a66277",
-      "name": "Подушка декоративная М1 New 070*040 Тcgs (Тк. Casanova Grass)",
-      "qty": 1,
-      "feature": "Текстиль",
-      "size": "070*040",
-      "modifiedDate": "2026-08-26"
     },
     {
       "productId": "48f45c09-f8ef-436e-a1e1-1c5da13038de",
@@ -64019,7 +64131,7 @@
     {
       "productId": "fc5f84d3-0e23-4aaa-bc8d-9247290d26c7",
       "name": "Подушка для тела Body Comfort",
-      "qty": 1,
+      "qty": 2,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -64067,7 +64179,7 @@
     {
       "productId": "00fdf034-9188-44ed-9844-b0f94d08a3bd",
       "name": "Подушка Луна (серый)",
-      "qty": 5,
+      "qty": 6,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -64147,7 +64259,7 @@
     {
       "productId": "24a74976-3ced-4c3c-9b30-285a7c382a0a",
       "name": "Подушка Облачко (розовый)",
-      "qty": 7,
+      "qty": 8,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -64163,7 +64275,15 @@
     {
       "productId": "d188bacf-0c93-4fe5-9fb8-d50505350092",
       "name": "Подушка Орто Комфорт",
-      "qty": 129,
+      "qty": 133,
+      "feature": "Подушки",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "0ffb0580-41dc-4992-8ecd-9c9b784d9417",
+      "name": "Подушка Орто Контур",
+      "qty": 3,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -64171,7 +64291,7 @@
     {
       "productId": "f85ac1b4-1b3b-427d-a397-d41302e0aaee",
       "name": "Подушка Орто Трансформ",
-      "qty": 24,
+      "qty": 39,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -65267,7 +65387,7 @@
     {
       "productId": "ee534035-d504-4f56-91c3-f7f1560359f1",
       "name": "Полотенце Askona Home Bamboo Towel 50*90 кремовый",
-      "qty": 167,
+      "qty": 168,
       "feature": "Текстиль",
       "size": "50*90",
       "modifiedDate": "2026-08-27"
@@ -65595,7 +65715,7 @@
     {
       "productId": "6ce5653b-f7ad-4b11-a712-9310994cfc1c",
       "name": "Полотенце Tot 30*50 коралловый",
-      "qty": 524,
+      "qty": 528,
       "feature": "Текстиль",
       "size": "30*50",
       "modifiedDate": "2026-08-27"
@@ -66107,7 +66227,7 @@
     {
       "productId": "7086cf22-4e6f-42aa-a340-46287a8a7dd3",
       "name": "Полотенце банное Lay 70*140 кофе",
-      "qty": 232,
+      "qty": 233,
       "feature": "Текстиль",
       "size": "70*140",
       "modifiedDate": "2026-08-27"
@@ -66123,7 +66243,7 @@
     {
       "productId": "f7be0f53-06dc-4458-802e-1898fbb20441",
       "name": "Полотенце банное Lay 70*140 морозно-серый",
-      "qty": 101,
+      "qty": 102,
       "feature": "Текстиль",
       "size": "70*140",
       "modifiedDate": "2026-08-27"
@@ -66267,7 +66387,7 @@
     {
       "productId": "5c4cfaef-42db-4a51-91ef-be4a006903fc",
       "name": "Полотенце банное Plain Cotton 70*140 темное небо",
-      "qty": 16,
+      "qty": 18,
       "feature": "Текстиль",
       "size": "70*140",
       "modifiedDate": "2026-08-27"
@@ -66371,7 +66491,7 @@
     {
       "productId": "ebc00ec2-0b33-43ca-bb6f-9ac54e27f7a7",
       "name": "Полотенце банное Softly 70*140 графит, кант белый снег",
-      "qty": 118,
+      "qty": 119,
       "feature": "Текстиль",
       "size": "70*140",
       "modifiedDate": "2026-08-27"
@@ -66443,7 +66563,7 @@
     {
       "productId": "a8cb7e6a-303d-41b1-9682-2ab57f4ee4c5",
       "name": "Полотенце банное XL Askona Home Bamboo Towel 90*150 зеленый чай",
-      "qty": 190,
+      "qty": 196,
       "feature": "Текстиль",
       "size": "90*150",
       "modifiedDate": "2026-08-27"
@@ -67579,7 +67699,7 @@
     {
       "productId": "60f5a68c-7120-4bc1-ada8-8d0684b54910",
       "name": "Полотенце для лица Plain Cotton 50*90 серебристый иней",
-      "qty": 158,
+      "qty": 160,
       "feature": "Текстиль",
       "size": "50*90",
       "modifiedDate": "2026-08-27"
@@ -67595,7 +67715,7 @@
     {
       "productId": "e283cef9-5259-413c-8066-6ab08de46745",
       "name": "Полотенце для лица Plain Cotton 50*90 топленое молоко",
-      "qty": 163,
+      "qty": 165,
       "feature": "Текстиль",
       "size": "50*90",
       "modifiedDate": "2026-08-27"
@@ -68163,7 +68283,7 @@
     {
       "productId": "d17911b1-4cca-4e16-899d-5dbeaad10db6",
       "name": "Полотенце для рук Plain Cotton 30*50 мята",
-      "qty": 173,
+      "qty": 175,
       "feature": "Текстиль",
       "size": "30*50",
       "modifiedDate": "2026-08-27"
@@ -68179,7 +68299,7 @@
     {
       "productId": "2e611f88-a4ba-473b-a8b2-94de339d8e32",
       "name": "Полотенце для рук Plain Cotton 30*50 серебристый иней",
-      "qty": 635,
+      "qty": 637,
       "feature": "Текстиль",
       "size": "30*50",
       "modifiedDate": "2026-08-27"
@@ -68195,7 +68315,7 @@
     {
       "productId": "53c7dba7-4e5c-4dfc-a13a-4d6f7899f3d0",
       "name": "Полотенце для рук Plain Cotton 30*50 темное небо",
-      "qty": 398,
+      "qty": 400,
       "feature": "Текстиль",
       "size": "30*50",
       "modifiedDate": "2026-08-27"
@@ -68987,7 +69107,7 @@
     {
       "productId": "8b94e6ac-0053-4743-ae63-c436d9ef359a",
       "name": "Простынь 080*160*023 Askona Kids Сахар (Sugar)",
-      "qty": 123,
+      "qty": 124,
       "feature": "КПБ",
       "size": "080*160",
       "modifiedDate": "2026-08-27"
@@ -69027,7 +69147,7 @@
     {
       "productId": "a501dbba-5b7b-4d0d-8780-def507147c77",
       "name": "Простынь 080*200*026 Askona Kids Аква (Aqua)",
-      "qty": 69,
+      "qty": 70,
       "feature": "КПБ",
       "size": "080*200",
       "modifiedDate": "2026-08-27"
@@ -69107,7 +69227,7 @@
     {
       "productId": "0b23fbfb-b9e3-4e5a-a3fe-0b1f626d2e79",
       "name": "Простынь 090*200 Askona Comfort Tencel Аметистовый",
-      "qty": 87,
+      "qty": 88,
       "feature": "КПБ",
       "size": "090*200",
       "modifiedDate": "2026-08-27"
@@ -69123,7 +69243,7 @@
     {
       "productId": "63108882-16e2-482e-a0c0-d1b56fe8b76a",
       "name": "Простынь 090*200 Askona Comfort Tencel Ванильный",
-      "qty": 59,
+      "qty": 60,
       "feature": "КПБ",
       "size": "090*200",
       "modifiedDate": "2026-08-27"
@@ -69187,7 +69307,7 @@
     {
       "productId": "365bd432-e265-4d37-a884-21d5e4e469c1",
       "name": "Простынь 090*200 Askona Home (Хоум) Слива",
-      "qty": 155,
+      "qty": 156,
       "feature": "КПБ",
       "size": "090*200",
       "modifiedDate": "2026-08-27"
@@ -69195,7 +69315,7 @@
     {
       "productId": "058d9c11-6fa1-41dc-ada4-7d73c465e4d7",
       "name": "Простынь 090*200 Askona Home Graphite",
-      "qty": 70,
+      "qty": 71,
       "feature": "КПБ",
       "size": "090*200",
       "modifiedDate": "2026-08-27"
@@ -69515,7 +69635,7 @@
     {
       "productId": "dcf51eb4-dc7e-46dc-993f-61e328c07d36",
       "name": "Простынь 120*200 Askona Comfort Tencel Белый",
-      "qty": 22,
+      "qty": 23,
       "feature": "КПБ",
       "size": "120*200",
       "modifiedDate": "2026-08-27"
@@ -69539,7 +69659,7 @@
     {
       "productId": "c442b39a-64cf-4110-bb3b-052c7f93b2f7",
       "name": "Простынь 120*200 Askona Comfort Tencel Лунная ночь",
-      "qty": 86,
+      "qty": 87,
       "feature": "КПБ",
       "size": "120*200",
       "modifiedDate": "2026-08-27"
@@ -69651,7 +69771,7 @@
     {
       "productId": "b207f9cd-f41f-4082-ba5c-646b0134d1bf",
       "name": "Простынь 120*200*026 Askona Kids Мистик (Mystic)",
-      "qty": 59,
+      "qty": 61,
       "feature": "КПБ",
       "size": "120*200",
       "modifiedDate": "2026-08-27"
@@ -69715,7 +69835,7 @@
     {
       "productId": "53427e71-1f5e-46fa-837a-435dcabb3ed5",
       "name": "Простынь 140*200 Askona Comfort Tencel Аметистовый",
-      "qty": 107,
+      "qty": 109,
       "feature": "КПБ",
       "size": "140*200",
       "modifiedDate": "2026-08-27"
@@ -69851,7 +69971,7 @@
     {
       "productId": "e085e9d6-4ea8-41a6-a0a0-b27a53fcd922",
       "name": "Простынь 140*200 Askona Home Розовый зефир",
-      "qty": 77,
+      "qty": 78,
       "feature": "КПБ",
       "size": "140*200",
       "modifiedDate": "2026-08-27"
@@ -70147,7 +70267,7 @@
     {
       "productId": "1998cd47-8e6a-4c45-9542-c280ddcc2552",
       "name": "Простынь 160*200 Askona Comfort Tencel Аметистовый",
-      "qty": 209,
+      "qty": 212,
       "feature": "КПБ",
       "size": "160*200",
       "modifiedDate": "2026-08-27"
@@ -70179,7 +70299,7 @@
     {
       "productId": "20122104-de91-413f-9e76-a4f12821ce45",
       "name": "Простынь 160*200 Askona Comfort Tencel Макиато",
-      "qty": 83,
+      "qty": 85,
       "feature": "КПБ",
       "size": "160*200",
       "modifiedDate": "2026-08-27"
@@ -70187,7 +70307,7 @@
     {
       "productId": "3611a071-f8c3-47c2-9a9e-17c318026261",
       "name": "Простынь 160*200 Askona Comfort Tencel Пыльный голубой",
-      "qty": 73,
+      "qty": 79,
       "feature": "КПБ",
       "size": "160*200",
       "modifiedDate": "2026-08-27"
@@ -70211,7 +70331,7 @@
     {
       "productId": "76bdd286-65fa-4576-b170-bf5c7d332d64",
       "name": "Простынь 160*200 Askona Home (Хоум) Слива",
-      "qty": 182,
+      "qty": 183,
       "feature": "КПБ",
       "size": "160*200",
       "modifiedDate": "2026-08-27"
@@ -70267,15 +70387,15 @@
     {
       "productId": "94efb598-3cae-4c34-b8c8-c14a05e26d4e",
       "name": "Простынь 160*200*30 Askona Lite Home Пыльная роза",
-      "qty": 1,
+      "qty": 4,
       "feature": "КПБ",
       "size": "160*200",
-      "modifiedDate": "2026-08-17"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "49c248c6-aade-4dd8-86cb-b0c6c2d58df3",
       "name": "Простынь 160*200*30 Askona Lite Home Топленое молоко",
-      "qty": 74,
+      "qty": 78,
       "feature": "КПБ",
       "size": "160*200",
       "modifiedDate": "2026-08-27"
@@ -70379,7 +70499,7 @@
     {
       "productId": "efae8b9b-1899-470d-b332-0dcfabc144c0",
       "name": "Простынь 160*240 Askona Home Белый снег",
-      "qty": 13,
+      "qty": 14,
       "feature": "КПБ",
       "size": "160*240",
       "modifiedDate": "2026-08-27"
@@ -70427,7 +70547,7 @@
     {
       "productId": "05e9366d-e21d-4978-b53b-fc7a4d0a1702",
       "name": "Простынь 180*200 Askona Comfort Tencel Аметистовый",
-      "qty": 460,
+      "qty": 461,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70435,7 +70555,7 @@
     {
       "productId": "c836b1fc-1d6f-466d-a308-21d6a5253494",
       "name": "Простынь 180*200 Askona Comfort Tencel Белый",
-      "qty": 235,
+      "qty": 236,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70443,7 +70563,7 @@
     {
       "productId": "815f37ff-1cc8-4bda-8843-6415d187bacb",
       "name": "Простынь 180*200 Askona Comfort Tencel Ванильный",
-      "qty": 102,
+      "qty": 106,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70467,7 +70587,7 @@
     {
       "productId": "8b4f2105-2717-4791-954b-e226209decd7",
       "name": "Простынь 180*200 Askona Comfort Tencel Пыльный голубой",
-      "qty": 172,
+      "qty": 174,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70475,7 +70595,7 @@
     {
       "productId": "222cf8a2-3bd0-4de7-b9d0-134b1dce2d8c",
       "name": "Простынь 180*200 Askona Comfort Tencel Розовое золото",
-      "qty": 290,
+      "qty": 292,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70491,7 +70611,7 @@
     {
       "productId": "0b4e2bdd-671b-4512-a635-c905b0d0090b",
       "name": "Простынь 180*200 Askona Comfort Tencel Синий металлик",
-      "qty": 1147,
+      "qty": 1148,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70547,7 +70667,7 @@
     {
       "productId": "7c98106e-d023-44b4-9274-50bf7d0ceba4",
       "name": "Простынь 180*200 Askona Home Розовый зефир",
-      "qty": 22,
+      "qty": 24,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70587,7 +70707,7 @@
     {
       "productId": "f851aa14-3bfc-4d1a-87a1-e17fd7c5ad82",
       "name": "Простынь 180*200*30 Askona Lite Home Пыльная роза",
-      "qty": 24,
+      "qty": 25,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70627,7 +70747,7 @@
     {
       "productId": "2246fc5b-0c05-497c-914f-b8ea11d9c041",
       "name": "Простынь 180*200*40 Askona Comfort Maco Sateen 2.0 Лиловая дымка",
-      "qty": 28,
+      "qty": 29,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70635,7 +70755,7 @@
     {
       "productId": "32eee76c-fdfd-4758-9c1b-594daaa290de",
       "name": "Простынь 180*200*40 Askona Comfort Maco Sateen Limited 2.0 еловый",
-      "qty": 51,
+      "qty": 55,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70675,7 +70795,7 @@
     {
       "productId": "45ac9464-d255-4294-8807-a58cb2913a88",
       "name": "Простынь 180*200*40 Askona Pure Bamboo Шалфей",
-      "qty": 217,
+      "qty": 220,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70683,7 +70803,7 @@
     {
       "productId": "c5768239-565a-4464-a0ef-3f7014a078c3",
       "name": "Простынь 180*200*40 Cotton Tencel Harmony Миндальный",
-      "qty": 22,
+      "qty": 23,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70691,7 +70811,7 @@
     {
       "productId": "83ca2c3c-c10a-41c2-bce2-3686bf2dca8d",
       "name": "Простынь 180*200*40 Cotton Tencel Harmony Светло-розовый",
-      "qty": 127,
+      "qty": 128,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-27"
@@ -70843,7 +70963,7 @@
     {
       "productId": "1bb154bc-064a-49f6-83d3-97ad23b4642a",
       "name": "Простынь 200*200 Askona Comfort Tencel Аметистовый",
-      "qty": 137,
+      "qty": 138,
       "feature": "КПБ",
       "size": "200*200",
       "modifiedDate": "2026-08-27"
@@ -70859,7 +70979,7 @@
     {
       "productId": "72c6e8b9-dce4-4f5a-bc12-b36b4c67c0e9",
       "name": "Простынь 200*200 Askona Comfort Tencel Ванильный",
-      "qty": 305,
+      "qty": 306,
       "feature": "КПБ",
       "size": "200*200",
       "modifiedDate": "2026-08-27"
@@ -70891,7 +71011,7 @@
     {
       "productId": "eb1b5b8a-76a9-40dc-a431-f6ca44800ebd",
       "name": "Простынь 200*200 Askona Comfort Tencel Макиато",
-      "qty": 104,
+      "qty": 105,
       "feature": "КПБ",
       "size": "200*200",
       "modifiedDate": "2026-08-27"
@@ -70955,7 +71075,7 @@
     {
       "productId": "718691cb-145b-4e43-af51-8354a0028fcc",
       "name": "Простынь 200*200 Askona Home Дымчатый",
-      "qty": 461,
+      "qty": 462,
       "feature": "КПБ",
       "size": "200*200",
       "modifiedDate": "2026-08-27"
@@ -71299,7 +71419,7 @@
     {
       "productId": "ed13cdbb-b51d-4802-9834-dc861241376b",
       "name": "Простынь 240*260 Askona Comfort Tencel Розовое золото",
-      "qty": 126,
+      "qty": 127,
       "feature": "КПБ",
       "size": "240*260",
       "modifiedDate": "2026-08-27"
@@ -71307,7 +71427,7 @@
     {
       "productId": "57869c4d-daa9-4ab7-b6eb-953d31290bad",
       "name": "Простынь 240*260 Askona Comfort Tencel Синий металлик",
-      "qty": 172,
+      "qty": 174,
       "feature": "КПБ",
       "size": "240*260",
       "modifiedDate": "2026-08-27"
@@ -71339,7 +71459,7 @@
     {
       "productId": "0e2031bf-304f-434e-ae14-b7336a49864a",
       "name": "Простынь 240*260 Askona Home Капучино",
-      "qty": 95,
+      "qty": 104,
       "feature": "КПБ",
       "size": "240*260",
       "modifiedDate": "2026-08-27"
@@ -71951,6 +72071,14 @@
       "feature": "Малые формы",
       "size": "",
       "modifiedDate": "2026-08-17"
+    },
+    {
+      "productId": "26c475e0-f585-44c4-a861-10441f824cad",
+      "name": "Пуф Lamb COMBI (мех молочный/серый)",
+      "qty": 1,
+      "feature": "Малые формы",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "858c7c55-c572-4537-a39f-8e69a6fd8a6d",
@@ -75595,7 +75723,7 @@
     {
       "productId": "156be8e8-4ee5-462d-b5d9-0d897517bdea",
       "name": "Рекламный образец Тк. Montreal 1008 Askona",
-      "qty": 14,
+      "qty": 15,
       "feature": "Комплектующие к диванам",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -76971,7 +77099,7 @@
     {
       "productId": "4a889463-fa99-43bc-9c9a-8e7b5e77f469",
       "name": "Ручка торцевая 2 Keep (Кип) 012 белый",
-      "qty": 16,
+      "qty": 17,
       "feature": "Доп элементы к шкафам",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -76995,7 +77123,7 @@
     {
       "productId": "6f258b90-6c67-41dd-a0fd-f028bc02c5ce",
       "name": "Ручка торцевая 2 Keep (Кип) 025 черный",
-      "qty": 7,
+      "qty": 8,
       "feature": "Доп элементы к шкафам",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -77003,7 +77131,7 @@
     {
       "productId": "d0b2460b-894d-4c35-8258-fc8c05fa9d54",
       "name": "Ручка торцевая полукруглая 1 Keep (Кип) 015 белый",
-      "qty": 32,
+      "qty": 33,
       "feature": "Доп элементы к шкафам",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -77035,7 +77163,7 @@
     {
       "productId": "30acf811-b131-4816-a78e-44a9185d4b19",
       "name": "Ручка торцевая полукруглая 1 Keep (Кип) 015 черный",
-      "qty": 26,
+      "qty": 27,
       "feature": "Доп элементы к шкафам",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -78115,7 +78243,7 @@
     {
       "productId": "1904dfa6-4f1c-4f30-b77c-f0cfbea69866",
       "name": "Свитшот для менеджера Аскона жен. - 46",
-      "qty": 2,
+      "qty": 3,
       "feature": "СПЕЦОДЕЖДА",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -81315,7 +81443,7 @@
     {
       "productId": "e52bca35-7290-4aff-a361-7b03c968f605",
       "name": "Стол письменный 3 ящика Tim (Тим) 116*075*065 Белый",
-      "qty": 43,
+      "qty": 44,
       "feature": "Домашний офис",
       "size": "116*075",
       "modifiedDate": "2026-08-27"
@@ -82603,7 +82731,7 @@
     {
       "productId": "00a9cc57-3fad-4f88-b166-ebed38775d6a",
       "name": "Тарелка закусочная Xiwen 20 белый",
-      "qty": 712,
+      "qty": 713,
       "feature": "Посуда",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -83883,7 +84011,7 @@
     {
       "productId": "843008fc-15c6-4acb-aba8-c8aa10ceaea6",
       "name": "Тумба Vesta Pro (Веста про) массив сосны цв. черный",
-      "qty": 2,
+      "qty": 3,
       "feature": "Малые формы",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -84839,6 +84967,14 @@
       "feature": "Прочее",
       "size": "",
       "modifiedDate": "2026-05-20"
+    },
+    {
+      "productId": "b395b7b5-489f-4110-a93f-6ab58438ea4b",
+      "name": "Универсальное чистящее средство Universal Cleaner Professional 0,6 л",
+      "qty": 3,
+      "feature": "Уход за домом",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8531c41c-a446-4faf-a59a-535cfc743779",
@@ -88123,7 +88259,7 @@
     {
       "productId": "ef371d4e-8722-4e3e-8305-1c631e6478ca",
       "name": "Ценникодержатель подвесной А7 с люверсом и 2-я дополнительными карманами 74*20мм",
-      "qty": 2157,
+      "qty": 2163,
       "feature": "Прочее",
       "size": "74*20",
       "modifiedDate": "2026-08-27"
@@ -88251,7 +88387,7 @@
     {
       "productId": "73f040c5-b4f0-41b6-93fe-1c19adba575e",
       "name": "Чехол 190*090*35,6 Protect-a-Bed Simple",
-      "qty": 56,
+      "qty": 57,
       "feature": "Чехлы",
       "size": "190*090",
       "modifiedDate": "2026-08-27"
@@ -88363,7 +88499,7 @@
     {
       "productId": "927a16dd-af0a-4067-83bd-1c304f9a2f0e",
       "name": "Чехол 200*120*30 Base 2.0",
-      "qty": 65,
+      "qty": 66,
       "feature": "Чехлы",
       "size": "200*120",
       "modifiedDate": "2026-08-27"
@@ -88379,7 +88515,7 @@
     {
       "productId": "91ec1d96-4dcb-4222-8208-63e37917d5f5",
       "name": "Чехол 200*120*35,6 Protect-a-Bed Terry",
-      "qty": 150,
+      "qty": 155,
       "feature": "Чехлы",
       "size": "200*120",
       "modifiedDate": "2026-08-27"
@@ -88387,7 +88523,7 @@
     {
       "productId": "6db0405a-6529-4258-a516-1330c39a4616",
       "name": "Чехол 200*140*35,6 Nesty",
-      "qty": 58,
+      "qty": 61,
       "feature": "Чехлы",
       "size": "200*140",
       "modifiedDate": "2026-08-27"
@@ -88395,7 +88531,7 @@
     {
       "productId": "a4aad406-5f7f-4d98-8bf9-d06c66177b58",
       "name": "Чехол 200*140*35,6 Pad",
-      "qty": 138,
+      "qty": 139,
       "feature": "Чехлы",
       "size": "200*140",
       "modifiedDate": "2026-08-27"
@@ -88451,7 +88587,7 @@
     {
       "productId": "0c37ebf0-319a-4189-b0c7-7210a8d01cf6",
       "name": "Чехол 200*160*35,6 Nesty",
-      "qty": 457,
+      "qty": 470,
       "feature": "Чехлы",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -88459,7 +88595,7 @@
     {
       "productId": "b44bad76-869e-454a-b8f0-7407964516f5",
       "name": "Чехол 200*160*35,6 Pad",
-      "qty": 214,
+      "qty": 215,
       "feature": "Чехлы",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -88475,7 +88611,7 @@
     {
       "productId": "9b483d38-bac3-49fa-a6cf-a39b64a1a493",
       "name": "Чехол 200*160*35,6 Protect-a-Bed Terry",
-      "qty": 857,
+      "qty": 856,
       "feature": "Чехлы",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -88523,7 +88659,7 @@
     {
       "productId": "8e5c2341-7b63-4565-9174-6aa0cdeab532",
       "name": "Чехол 200*180*030 P-a-B Cotton",
-      "qty": 343,
+      "qty": 360,
       "feature": "Чехлы",
       "size": "200*180",
       "modifiedDate": "2026-08-27"
@@ -88531,7 +88667,7 @@
     {
       "productId": "adb374af-4e2b-4987-b228-7921f0fc7aaa",
       "name": "Чехол 200*180*30 Base 2.0",
-      "qty": 763,
+      "qty": 764,
       "feature": "Чехлы",
       "size": "200*180",
       "modifiedDate": "2026-08-27"
@@ -88539,7 +88675,7 @@
     {
       "productId": "48b79d3d-4ad9-43a8-98b2-faeee59d819d",
       "name": "Чехол 200*180*35,6 Nesty",
-      "qty": 127,
+      "qty": 135,
       "feature": "Чехлы",
       "size": "200*180",
       "modifiedDate": "2026-08-27"
@@ -88587,7 +88723,7 @@
     {
       "productId": "f5b26d3a-e02c-4ce6-97a5-65fb7da9dde3",
       "name": "Чехол 200*200*35,6 Protect-a-Bed Terry",
-      "qty": 14,
+      "qty": 16,
       "feature": "Чехлы",
       "size": "200*200",
       "modifiedDate": "2026-08-27"
@@ -88731,7 +88867,7 @@
     {
       "productId": "3dbf651a-278a-4dd2-b4fd-ab05cc284271",
       "name": "Чехол для кулера Askona",
-      "qty": 199,
+      "qty": 201,
       "feature": "Прочее",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -88859,7 +88995,7 @@
     {
       "productId": "4b51dd70-fed1-472f-ba88-af6845da7c76",
       "name": "Чехол на матрас 160*080*023 Baby Terry",
-      "qty": 60,
+      "qty": 61,
       "feature": "Чехлы",
       "size": "160*080",
       "modifiedDate": "2026-08-27"
@@ -88867,7 +89003,7 @@
     {
       "productId": "0c108caa-89ac-4c0b-94b4-6b224bec88a6",
       "name": "Чехол на матрас 160*080*023 Kids Terry",
-      "qty": 60,
+      "qty": 62,
       "feature": "Чехлы",
       "size": "160*080",
       "modifiedDate": "2026-08-27"
@@ -88947,7 +89083,7 @@
     {
       "productId": "3337bce7-21a8-4b35-97f8-235d679e0f07",
       "name": "Чехол на матрас 180*080*023 Kids Terry",
-      "qty": 15,
+      "qty": 19,
       "feature": "Чехлы",
       "size": "180*080",
       "modifiedDate": "2026-08-27"
@@ -88963,7 +89099,7 @@
     {
       "productId": "d304bfdc-bff9-4fc1-97ab-7831a22be4de",
       "name": "Чехол на матрас 180*090*023 Kids Terry",
-      "qty": 63,
+      "qty": 64,
       "feature": "Чехлы",
       "size": "180*090",
       "modifiedDate": "2026-08-27"
@@ -89019,7 +89155,7 @@
     {
       "productId": "84e2c78a-54ec-4fa6-9eb0-a4553b7033b4",
       "name": "Чехол на матрас 190*080*023 Baby Terry",
-      "qty": 9,
+      "qty": 10,
       "feature": "Чехлы",
       "size": "190*080",
       "modifiedDate": "2026-08-27"
@@ -89059,7 +89195,7 @@
     {
       "productId": "270c5c0c-fdf9-407b-a993-54ccf1c6c459",
       "name": "Чехол на матрас 190*100*023 Kids Terry",
-      "qty": 56,
+      "qty": 58,
       "feature": "Чехлы",
       "size": "190*100",
       "modifiedDate": "2026-08-27"
@@ -89075,7 +89211,7 @@
     {
       "productId": "0e1e0a98-e7ab-4c59-aa68-c6dc05ecd5e4",
       "name": "Чехол на матрас 190*120*023 Kids Terry",
-      "qty": 37,
+      "qty": 39,
       "feature": "Чехлы",
       "size": "190*120",
       "modifiedDate": "2026-08-27"
@@ -89107,7 +89243,7 @@
     {
       "productId": "5b0821d0-875e-4808-a037-901c19e51754",
       "name": "Чехол на матрас 200*090*023 Kids Terry",
-      "qty": 37,
+      "qty": 79,
       "feature": "Чехлы",
       "size": "200*090",
       "modifiedDate": "2026-08-27"
@@ -89115,7 +89251,7 @@
     {
       "productId": "31e1fc41-8649-4555-b23c-29358cb7f47a",
       "name": "Чехол на матрас 200*090*35,6 Protect-a-Bed Arctic Plus",
-      "qty": 27,
+      "qty": 28,
       "feature": "Чехлы",
       "size": "200*090",
       "modifiedDate": "2026-08-27"
@@ -89123,7 +89259,7 @@
     {
       "productId": "1b671af1-b277-442c-88b0-70ef8f9ab904",
       "name": "Чехол на матрас 200*090*35,6 Protect-a-bed Tencel",
-      "qty": 51,
+      "qty": 52,
       "feature": "Чехлы",
       "size": "200*090",
       "modifiedDate": "2026-08-27"
@@ -89155,7 +89291,7 @@
     {
       "productId": "7ab6c15b-a16d-4d53-92a7-f16f2233c44d",
       "name": "Чехол на матрас 200*120*023 Kids Terry",
-      "qty": 31,
+      "qty": 32,
       "feature": "Чехлы",
       "size": "200*120",
       "modifiedDate": "2026-08-27"
@@ -89163,7 +89299,7 @@
     {
       "productId": "e727729a-87b0-4693-a011-65ac288de962",
       "name": "Чехол на матрас 200*120*35,6 Protect-a-bed Tencel",
-      "qty": 31,
+      "qty": 33,
       "feature": "Чехлы",
       "size": "200*120",
       "modifiedDate": "2026-08-27"
@@ -89171,7 +89307,7 @@
     {
       "productId": "4cd89332-5875-49ca-a45e-228b6c4ab4de",
       "name": "Чехол на матрас 200*140*030 Солид",
-      "qty": 180,
+      "qty": 183,
       "feature": "Чехлы",
       "size": "200*140",
       "modifiedDate": "2026-08-27"
@@ -89179,7 +89315,7 @@
     {
       "productId": "5ad907d8-64a6-41c0-974e-9e0dae59ee34",
       "name": "Чехол на матрас 200*140*35,6 Protect-a-Bed Arctic Plus",
-      "qty": 15,
+      "qty": 16,
       "feature": "Чехлы",
       "size": "200*140",
       "modifiedDate": "2026-08-27"
@@ -89187,7 +89323,7 @@
     {
       "productId": "ae6019cd-5ffa-45cf-be38-10b49dae6405",
       "name": "Чехол на матрас 200*140*35,6 Protect-a-bed Tencel",
-      "qty": 61,
+      "qty": 62,
       "feature": "Чехлы",
       "size": "200*140",
       "modifiedDate": "2026-08-27"
@@ -89203,7 +89339,7 @@
     {
       "productId": "d1a96049-ae3e-4fa1-836a-52e7ffda0a66",
       "name": "Чехол на матрас 200*160*030 Солид",
-      "qty": 506,
+      "qty": 510,
       "feature": "Чехлы",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -89227,7 +89363,7 @@
     {
       "productId": "1da19cbc-cf55-43e0-b3ee-2cb9eeb20bd0",
       "name": "Чехол на матрас 200*160*35,6 Protect-a-bed Tencel",
-      "qty": 222,
+      "qty": 256,
       "feature": "Чехлы",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -89235,7 +89371,7 @@
     {
       "productId": "b8d72153-57bd-4bc8-a2eb-989096710872",
       "name": "Чехол на матрас 200*160*36 Аквапротект",
-      "qty": 267,
+      "qty": 268,
       "feature": "Чехлы",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -89259,7 +89395,7 @@
     {
       "productId": "90eaa9f3-47fe-437e-bea7-db0117fac70e",
       "name": "Чехол на матрас 200*180*35,6 Protect-a-bed Tencel",
-      "qty": 168,
+      "qty": 217,
       "feature": "Чехлы",
       "size": "200*180",
       "modifiedDate": "2026-08-27"
@@ -89347,7 +89483,7 @@
     {
       "productId": "bb20a44a-2fbe-433b-b4af-84505f5b90d9",
       "name": "Чехол на подушку детский 050*035 Kids",
-      "qty": 314,
+      "qty": 323,
       "feature": "Чехлы",
       "size": "050*035",
       "modifiedDate": "2026-08-27"
@@ -89355,7 +89491,7 @@
     {
       "productId": "b46a8d68-f1ac-4aa3-9dcf-3438207dfe49",
       "name": "Чехол на подушку детский 060*040 Baby",
-      "qty": 402,
+      "qty": 403,
       "feature": "Чехлы",
       "size": "060*040",
       "modifiedDate": "2026-08-27"
@@ -89939,7 +90075,7 @@
     {
       "productId": "3fd1d8d2-4d83-4472-a13d-0d0d89678e51",
       "name": "Чехол трикотажный 180*080*023 Soft night",
-      "qty": 26,
+      "qty": 27,
       "feature": "Чехлы",
       "size": "180*080",
       "modifiedDate": "2026-08-27"
@@ -90003,7 +90139,7 @@
     {
       "productId": "bd795eb2-909b-40ad-86d4-7bc712248bcc",
       "name": "Чехол трикотажный 200*090*023 Soft night",
-      "qty": 34,
+      "qty": 36,
       "feature": "Чехлы",
       "size": "200*090",
       "modifiedDate": "2026-08-27"
@@ -90019,7 +90155,7 @@
     {
       "productId": "0fff1179-7701-4f7d-ade0-84ff5a18d200",
       "name": "Чехол трикотажный 200*120*023 Soft night",
-      "qty": 35,
+      "qty": 37,
       "feature": "Чехлы",
       "size": "200*120",
       "modifiedDate": "2026-08-27"
@@ -90371,7 +90507,7 @@
     {
       "productId": "605455bb-6eaa-459b-b90c-7118fc6dc0cc",
       "name": "Шкаф двухдверный Mellow (Меллоу) 100*194*047 Белый премиум + Дуб Сонома",
-      "qty": 1,
+      "qty": 2,
       "feature": "Спальни детские",
       "size": "100*194",
       "modifiedDate": "2026-08-27"
@@ -90875,7 +91011,7 @@
     {
       "productId": "d0205577-5796-4b35-b3cc-944e1c86610b",
       "name": "Шкаф трехдверный Zima (Зима) 153*218*060 Гикори кингстон+Белый",
-      "qty": 6,
+      "qty": 7,
       "feature": "Шкафы",
       "size": "153*218",
       "modifiedDate": "2026-08-27"
@@ -91683,7 +91819,7 @@
     {
       "productId": "89465b6b-1faf-4fdb-b242-18a6831baede",
       "name": "Ящик выдвижной с направляющими для гостиной Keep (Кип) 056*015*035 белый",
-      "qty": 5,
+      "qty": 6,
       "feature": "Гостиные",
       "size": "056*015",
       "modifiedDate": "2026-08-27"

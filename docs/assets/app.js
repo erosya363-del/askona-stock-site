@@ -466,22 +466,65 @@
     applyFilters();
   }
 
-  async function boot() {
-    const [stock, sale, status] = await Promise.all([
-      fetch("./data/stock.json", { cache: "no-store" }).then((r) => r.json()),
-      fetch("./data/sale.json", { cache: "no-store" }).then((r) => r.json()),
-      fetch("./data/status.json", { cache: "no-store" })
-        .then((r) => (r.ok ? r.json() : null))
-        .catch(() => null),
-    ]);
-    state.generatedAt = (status && status.generatedAt) || stock.meta.generatedAt;
+  function dataUrl(file) {
+    return `./data/${file}?t=${Date.now()}`;
+  }
+
+  function fetchJson(file, optional = false) {
+    return fetch(dataUrl(file), { cache: "no-store" }).then((r) => {
+      if (!r.ok) {
+        if (optional) return null;
+        throw new Error(`${file}: ${r.status}`);
+      }
+      return r.json();
+    });
+  }
+
+  function applyStatus(status, stock) {
+    const fromStock = stock && stock.meta && stock.meta.generatedAt;
+    state.generatedAt = (status && status.generatedAt) || fromStock || state.generatedAt;
     state.publishedAt = (status && status.publishedAt) || state.generatedAt;
-    state.stockIntervalSec = (status && status.stockIntervalSec) || 1800;
-    state.agentOnlineTtlSec = (status && status.agentOnlineTtlSec) || 600;
+    if (status && status.stockIntervalSec) state.stockIntervalSec = status.stockIntervalSec;
+    if (status && status.agentOnlineTtlSec) state.agentOnlineTtlSec = status.agentOnlineTtlSec;
+  }
+
+  async function loadCatalog(status) {
+    const [stock, sale] = await Promise.all([
+      fetchJson("stock.json"),
+      fetchJson("sale.json"),
+    ]);
+    applyStatus(status, stock);
     state.items = merge(stock, sale);
     renderLive();
     renderChips();
+    if ($("sheet") && !$("sheet").hidden) renderSheet();
     applyFilters();
+  }
+
+  async function boot() {
+    const status = await fetchJson("status.json", true).catch(() => null);
+    await loadCatalog(status);
+  }
+
+  let ticking = false;
+  async function tick() {
+    if (ticking) return;
+    ticking = true;
+    try {
+      const status = await fetchJson("status.json", true).catch(() => null);
+      if (status) {
+        const catalogChanged =
+          Boolean(status.generatedAt) && status.generatedAt !== state.generatedAt;
+        if (catalogChanged) await loadCatalog(status);
+        else applyStatus(status, null);
+      }
+      renderLive();
+    } catch (err) {
+      console.error(err);
+      renderLive();
+    } finally {
+      ticking = false;
+    }
   }
 
   let t = 0;
@@ -552,5 +595,16 @@
     console.error(err);
   });
 
-  setInterval(renderLive, 30000);
+  setInterval(() => {
+    if (document.visibilityState !== "visible") return;
+    tick();
+  }, 30000);
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") tick();
+  });
+
+  window.addEventListener("pageshow", (e) => {
+    if (e.persisted) tick();
+  });
 })();

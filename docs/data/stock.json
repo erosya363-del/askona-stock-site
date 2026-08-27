@@ -3,9 +3,9 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-27T08:14:12+04:00",
+    "generatedAt": "2026-08-27T08:44:59+04:00",
     "timezone": "Europe/Astrakhan",
-    "skuCount": 11531
+    "skuCount": 11634
   },
   "items": [
     {
@@ -151,6 +151,22 @@
       "feature": "Прочие",
       "size": "",
       "modifiedDate": "2026-06-25"
+    },
+    {
+      "productId": "6b763714-b588-4745-b3c6-326843d4b6bb",
+      "name": "(инд)Деталь Кровать откидная горизонтальная 200*120 Smart Folding (Смарт Фолдинг) SL1 1455*449*22 Дуб Бардолино натуральный",
+      "qty": 1,
+      "feature": "Доп элементы к кроватям",
+      "size": "200*120",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "211d003a-5a30-4e59-b8cc-c2e6fcfb972c",
+      "name": "(инд)Деталь Кровать откидная горизонтальная 200*120 Smart Folding (Смарт Фолдинг) SR1 1455*449*22 Дуб Бардолино натуральный",
+      "qty": 1,
+      "feature": "Доп элементы к кроватям",
+      "size": "200*120",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "a4880d1a-7703-4004-96ee-4b3ac40f38ff",
@@ -3211,10 +3227,10 @@
     {
       "productId": "7148c5b5-afe8-46f4-be93-2565894ac42f",
       "name": "Massage Chair Askona Smart Jet Space Energy",
-      "qty": 13,
+      "qty": 14,
       "feature": "Кресла массажные",
       "size": "",
-      "modifiedDate": "2026-08-25"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "26700e8a-ac26-4876-b180-53618ebbd815",
@@ -5147,10 +5163,10 @@
     {
       "productId": "2fff5d03-b6bf-4641-8518-3aabca378c4d",
       "name": "Бельевой ящик КК ЛДСП 1810*1005*16 бежевый",
-      "qty": 19,
+      "qty": 20,
       "feature": "Доп элементы к кроватям",
       "size": "1810*1005",
-      "modifiedDate": "2026-08-24"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "10b3f833-c53e-4087-a776-82124fd92bd3",
@@ -17393,6 +17409,14 @@
       "modifiedDate": "2026-05-20"
     },
     {
+      "productId": "e9c446a6-5de5-40b8-a114-37330878e44b",
+      "name": "Деталь Планка головная верхняя Кровать 200*180 Vesta Pro (Веста про) массив сосны цв. белый",
+      "qty": 1,
+      "feature": "Доп элементы к кроватям",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "a6d96833-7637-4c8e-b271-b0e703ec967f",
       "name": "Деталь пластиковая заглушка к ножке Диван прямой Бергамо Jazz 7 (Близформ)",
       "qty": 3,
@@ -19079,6 +19103,22 @@
       "feature": "Доп элементы к кроватям",
       "size": "",
       "modifiedDate": "2026-05-20"
+    },
+    {
+      "productId": "1b8abc42-b7b0-4f0b-8eb0-871b3fc6a0fe",
+      "name": "Деталь Стойка головная левая Кровать 200*180 Vesta Pro (Веста про) массив сосны цв. белый",
+      "qty": 1,
+      "feature": "Доп элементы к кроватям",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "20f79fef-659c-4ca0-a504-0032eea719a7",
+      "name": "Деталь Стойка головная правая Кровать 200*180 Vesta Pro (Веста про) массив сосны цв. белый",
+      "qty": 1,
+      "feature": "Доп элементы к кроватям",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "a9017eb9-06cb-44fc-b9a9-457bc04113fe",
@@ -21225,12 +21265,28 @@
       "modifiedDate": "2026-08-23"
     },
     {
+      "productId": "29ee3ad9-0f05-4b84-b064-1a2294b2dfff",
+      "name": "Диван-кровать Антарес ПРО 160-H-Тк. Galaktika ash",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "4a353201-385e-4e36-b11d-acdeddfe2d6a",
       "name": "Диван-кровать Антарес ПРО 160-M-Тк. Sky Velvet 02",
       "qty": 1,
       "feature": "Диваны",
       "size": "",
       "modifiedDate": "2026-08-25"
+    },
+    {
+      "productId": "1a070935-7306-4fea-b8fe-a9e7cc693976",
+      "name": "Диван-кровать Антарес ПРО 180-H-Тк. Sky Velvet 17",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "149002e0-7b52-49e2-a532-5d8844e326c5",
@@ -21305,6 +21361,14 @@
       "modifiedDate": "2026-08-26"
     },
     {
+      "productId": "ab1a6de5-fe74-41fb-85ef-cb10119f0d02",
+      "name": "Диван-кровать Вега Нова-Тк. Dumont 26+Dumont 26+Dumont 26 Акция",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "14ada5b3-1fc2-4d6a-aa92-38cd6a9fb3c6",
       "name": "Диван-кровать Вега Нова-Тк. Forte 01+Forte 01+Forte 01",
       "qty": 1,
@@ -21377,6 +21441,14 @@
       "modifiedDate": "2026-08-26"
     },
     {
+      "productId": "069db20a-874a-4140-8b31-09880680b2d9",
+      "name": "Диван-кровать Карина Nova 160-БК-Тк. Dumont 08+Dumont 08 Акция",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "381bc105-8bed-482d-8b6e-5029ff6c5867",
       "name": "Диван-кровать Карина Nova 160-БК-УКкНова68-Тк. Sky Velvet 17+Sky Velvet 17",
       "qty": 1,
@@ -21401,9 +21473,17 @@
       "modifiedDate": "2026-08-23"
     },
     {
+      "productId": "bf9bac84-330d-41f1-90f2-c5a6e461c512",
+      "name": "Диван-кровать Карина ПРО 160-M-пл. фигурный-Тк. Sky Velvet 08",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "1661e19c-7aba-422d-bf52-3878cb0629b1",
       "name": "Диван-кровать Карина Про Акция 140-M-пл. прямой-Тк. Dumont 02",
-      "qty": 2,
+      "qty": 3,
       "feature": "Диваны",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -21433,6 +21513,14 @@
       "modifiedDate": "2026-08-26"
     },
     {
+      "productId": "7d71c521-c735-4eaa-81b0-0b913c58de7e",
+      "name": "Диван-кровать Карина Про Акция 140-M-пл. прямой-Тк. Dumont 32",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "5ef40187-118d-4d49-adf8-7daee7cdd358",
       "name": "Диван-кровать Карина Про Акция 160-M-пл. прямой-Тк. Dumont 24",
       "qty": 3,
@@ -21447,6 +21535,14 @@
       "feature": "Диваны",
       "size": "",
       "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "fd3a5c19-5eeb-4153-9afb-20378b2ad0a1",
+      "name": "Диван-кровать Карина Про Акция 160-M-пл. прямой-Тк. Dumont 32",
+      "qty": 3,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "2c1ac1b9-53fe-4fbf-a364-207f10212173",
@@ -21809,6 +21905,22 @@
       "modifiedDate": "2026-03-15"
     },
     {
+      "productId": "40fc1bef-189b-4006-bd39-29860fb3f799",
+      "name": "Диван-кровать угловой Амани ПРО-M-пл15-Тк. Sky Velvet 02",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "ff24c9d9-306d-4ff6-aff1-9550bde31b49",
+      "name": "Диван-кровать угловой Амани ПРО-M-пл15-Тк. Sky Velvet 17",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "f37aec05-91c7-49e8-b810-15041aaeef10",
       "name": "Диван-кровать угловой Амани ПРО-M-пл5-Тк. Sky Velvet 02",
       "qty": 1,
@@ -21827,6 +21939,14 @@
     {
       "productId": "f4eacacd-cfd2-494b-b784-59ebf6d74222",
       "name": "Диван-кровать угловой Бингем-Тк. Balance 290",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "fe207bf6-d115-491b-b855-f14cd131706a",
+      "name": "Диван-кровать угловой Домо ПРО 140-M-пл25-Венге-полки-квадрат-Тк. Sky Velvet 08",
       "qty": 1,
       "feature": "Диваны",
       "size": "",
@@ -21875,10 +21995,10 @@
     {
       "productId": "0319929e-102e-4f79-8dab-ac5ea7804155",
       "name": "Диван-кровать угловой Магни-Тк. Dumont 02",
-      "qty": 3,
+      "qty": 4,
       "feature": "Диваны",
       "size": "",
-      "modifiedDate": "2026-08-25"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "7275a327-a1bc-46aa-9d5a-c3a3fd5239c6",
@@ -21959,14 +22079,6 @@
       "feature": "Диваны",
       "size": "",
       "modifiedDate": "2026-08-24"
-    },
-    {
-      "productId": "6f7b62a0-6c46-47a2-998c-f1e5357121eb",
-      "name": "Диван-кровать угловой Раклет-Тк. Cilium Cream",
-      "qty": 1,
-      "feature": "Диваны",
-      "size": "",
-      "modifiedDate": "2026-08-21"
     },
     {
       "productId": "28e624af-17ca-49b1-b915-42445ec8d92e",
@@ -22057,6 +22169,14 @@
       "modifiedDate": "2026-08-22"
     },
     {
+      "productId": "604e6282-be5e-4b0c-9dce-7173dc7368a4",
+      "name": "Диван-кровать Энсо-2х секц-L пл37 высокий-R пл37 низкий-Тк. Montreal 1008",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "662f087e-833d-49a7-9a86-aa9a64431924",
       "name": "Диван-матрас 167*084 Bini Тк. Sky Velvet 16",
       "qty": 1,
@@ -22113,6 +22233,14 @@
       "modifiedDate": "2026-08-25"
     },
     {
+      "productId": "bf444db9-3d55-4cf2-ab63-129779571f34",
+      "name": "Диван-матрас Мирей 190*160-Тк. Cilium Indigo",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "190*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "39d5d04a-9fae-4b82-b8b3-6deae700cda4",
       "name": "Диван-матрас Мирей 190*160-Тк. Cilium Umber",
       "qty": 3,
@@ -22123,10 +22251,10 @@
     {
       "productId": "128b5116-305e-45b2-9386-cc903b6ff480",
       "name": "Диван-матрас Фолли 200*140-Тк. Prime Beige",
-      "qty": 1,
+      "qty": 2,
       "feature": "Диваны",
       "size": "200*140",
-      "modifiedDate": "2026-08-25"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "c027e280-728b-4bc6-b088-db4ca4c18837",
@@ -22937,6 +23065,14 @@
       "modifiedDate": "2026-08-13"
     },
     {
+      "productId": "3e3d2e1b-efc7-4f35-8af8-37c838bf6ad6",
+      "name": "Журнальный стол Cristofer (Кристофер) 085*063*039 Дуб Бардолино натуральный Тк. Sky Velvet 17",
+      "qty": 1,
+      "feature": "Журнальные столы",
+      "size": "085*063",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "67a9b6cf-57fa-442c-9c46-6c3302cae8b1",
       "name": "Журнальный стол Cristofer (Кристофер) 104*072*039 Венге Мали Тк. Casanova Seawave",
       "qty": 1,
@@ -22975,6 +23111,14 @@
       "feature": "Журнальные столы",
       "size": "",
       "modifiedDate": "2026-05-20"
+    },
+    {
+      "productId": "b905966f-d6ea-460b-82d0-2fdcf983b6d2",
+      "name": "Журнальный стол Альбано белый мрамор",
+      "qty": 1,
+      "feature": "Журнальные столы",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8b0a4c9f-860e-4dc7-9ac3-34e0161270f2",
@@ -23119,6 +23263,14 @@
       "feature": "Журнальные столы",
       "size": "",
       "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "4fbe6223-c43f-4aa6-95ee-465cc71a0c66",
+      "name": "Журнальный стол Фримонт, сахара нуар/черный матовый",
+      "qty": 2,
+      "feature": "Журнальные столы",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "5a73e595-68e6-4a06-a173-2ebefe00f9fd",
@@ -26859,10 +27011,10 @@
     {
       "productId": "3e31cba7-e577-42a8-b28b-94985083edb6",
       "name": "Комод 3 ящика Tim (Тим) 065*072*040 Сонома",
-      "qty": 22,
+      "qty": 23,
       "feature": "Малые формы",
       "size": "065*072",
-      "modifiedDate": "2026-08-23"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "d264a2f5-c78f-484a-8ac4-6c766c60de1a",
@@ -27827,7 +27979,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 11175,
+      "qty": 11165,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -27835,7 +27987,7 @@
     {
       "productId": "297d5a48-b00c-4cdf-aa8f-7eecad5d0f62",
       "name": "Комплект подушек Viva 68*68",
-      "qty": 1002,
+      "qty": 1001,
       "feature": "СЕТЫ",
       "size": "68*68",
       "modifiedDate": "2026-08-27"
@@ -28311,6 +28463,22 @@
       "feature": "Гостиные",
       "size": "33*33",
       "modifiedDate": "2026-08-22"
+    },
+    {
+      "productId": "5731048e-2373-48bc-a9c5-e50d04f5372b",
+      "name": "Комплектация опор дер h-150",
+      "qty": 2,
+      "feature": "Доп элементы к кроватям",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "ff0fcf22-b618-49ce-8531-9991da14d113",
+      "name": "Комплектация опор дер конусная 60*45*150 бел дуб шп М8",
+      "qty": 1,
+      "feature": "Доп элементы к кроватям",
+      "size": "60*45",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "19cd3aa3-4f38-4031-b02f-ce9673521c04",
@@ -31051,10 +31219,10 @@
     {
       "productId": "a6c148af-c16f-4548-8621-3b0e0ad84298",
       "name": "КПБ Natural Balance Floral (односп)",
-      "qty": 35,
+      "qty": 34,
       "feature": "КПБ",
       "size": "",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "14bb9795-7a94-43cb-87c7-91aa9cf603ff",
@@ -31115,10 +31283,10 @@
     {
       "productId": "246dcb0e-ef39-4656-b178-4964cdece544",
       "name": "КПБ Natural Balance Leaves (односп)",
-      "qty": 207,
+      "qty": 206,
       "feature": "КПБ",
       "size": "",
-      "modifiedDate": "2026-08-25"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "92783bf8-610d-447b-9eec-315b35f49351",
@@ -32707,10 +32875,10 @@
     {
       "productId": "f365c963-f947-48ed-b25b-6ea8d9ede7a5",
       "name": "Кресло Орд-Тк. Soul 292",
-      "qty": 5,
+      "qty": 1,
       "feature": "Кресла",
       "size": "",
-      "modifiedDate": "2026-08-20"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "ab1dd6e8-4e1e-441d-b683-ad53fbcf0d78",
@@ -32943,6 +33111,14 @@
       "feature": "Запчасти к товарам закупным",
       "size": "",
       "modifiedDate": "2026-05-20"
+    },
+    {
+      "productId": "6da13479-28d9-43bd-b3ad-ac82ad3f5879",
+      "name": "Кресло поворотное Нуаж-Тк. Sky Velvet 21",
+      "qty": 1,
+      "feature": "Кресла",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8723e140-928e-43ad-9587-d6320f45bf59",
@@ -33283,10 +33459,10 @@
     {
       "productId": "5ae622d7-9d53-43d4-a536-3cf6c15aeb04",
       "name": "Кресло-кровать Тедди-Тк. Плума какао",
-      "qty": 4,
+      "qty": 5,
       "feature": "Кресла",
       "size": "",
-      "modifiedDate": "2026-08-24"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "36f9f32b-f2e3-4f70-a76a-5f42b1d71e96",
@@ -33303,6 +33479,14 @@
       "feature": "Кресла",
       "size": "",
       "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "37a9b7a3-5715-4f35-a24c-426a9bd44e0e",
+      "name": "Кресло-матрас Фолли 200*080-Тк. Prime Beige",
+      "qty": 1,
+      "feature": "Кресла",
+      "size": "200*080",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "ed8112f1-8523-4d5f-8c01-a99048d6bced",
@@ -34873,6 +35057,14 @@
       "modifiedDate": "2026-05-20"
     },
     {
+      "productId": "6560ee16-6660-4475-aa34-f21cf74f95d5",
+      "name": "Кровать 200*120 Dream (Дрим) Тк. Velutto 32",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*120",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "cffec26e-b185-4bb7-b563-6493db964115",
       "name": "Кровать 200*120 Elisa nova (Элиза нова) Тк. Hilton 01",
       "qty": 1,
@@ -35057,6 +35249,14 @@
       "modifiedDate": "2026-08-26"
     },
     {
+      "productId": "9b3e4a8c-e44d-4f22-b08c-55df47212c90",
+      "name": "Кровать 200*120 Simple (Симпл) Тк. Hilton 03",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*120",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "a6d3122e-e90b-4aba-b695-4e6e03ee7273",
       "name": "Кровать 200*120 Simple (Симпл) Тк. Shammy Frosty",
       "qty": 1,
@@ -35129,6 +35329,14 @@
       "modifiedDate": "2026-08-20"
     },
     {
+      "productId": "24458617-8f44-448f-ae91-4d959b3e9fc5",
+      "name": "Кровать 200*140 Astra Long (Астра Лонг) Тк. Montreal 1012",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*140",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "9eba272c-6e9d-475d-9567-2621a2e6b3bc",
       "name": "Кровать 200*140 Astra Long (Астра Лонг) Тк. Prime Blue",
       "qty": 2,
@@ -35177,6 +35385,14 @@
       "modifiedDate": "2026-08-21"
     },
     {
+      "productId": "784e5c28-b51d-476b-a4b2-f191608f18c6",
+      "name": "Кровать 200*140 Corsa (Корса) белый шагрень",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*140",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "8a30226d-a5ba-47c3-8768-c4c0349a9a34",
       "name": "Кровать 200*140 Corsa (Корса) черный шагрень",
       "qty": 1,
@@ -35223,6 +35439,14 @@
       "feature": "Кровати",
       "size": "200*140",
       "modifiedDate": "2026-04-22"
+    },
+    {
+      "productId": "dedd2016-a004-4ed7-97b8-d1e84594f18d",
+      "name": "Кровать 200*140 Extra nova (Экстра нова) Тк. Velutto 19",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*140",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "820796e3-039f-4013-9b5f-2f2da951d94c",
@@ -35419,10 +35643,10 @@
     {
       "productId": "9ff54610-3dfc-4276-9e80-35f6c318bfe4",
       "name": "Кровать 200*140 Prima (Прима) Ясень Шимо Светлый",
-      "qty": 8,
+      "qty": 9,
       "feature": "Кровати",
       "size": "200*140",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "a5b4628a-50b6-48b6-82b0-3be50dede87a",
@@ -35443,10 +35667,10 @@
     {
       "productId": "eb2b1e84-f88a-406d-a1eb-006c0178b072",
       "name": "Кровать 200*140 Pronto (Пронто) Дуб Бардолино натуральный",
-      "qty": 27,
+      "qty": 28,
       "feature": "Кровати",
       "size": "200*140",
-      "modifiedDate": "2026-08-24"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "29594fc0-757c-470d-9ad1-66cfff3ff74f",
@@ -35571,10 +35795,10 @@
     {
       "productId": "2759d0ae-592c-49b2-bea2-092816e98195",
       "name": "Кровать 200*140 Tilda Soft (Тильда Софт) Дуб Бардолино натуральный Тк. Casanova Stone",
-      "qty": 3,
+      "qty": 4,
       "feature": "Кровати",
       "size": "200*140",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "9f177781-04b4-4a80-b592-1e1432e3191d",
@@ -35887,6 +36111,14 @@
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-23"
+    },
+    {
+      "productId": "af6197b6-cd96-4a02-be5f-79f75544d7ca",
+      "name": "Кровать 200*160 Elisa nova (Элиза нова) Тк. Montreal 1012",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "43282d05-b317-4c27-a2b8-6405dd99b98b",
@@ -36243,10 +36475,10 @@
     {
       "productId": "cec0b466-3487-4218-8849-8f40eecd13ba",
       "name": "Кровать 200*160 Pronto (Пронто) Дуб Бардолино натуральный",
-      "qty": 25,
+      "qty": 26,
       "feature": "Кровати",
       "size": "200*160",
-      "modifiedDate": "2026-08-23"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "076e0352-1415-4c26-a59f-c006be7a1be8",
@@ -36467,10 +36699,10 @@
     {
       "productId": "63dc3a78-5e59-417a-a7ff-fef2055e9499",
       "name": "Кровать 200*160 Tilda Soft (Тильда Софт) Ясень Шимо Светлый Тк. Casanova Milk",
-      "qty": 3,
+      "qty": 4,
       "feature": "Кровати",
       "size": "200*160",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "5dba655c-4688-45ff-ac65-8f7a7005b188",
@@ -37017,6 +37249,14 @@
       "modifiedDate": "2026-08-21"
     },
     {
+      "productId": "e1d86971-befc-433a-bd13-338b5a36e673",
+      "name": "Кровать 200*180 Pola nova (Пола нова) Тк. Sky Velvet 251",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "d18a5838-221e-4d32-945a-31dd8ae984cb",
       "name": "Кровать 200*180 Prima (Прима) Венге Мали",
       "qty": 5,
@@ -37329,6 +37569,14 @@
       "modifiedDate": "2026-08-17"
     },
     {
+      "productId": "4ab3380e-b850-4049-bbd6-850f084881a2",
+      "name": "Кровать 200*180 Virginio nova (Вирджинио нова) Тк. Sky Velvet 40",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "10679e8e-4e47-45f0-b9c0-be5f15aa240c",
       "name": "Кровать 200*180 VIRGINIO Тк. Sky Velvet 40",
       "qty": 1,
@@ -37535,6 +37783,14 @@
       "feature": "Кровати",
       "size": "200*200",
       "modifiedDate": "2026-05-31"
+    },
+    {
+      "productId": "c96fb637-b9f5-4816-85d7-c3138c982acf",
+      "name": "Кровать 200*200 Virginio nova (Вирджинио нова) Тк. Hilton 18",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*200",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "20a6d577-61b4-4299-bc63-3577755ac2c2",
@@ -37775,6 +38031,22 @@
       "feature": "Кровати",
       "size": "203*160",
       "modifiedDate": "2026-08-17"
+    },
+    {
+      "productId": "38db0290-ef6f-4286-9b0f-1db3f364fbb3",
+      "name": "Кровать 203*160 Opera (Опера) I Тк. Hilton 12",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "203*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "5dc386f2-af62-4fc8-ac5e-77bedc32cbdd",
+      "name": "Кровать 203*160 Orlando nova (Орландо нова) Тк. Casanova Grey",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "203*160",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "4b078402-1811-41fd-b579-8cc5bf7b940c",
@@ -38089,6 +38361,14 @@
       "modifiedDate": "2026-08-23"
     },
     {
+      "productId": "b2634787-9b20-4223-8b63-0c846919088f",
+      "name": "Кровать 203*180 Pola nova (Пола нова) Тк. Dumont 24",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "203*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "00dbbb94-8f2a-40a2-9f77-0c0f83c0cb4d",
       "name": "Кровать 203*180 Pola nova (Пола нова) Тк. Hilton 03",
       "qty": 1,
@@ -38143,6 +38423,14 @@
       "feature": "Кровати",
       "size": "203*180",
       "modifiedDate": "2026-08-05"
+    },
+    {
+      "productId": "9d47ad39-9fe5-4fbb-bce4-cb0d0edff637",
+      "name": "Кровать 203*180 Spirit (Спирит) Тк. Casanova Beige",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "203*180",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "01babcb0-d8d2-4d70-a9ef-b764c5ae0f0d",
@@ -38497,6 +38785,14 @@
       "modifiedDate": "2026-05-22"
     },
     {
+      "productId": "c6517e16-53f2-4b9e-bb33-82559291b62c",
+      "name": "Кровать без спинки с ПМ 200*160 Chloe nova (Хлоя нова) Тк. Forte 03",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "6d06cb93-d7a9-4de0-876e-591df79cee39",
       "name": "Кровать без спинки с ПМ 200*160 Chloe nova (Хлоя нова) Тк. Forte 16",
       "qty": 1,
@@ -38551,6 +38847,14 @@
       "feature": "Кровати",
       "size": "200*200",
       "modifiedDate": "2026-05-26"
+    },
+    {
+      "productId": "c5c093dd-d774-4c7d-9869-55c44edcdbda",
+      "name": "Кровать без спинки с ПМ 200*200 Chloe nova (Хлоя нова) Тк. Sky Velvet 03",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*200",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "47068a8a-0e40-4fb8-ae42-9c1d3ad40a24",
@@ -40097,12 +40401,28 @@
       "modifiedDate": "2026-08-17"
     },
     {
+      "productId": "c1aad7bb-01a0-4997-bae0-17996cafed74",
+      "name": "Кровать с ПМ 200*090 Domenico nova (Доменико нова) Тк. Casanova Pudra",
+      "qty": 2,
+      "feature": "Кровати",
+      "size": "200*090",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "96098cc0-21fa-430f-8bb0-d21f8e821ce5",
       "name": "Кровать с ПМ 200*090 Domenico nova (Доменико нова) Тк. Sky Velvet 01",
       "qty": 1,
       "feature": "Кровати",
       "size": "200*090",
       "modifiedDate": "2026-08-02"
+    },
+    {
+      "productId": "72dead43-ef26-449b-8e2a-4ded67b3d57f",
+      "name": "Кровать с ПМ 200*090 Dream (Дрим) Тк. Velutto 05",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*090",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "42c9421e-9af1-4e42-b3aa-94cdc5a1f86f",
@@ -40225,6 +40545,14 @@
       "modifiedDate": "2026-08-24"
     },
     {
+      "productId": "f2152586-a9af-4817-8d69-3c294d5d7648",
+      "name": "Кровать с ПМ 200*090 Simple (Симпл) Тк. Dumont 02",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*090",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "0d4bf5cf-1123-4be9-ad94-bc5c74b73ce6",
       "name": "Кровать с ПМ 200*090 Treyci (Трейси) Тк. Royal I Haze",
       "qty": 2,
@@ -40263,6 +40591,14 @@
       "feature": "Кровати",
       "size": "200*090",
       "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "29e08e37-4a25-417c-9464-8c7211fa213b",
+      "name": "Кровать с ПМ 200*090 Vanessa nova (Ванесса нова) Тк. Casanova Grey",
+      "qty": 2,
+      "feature": "Кровати",
+      "size": "200*090",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "75d9c817-cef6-4d26-ac6b-801afb591230",
@@ -40361,6 +40697,14 @@
       "modifiedDate": "2026-08-24"
     },
     {
+      "productId": "334efe72-0af3-4945-9fd9-92fdc94b8da4",
+      "name": "Кровать с ПМ 200*120 Alfa (Альфа) Тк. Velutto 57",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*120",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "1210c06b-26fd-47f8-9e61-e36460f0ffc7",
       "name": "Кровать с ПМ 200*120 Alfa (Альфа) Тк. Velutto 74",
       "qty": 42,
@@ -40439,6 +40783,14 @@
       "feature": "Кровати",
       "size": "200*120",
       "modifiedDate": "2026-08-21"
+    },
+    {
+      "productId": "4900e676-a5e8-492f-a159-1121fe1ae8cb",
+      "name": "Кровать с ПМ 200*120 Elisa nova (Элиза нова) Тк. Dumont 24",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*120",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "c6b13b14-517d-4c3f-b2ca-b8d24a3bfaed",
@@ -40521,6 +40873,14 @@
       "modifiedDate": "2026-08-17"
     },
     {
+      "productId": "b8a74424-5fc8-442b-8278-e3b84462edcf",
+      "name": "Кровать с ПМ 200*120 Milana nova (Милана нова) Тк. Forte 16",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*120",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "6b003b2b-db67-4575-aa0a-05f39a3557ee",
       "name": "Кровать с ПМ 200*120 Milana nova (Милана нова) Тк. Hilton 18",
       "qty": 1,
@@ -40535,6 +40895,14 @@
       "feature": "Кровати",
       "size": "200*120",
       "modifiedDate": "2026-08-17"
+    },
+    {
+      "productId": "e78373cb-22d6-4732-beaa-fa8a1d05d6c7",
+      "name": "Кровать с ПМ 200*120 Milana nova (Милана нова) Тк. Sky Velvet 17",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*120",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "9d332396-9c01-4b82-a7ea-a7efa93b3413",
@@ -40643,7 +41011,7 @@
     {
       "productId": "6b1b3483-d967-4900-a63c-9b27ffa88a07",
       "name": "Кровать с ПМ 200*120 Ralto (Ральто) Ясень Шимо Светлый",
-      "qty": 8,
+      "qty": 9,
       "feature": "Кровати",
       "size": "200*120",
       "modifiedDate": "2026-08-27"
@@ -40817,6 +41185,14 @@
       "modifiedDate": "2026-08-07"
     },
     {
+      "productId": "0ec885d3-ae3c-46e9-a9ae-57560994866d",
+      "name": "Кровать с ПМ 200*140 Dream (Дрим) Тк. Velutto 32",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*140",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "e650665b-769d-44a0-8dd7-2f4abb2fe7b7",
       "name": "Кровать с ПМ 200*140 Dream (Дрим) Тк. Velutto 69",
       "qty": 1,
@@ -40873,6 +41249,14 @@
       "modifiedDate": "2026-08-23"
     },
     {
+      "productId": "fb479152-261d-414e-bada-b26d744efefb",
+      "name": "Кровать с ПМ 200*140 Extra nova (Экстра нова) Тк. Sky Velvet 42",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*140",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "23ce89f0-aaa0-4bf6-a301-dde87ca7b21c",
       "name": "Кровать с ПМ 200*140 Friza nova (Фриза нова) Тк. Sky Velvet 03",
       "qty": 1,
@@ -40887,6 +41271,14 @@
       "feature": "Кровати",
       "size": "200*140",
       "modifiedDate": "2026-08-07"
+    },
+    {
+      "productId": "9f77d207-3a11-40e1-b41e-4ad2fff30fdf",
+      "name": "Кровать с ПМ 200*140 Innovo ice (Инново айс) Белый премиум Тк. Casanova milk",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*140",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "f946dbe0-af2d-4fef-8e69-30e4686b517c",
@@ -40915,10 +41307,10 @@
     {
       "productId": "7b81179e-abcf-4b03-a0c1-d0501938d892",
       "name": "Кровать с ПМ 200*140 Innovo ice (Инново айс) Дуб Бардолино натуральный Тк. Casanova stone",
-      "qty": 2,
+      "qty": 3,
       "feature": "Кровати",
       "size": "200*140",
-      "modifiedDate": "2026-07-13"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "f83f96e3-7c81-4fa7-8038-6b0954f7cad7",
@@ -40935,6 +41327,14 @@
       "feature": "Кровати",
       "size": "200*140",
       "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "c0686f46-e10d-4ffd-a232-cf071cfb12a4",
+      "name": "Кровать с ПМ 200*140 Innovo ice (Инново айс) Ясень Шимо светлый Тк. Casanova stone",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*140",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "944e6181-3e38-4354-b3f9-96d37a929707",
@@ -41137,6 +41537,14 @@
       "modifiedDate": "2026-08-20"
     },
     {
+      "productId": "349e27c0-6404-41b6-b755-e4703d057e99",
+      "name": "Кровать с ПМ 200*140 Pola nova (Пола нова) Тк. Sky Velvet 08",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*140",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "df4013d5-7ee0-465e-b446-0f04f4b1fcb3",
       "name": "Кровать с ПМ 200*140 Ralto (Ральто) Дуб Бардолино натуральный",
       "qty": 4,
@@ -41321,6 +41729,14 @@
       "modifiedDate": "2026-08-22"
     },
     {
+      "productId": "b43c489d-18c2-4948-9874-c4eb50029a1c",
+      "name": "Кровать с ПМ 200*160 Adagio (Адажио) Тк. Galaktika beige",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "fd3bb042-ecbd-4ce7-8189-e1a120173a6d",
       "name": "Кровать с ПМ 200*160 Adagio (Адажио) Тк. Prime Mocca",
       "qty": 1,
@@ -41431,6 +41847,22 @@
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-17"
+    },
+    {
+      "productId": "396f3cef-8c1d-4849-8e9c-4b38e3b0b1a0",
+      "name": "Кровать с ПМ 200*160 Domenico nova (Доменико нова) Тк. Hilton 03",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "b9a68199-c3af-4ef9-a3e7-f5c94b71bf49",
+      "name": "Кровать с ПМ 200*160 Domenico nova (Доменико нова) Тк. Lidot blue",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "85292b47-f880-46d3-b5dc-dff0eff54826",
@@ -41571,10 +42003,10 @@
     {
       "productId": "fbf7440d-1e24-457d-ac9a-91588db66cfa",
       "name": "Кровать с ПМ 200*160 Elisa nova (Элиза нова) Тк. Sky Velvet 03",
-      "qty": 7,
+      "qty": 8,
       "feature": "Кровати",
       "size": "200*160",
-      "modifiedDate": "2026-08-25"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "4b0b2294-2220-409c-8862-a070f6666684",
@@ -41644,6 +42076,22 @@
       "productId": "0da89aaa-8b9d-4c8f-9ba5-f720e83688d2",
       "name": "Кровать с ПМ 200*160 Extra nova (Экстра нова) Тк. Casanova Beige",
       "qty": 2,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "afec3f70-150b-446f-af0a-9628e1e020f5",
+      "name": "Кровать с ПМ 200*160 Extra nova (Экстра нова) Тк. Casanova Milk",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "66a6ff36-92d3-4b45-b600-965352cc3215",
+      "name": "Кровать с ПМ 200*160 Extra nova (Экстра нова) Тк. Prime Dark",
+      "qty": 1,
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -41766,7 +42214,7 @@
       "qty": 1,
       "feature": "Кровати",
       "size": "200*160",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "e1d05ea8-db30-4b1e-acfa-93c2bf3ab9b4",
@@ -41819,7 +42267,7 @@
     {
       "productId": "427eb9d5-e1b0-419b-ac00-0d4269634683",
       "name": "Кровать с ПМ 200*160 Innovo ice (Инново айс) Дуб Бардолино натуральный Тк. Casanova stone",
-      "qty": 9,
+      "qty": 11,
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -41891,10 +42339,10 @@
     {
       "productId": "5dd14076-0aa0-4e8c-a537-48ef87b3d152",
       "name": "Кровать с ПМ 200*160 Linea nova (Линея нова) Тк. Forte 15",
-      "qty": 1,
+      "qty": 2,
       "feature": "Кровати",
       "size": "200*160",
-      "modifiedDate": "2026-08-17"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "dae097d5-7396-4081-805a-be2a6abd3a5f",
@@ -42057,12 +42505,44 @@
       "modifiedDate": "2026-08-20"
     },
     {
+      "productId": "402066e6-fa09-443b-8974-f7de4b3d2d87",
+      "name": "Кровать с ПМ 200*160 Milana nova (Милана нова) Тк. Forte 14",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "163ef953-ed85-4e71-bff7-52ddaeaf4ce7",
       "name": "Кровать с ПМ 200*160 Milana nova (Милана нова) Тк. Hilton 11",
       "qty": 2,
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-19"
+    },
+    {
+      "productId": "fa36d7d9-cad5-41e8-aa13-a1956e8f1cb5",
+      "name": "Кровать с ПМ 200*160 Milana nova (Милана нова) Тк. Royal I Lavanda",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "a436d578-f4f2-405b-9806-636d01b7e71c",
+      "name": "Кровать с ПМ 200*160 Milana nova (Милана нова) Тк. Sky Velvet 03",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "aedabd2f-ec0c-419d-b693-df5e34c638fc",
+      "name": "Кровать с ПМ 200*160 Milana nova (Милана нова) Тк. Soul 000",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "a28535f7-4739-4706-82c0-3a1a304bd6bb",
@@ -42119,6 +42599,14 @@
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "e8d2d70f-6fa6-4531-9648-dcb1d7dd2877",
+      "name": "Кровать с ПМ 200*160 Mira nova (Мира нова) Тк. Montreal 1017",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "202595de-2cf0-4870-9e5e-3592505b7d11",
@@ -42195,10 +42683,10 @@
     {
       "productId": "c65775fb-932a-4eb3-a02d-513a91dbd8bc",
       "name": "Кровать с ПМ 200*160 Nolan (Нолан) Дуб Бардолино натуральный Тк. Casanova Milk дер",
-      "qty": 2,
+      "qty": 3,
       "feature": "Кровати",
       "size": "200*160",
-      "modifiedDate": "2026-08-19"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "4c179233-a8fc-4ab5-9fea-3857b3845257",
@@ -42303,6 +42791,14 @@
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-18"
+    },
+    {
+      "productId": "77e75f68-3b96-4876-b729-8dd393538535",
+      "name": "Кровать с ПМ 200*160 Orlando nova (Орландо нова) Тк. Royal I Truffle",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "f0f4463f-408f-4751-9738-a828eb45ae67",
@@ -42417,12 +42913,36 @@
       "modifiedDate": "2026-08-17"
     },
     {
+      "productId": "fa66266d-61cf-44fe-9554-ea6c7c07f961",
+      "name": "Кровать с ПМ 200*160 Pola nova (Пола нова) Тк. Casanova Beige",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "738a1f48-cd4f-4f53-b214-737eaf02ff5f",
+      "name": "Кровать с ПМ 200*160 Pola nova (Пола нова) Тк. Casanova Ice",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "8aa73baf-412b-4954-8f39-69b33338d190",
       "name": "Кровать с ПМ 200*160 Pola nova (Пола нова) Тк. Casanova Lilac",
       "qty": 1,
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-05"
+    },
+    {
+      "productId": "31fb29b1-ff01-48da-a744-d75d87e1b123",
+      "name": "Кровать с ПМ 200*160 Pola nova (Пола нова) Тк. Forte 01",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "c612e4de-c4b8-44c5-97bc-814c167f98f7",
@@ -42467,10 +42987,10 @@
     {
       "productId": "51d83ac9-6489-4329-b009-10b19bc0dd06",
       "name": "Кровать с ПМ 200*160 Ralto (Ральто) Белый премиум",
-      "qty": 8,
+      "qty": 9,
       "feature": "Кровати",
       "size": "200*160",
-      "modifiedDate": "2026-08-25"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "3b0729a4-accd-4c59-a422-a1c5599de430",
@@ -42479,6 +42999,14 @@
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "c1eddb82-27a4-4eff-9f26-3bf23273bcad",
+      "name": "Кровать с ПМ 200*160 Ralto (Ральто) Дуб Бардолино натуральный",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8398cd26-70f4-4ebf-a0ca-b2dd6e351e69",
@@ -42625,6 +43153,14 @@
       "modifiedDate": "2026-08-19"
     },
     {
+      "productId": "3e8bd8a2-4a14-4e4e-b8c7-8ffc1d6d4070",
+      "name": "Кровать с ПМ 200*160 Treyci (Трейси) Тк. Royal I Haze",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "13af79ec-a97f-43dd-9cb2-93e830319890",
       "name": "Кровать с ПМ 200*160 Twills (Твиллс) Белый премиум + Дуб Сонома",
       "qty": 1,
@@ -42713,6 +43249,14 @@
       "modifiedDate": "2026-08-08"
     },
     {
+      "productId": "a2592186-60be-45bd-9031-6f6d90fdba86",
+      "name": "Кровать с ПМ 200*160 Vanessa nova (Ванесса нова) Тк. Hilton 01",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "299fc89f-5c76-4727-83db-480e447a2c13",
       "name": "Кровать с ПМ 200*160 Vanessa nova (Ванесса нова) Тк. Hilton 17",
       "qty": 1,
@@ -42751,6 +43295,14 @@
       "feature": "Кровати",
       "size": "200*160",
       "modifiedDate": "2026-08-09"
+    },
+    {
+      "productId": "3df48239-5802-4609-ad4c-40f436980175",
+      "name": "Кровать с ПМ 200*160 Virginio nova (Вирджинио нова) Тк. Sky Velvet 17",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*160",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "fbacb991-3a74-4f25-8cfe-a13ef4098551",
@@ -42815,6 +43367,14 @@
       "feature": "Кровати",
       "size": "200*180",
       "modifiedDate": "2026-06-12"
+    },
+    {
+      "productId": "907d3445-ad56-4d61-b162-4710f2bb50b1",
+      "name": "Кровать с ПМ 200*180 Alfa (Альфа) Тк. Sky Velvet 38",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "60b4f582-2215-49f8-9274-e8fdfb81b2df",
@@ -43137,6 +43697,14 @@
       "modifiedDate": "2026-08-07"
     },
     {
+      "productId": "17eda344-34ad-488d-940a-3ef26ce6ccbf",
+      "name": "Кровать с ПМ 200*180 Linea nova (Линея нова) Тк. Casanova Lilac",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "d83408b3-3837-407b-8552-fe89f2aeb6dc",
       "name": "Кровать с ПМ 200*180 Linea nova (Линея нова) Тк. Galaktika grey",
       "qty": 1,
@@ -43217,6 +43785,22 @@
       "modifiedDate": "2026-05-20"
     },
     {
+      "productId": "34abe779-a85f-4787-a76f-1423fbdb4b5e",
+      "name": "Кровать с ПМ 200*180 Milana nova (Милана нова) Тк. Montreal 1001",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "b6b437f2-f848-4964-9a12-5e03b4363367",
+      "name": "Кровать с ПМ 200*180 Milana nova (Милана нова) Тк. Sky Velvet 08",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "62ae26f5-5287-45f1-b579-8f53a4700107",
       "name": "Кровать с ПМ 200*180 Milana nova (Милана нова) Тк. Velutto 32",
       "qty": 1,
@@ -43271,6 +43855,14 @@
       "feature": "Кровати",
       "size": "200*180",
       "modifiedDate": "2026-05-20"
+    },
+    {
+      "productId": "b7516a37-d7d0-4d0d-8000-a067da454d0f",
+      "name": "Кровать с ПМ 200*180 Murrey nova (Мюррей нова) Тк. Casanova Grey",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8c1999ae-fd63-4862-a5b7-416f442c61b8",
@@ -43521,6 +44113,14 @@
       "modifiedDate": "2026-05-28"
     },
     {
+      "productId": "6cf580e1-5602-4445-87ae-ca5abd41482c",
+      "name": "Кровать с ПМ 200*180 Pola nova (Пола нова) Тк. Casanova Stone",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "8d5399e7-0405-433f-b038-d5924478d9af",
       "name": "Кровать с ПМ 200*180 Pola nova (Пола нова) Тк. Prime Grey",
       "qty": 1,
@@ -43587,10 +44187,10 @@
     {
       "productId": "820e1b70-ec48-4399-b384-ef30fa9bd873",
       "name": "Кровать с ПМ 200*180 Ralto (Ральто) Венге Мали",
-      "qty": 7,
+      "qty": 8,
       "feature": "Кровати",
       "size": "200*180",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "2eddc32a-b86c-4fd2-9539-e21f6dff1bf9",
@@ -43603,10 +44203,10 @@
     {
       "productId": "c9650d05-79c5-41b8-a906-9937514bda3e",
       "name": "Кровать с ПМ 200*180 Ralto (Ральто) Ясень Шимо Светлый",
-      "qty": 4,
+      "qty": 7,
       "feature": "Кровати",
       "size": "200*180",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "c5f729f7-acb5-40a1-b000-ad26fb4cd59b",
@@ -43713,6 +44313,14 @@
       "modifiedDate": "2026-05-20"
     },
     {
+      "productId": "2026f101-6f82-4bcc-b2e0-b3fd87b029fc",
+      "name": "Кровать с ПМ 200*180 Silvana nova (Сильвана нова) Тк. Casanova Grey",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "be6a2efc-ff4d-491e-b938-f8e37f425937",
       "name": "Кровать с ПМ 200*180 Silvana nova (Сильвана нова) Тк. Casanova Marsala",
       "qty": 1,
@@ -43747,10 +44355,10 @@
     {
       "productId": "e0d1460a-d1e7-4e90-bc98-5f814a89f05f",
       "name": "Кровать с ПМ 200*180 Silvana nova (Сильвана нова) Тк. Sky Velvet 08",
-      "qty": 1,
+      "qty": 2,
       "feature": "Кровати",
       "size": "200*180",
-      "modifiedDate": "2026-08-23"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "e270c5aa-7694-4950-b27f-6e8661211585",
@@ -43887,6 +44495,22 @@
       "feature": "Кровати",
       "size": "200*180",
       "modifiedDate": "2026-08-17"
+    },
+    {
+      "productId": "fd299041-9e68-400b-a02a-d91b10a8d077",
+      "name": "Кровать с ПМ 200*180 Virginio nova (Вирджинио нова) Тк. Hilton 03",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "413524a8-0120-44ba-a35a-d61ae19e8f4c",
+      "name": "Кровать с ПМ 200*180 Virginio nova (Вирджинио нова) Тк. Sky Velvet 17",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*180",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "4b683416-5614-48c7-8b30-51c312157f5a",
@@ -44489,6 +45113,22 @@
       "modifiedDate": "2026-05-20"
     },
     {
+      "productId": "87fec95c-0555-41bf-a13f-524462cd5071",
+      "name": "Кровать с ПМ 200*200 Pola nova (Пола нова) Тк. Sky Velvet 03",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*200",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "178e75d4-615d-4c44-9db7-e30f615eb934",
+      "name": "Кровать с ПМ 200*200 Pola nova (Пола нова) Тк. Sky Velvet 12",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "200*200",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "27ed2f28-2339-40a4-bdb9-9a55d9e871e5",
       "name": "Кровать с ПМ 200*200 Pola nova (Пола нова) Тк. Sky Velvet 21",
       "qty": 2,
@@ -44863,6 +45503,14 @@
       "feature": "Кровати",
       "size": "220*160",
       "modifiedDate": "2026-08-17"
+    },
+    {
+      "productId": "8ff74ca4-45bc-49f7-8494-46949ea9af4f",
+      "name": "Кровать с ПМ 220*160 Spirit (Спирит) Тк. Sky Velvet 40",
+      "qty": 1,
+      "feature": "Кровати",
+      "size": "220*160",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "9d9135a5-3d29-4607-9ce7-e464fa1c1ba1",
@@ -46651,7 +47299,7 @@
     {
       "productId": "3930309e-6bea-4647-aa84-c5eaea3ad22b",
       "name": "Лонгслив жен. Stay Warm сезон осень-зима 2023-2024 цвет черный размер M",
-      "qty": 7,
+      "qty": 4,
       "feature": "Одежда",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -48737,6 +49385,14 @@
       "modifiedDate": "2026-05-20"
     },
     {
+      "productId": "be21a525-4541-4bb2-8b76-1d88e3917a65",
+      "name": "Механизм трансформации ДСК-2000-810/2",
+      "qty": 1,
+      "feature": "Комплектующие к диванам",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "6c9345b8-d3d8-487f-8c8e-66de7217455e",
       "name": "Механизм трансформации левый ДСК-2000-800",
       "qty": 1,
@@ -50219,7 +50875,7 @@
     {
       "productId": "d977fd50-e21f-4c10-8f1b-7da6b26c480a",
       "name": "МТ НИКА",
-      "qty": 77,
+      "qty": 79,
       "feature": "Комплектующие к диванам",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -52351,6 +53007,14 @@
       "feature": "Комплектующие к диванам",
       "size": "",
       "modifiedDate": "2026-05-30"
+    },
+    {
+      "productId": "484e780f-5023-460a-b4c7-5504589ea531",
+      "name": "Накладка боковая Ральф-Тк. Forte 03",
+      "qty": 1,
+      "feature": "Комплектующие к диванам",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "05091ae1-7c07-4ab7-976e-fa57c1e58f00",
@@ -57251,7 +57915,7 @@
     {
       "productId": "4453a465-4ea9-4d52-94d6-112bed260794",
       "name": "Одеяло 110*140 Askona Kids Happy (pink)",
-      "qty": 144,
+      "qty": 143,
       "feature": "Одеяла",
       "size": "110*140",
       "modifiedDate": "2026-08-27"
@@ -57259,7 +57923,7 @@
     {
       "productId": "e1b6bf9b-c70f-4a00-8870-89916566579e",
       "name": "Одеяло 110*140 Effi",
-      "qty": 224,
+      "qty": 223,
       "feature": "Одеяла",
       "size": "110*140",
       "modifiedDate": "2026-08-27"
@@ -57363,7 +58027,7 @@
     {
       "productId": "a61a4a0d-26d4-458b-9fcc-c6964e87c29c",
       "name": "Одеяло 200*200 Elso",
-      "qty": 342,
+      "qty": 341,
       "feature": "Одеяла",
       "size": "200*200",
       "modifiedDate": "2026-08-27"
@@ -57403,10 +58067,10 @@
     {
       "productId": "80e97053-4187-4f6a-bd0f-572419b8bbfc",
       "name": "Одеяло 205*140 Askona Kids Happy (beige)",
-      "qty": 247,
+      "qty": 246,
       "feature": "Одеяла",
       "size": "205*140",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "f953f86b-aa6f-4935-883d-fff0aca531e8",
@@ -57475,7 +58139,7 @@
     {
       "productId": "de059b48-66ae-46bf-a621-2747ce8a1b99",
       "name": "Одеяло 205*140 Fenix серия Basic",
-      "qty": 437,
+      "qty": 435,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-27"
@@ -57603,7 +58267,7 @@
     {
       "productId": "6aa457db-00a8-43a6-a4ad-423aa32f0ca5",
       "name": "Одеяло 205*140 Антистресс Технолоджи",
-      "qty": 746,
+      "qty": 744,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-27"
@@ -58691,10 +59355,10 @@
     {
       "productId": "36b0ab4b-7886-412b-a95f-7751d5a9c951",
       "name": "Основание 200*160 Plato (Плато) h=300",
-      "qty": 8,
+      "qty": 9,
       "feature": "Решетки",
       "size": "200*160",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "e3adbbb5-73c1-4277-86bf-6f74967ec10d",
@@ -58723,7 +59387,7 @@
     {
       "productId": "57d7fdc8-80bc-483b-a652-b8c1c552890d",
       "name": "Основание 200*180 Plato (Плато) h=350",
-      "qty": 5,
+      "qty": 6,
       "feature": "Решетки",
       "size": "200*180",
       "modifiedDate": "2026-08-27"
@@ -59147,7 +59811,7 @@
     {
       "productId": "dca0bf5d-aba0-45b6-8e7f-c92c75d4b08c",
       "name": "Основание кровати несущее 1600*2000 (ОКН -1,6)",
-      "qty": 51,
+      "qty": 52,
       "feature": "Решетки",
       "size": "1600*2000",
       "modifiedDate": "2026-08-27"
@@ -59171,9 +59835,17 @@
     {
       "productId": "24bed00d-14df-476e-8e5d-d79c17ef3094",
       "name": "Основание плоское с ПМ 200*140",
-      "qty": 10,
+      "qty": 11,
       "feature": "Основания с ПМ",
       "size": "200*140",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "a9dfd3de-42ce-47ab-aee8-1293b3ab7c2f",
+      "name": "Основание плоское с ПМ 200*160",
+      "qty": 3,
+      "feature": "Основания с ПМ",
+      "size": "200*160",
       "modifiedDate": "2026-08-27"
     },
     {
@@ -59203,9 +59875,17 @@
     {
       "productId": "02d93349-c08b-4f6a-97d7-49bdabd05ff4",
       "name": "Основание с газ. пружинами 180*090",
-      "qty": 18,
+      "qty": 19,
       "feature": "Основания с ПМ",
       "size": "180*090",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "da651fdd-6b5f-4fbc-879a-9f1201cf56c8",
+      "name": "Основание с газ. пружинами 180*120",
+      "qty": 1,
+      "feature": "Основания с ПМ",
+      "size": "180*120",
       "modifiedDate": "2026-08-27"
     },
     {
@@ -59227,7 +59907,7 @@
     {
       "productId": "e70c3576-76d1-49ff-af04-998b4c9a9b37",
       "name": "Основание с газ. пружинами 190*090",
-      "qty": 20,
+      "qty": 22,
       "feature": "Основания с ПМ",
       "size": "190*090",
       "modifiedDate": "2026-08-27"
@@ -59273,6 +59953,14 @@
       "modifiedDate": "2026-08-26"
     },
     {
+      "productId": "182d921d-3fdd-491d-bdba-78d6d20789c9",
+      "name": "Основание с газ. пружинами 200*090",
+      "qty": 10,
+      "feature": "Основания с ПМ",
+      "size": "200*090",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "cd49062e-3aa3-4e8c-aa44-686ef66741a2",
       "name": "Основание с газ. пружинами 200*100",
       "qty": 10,
@@ -59283,9 +59971,17 @@
     {
       "productId": "f774c760-1d69-494d-bbf4-a1ea3d5d4d05",
       "name": "Основание с газ. пружинами 200*120",
-      "qty": 38,
+      "qty": 44,
       "feature": "Основания с ПМ",
       "size": "200*120",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "c80c6589-1328-4e8f-a692-d9d4562b95a3",
+      "name": "Основание с газ. пружинами 200*140",
+      "qty": 3,
+      "feature": "Основания с ПМ",
+      "size": "200*140",
       "modifiedDate": "2026-08-27"
     },
     {
@@ -59315,7 +60011,7 @@
     {
       "productId": "17e809da-6c22-424c-bf4e-389473f94312",
       "name": "Основание с газ. пружинами 200*180",
-      "qty": 22,
+      "qty": 36,
       "feature": "Основания с ПМ",
       "size": "200*180",
       "modifiedDate": "2026-08-27"
@@ -59323,7 +60019,7 @@
     {
       "productId": "9afe2a9b-f83e-4561-be37-20745058bfba",
       "name": "Основание с газ. пружинами 200*200",
-      "qty": 5,
+      "qty": 6,
       "feature": "Основания с ПМ",
       "size": "200*200",
       "modifiedDate": "2026-08-27"
@@ -59361,6 +60057,14 @@
       "modifiedDate": "2026-08-27"
     },
     {
+      "productId": "838975a6-1748-479e-94cb-23f7d37d18cd",
+      "name": "Основание с газ. пружинами next 200*090",
+      "qty": 8,
+      "feature": "Основания с ПМ",
+      "size": "200*090",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "2d8a0179-ee98-4047-b7bd-6f9f46688850",
       "name": "Основание с газ. пружинами next 200*160 образец",
       "qty": 1,
@@ -59371,7 +60075,7 @@
     {
       "productId": "07e6b062-e357-4991-ab80-46b60b653e7b",
       "name": "Основание с газ. пружинами next 200*180",
-      "qty": 27,
+      "qty": 34,
       "feature": "Основания с ПМ",
       "size": "200*180",
       "modifiedDate": "2026-08-27"
@@ -59475,7 +60179,7 @@
     {
       "productId": "d7fc23ba-58ad-42f2-aa27-f23fb649d36b",
       "name": "Основание с ламелями 180*090",
-      "qty": 28,
+      "qty": 29,
       "feature": "Решетки",
       "size": "180*090",
       "modifiedDate": "2026-08-27"
@@ -59507,7 +60211,7 @@
     {
       "productId": "6a4a1c45-7165-41ae-9d1c-f153990a5246",
       "name": "Основание с ламелями 190*080",
-      "qty": 205,
+      "qty": 206,
       "feature": "Решетки",
       "size": "190*080",
       "modifiedDate": "2026-08-27"
@@ -59579,7 +60283,7 @@
     {
       "productId": "2350eece-f316-4c34-9d1e-ca95673997bf",
       "name": "Основание с ламелями 200*090",
-      "qty": 21,
+      "qty": 29,
       "feature": "Решетки",
       "size": "200*090",
       "modifiedDate": "2026-08-27"
@@ -59619,7 +60323,7 @@
     {
       "productId": "35a52c87-8461-431a-abc0-91a38cd77db7",
       "name": "Основание с ламелями 200*140",
-      "qty": 2,
+      "qty": 7,
       "feature": "Решетки",
       "size": "200*140",
       "modifiedDate": "2026-08-27"
@@ -59627,7 +60331,7 @@
     {
       "productId": "4be36617-a38d-4456-881d-9247efad086b",
       "name": "Основание с ламелями 200*160",
-      "qty": 86,
+      "qty": 91,
       "feature": "Решетки",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -59739,9 +60443,17 @@
     {
       "productId": "a14a86b1-2271-4cff-a201-1f95530feeaf",
       "name": "Основание с ламелями База 162*082 (160*080)",
-      "qty": 3,
+      "qty": 10,
       "feature": "Решетки",
       "size": "162*082",
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "e5f1c6a8-8c8e-437b-8564-7853e807eaf5",
+      "name": "Основание с ламелями База 172*082 (170*080)",
+      "qty": 1,
+      "feature": "Решетки",
+      "size": "172*082",
       "modifiedDate": "2026-08-27"
     },
     {
@@ -59755,10 +60467,18 @@
     {
       "productId": "432b5c91-eaad-4d86-a4d5-e02ad972e95f",
       "name": "Основание с ламелями База 182*082 (180*080)",
-      "qty": 1,
+      "qty": 2,
       "feature": "Решетки",
       "size": "182*082",
-      "modifiedDate": "2026-07-27"
+      "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "c633e3e0-eb75-4acb-ade1-3cc61e648652",
+      "name": "Основание с ламелями База 182*092 (180*090)",
+      "qty": 1,
+      "feature": "Решетки",
+      "size": "182*092",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "72b3d9b2-18d2-40e2-bc25-3de81fd1f743",
@@ -59819,7 +60539,7 @@
     {
       "productId": "8478bbba-b800-40a6-a5b9-0cea312283a6",
       "name": "Основание с ламелями База 202*122 (200*120)",
-      "qty": 9,
+      "qty": 17,
       "feature": "Решетки",
       "size": "202*122",
       "modifiedDate": "2026-08-27"
@@ -59827,7 +60547,7 @@
     {
       "productId": "88944fb4-4110-4c98-8e9e-1cf08c1d216c",
       "name": "Основание с ламелями База 202*142 (200*140)",
-      "qty": 78,
+      "qty": 85,
       "feature": "Решетки",
       "size": "202*142",
       "modifiedDate": "2026-08-27"
@@ -59835,7 +60555,7 @@
     {
       "productId": "5dd90045-d479-4135-a4c3-8926b65ade0d",
       "name": "Основание с ламелями База 202*162 (200*160)",
-      "qty": 53,
+      "qty": 64,
       "feature": "Решетки",
       "size": "202*162",
       "modifiedDate": "2026-08-27"
@@ -59843,7 +60563,7 @@
     {
       "productId": "21d0a272-8cbd-4b9e-8980-171bd7673747",
       "name": "Основание с ламелями База 202*182 (200*180)",
-      "qty": 112,
+      "qty": 115,
       "feature": "Решетки",
       "size": "202*182",
       "modifiedDate": "2026-08-27"
@@ -59851,7 +60571,7 @@
     {
       "productId": "05a3750b-c591-439c-9473-40c304ab8264",
       "name": "Основание с ламелями База 202*202 (200*200)",
-      "qty": 2,
+      "qty": 6,
       "feature": "Решетки",
       "size": "202*202",
       "modifiedDate": "2026-08-27"
@@ -59875,7 +60595,7 @@
     {
       "productId": "1ef7604d-286a-4b03-8acf-791c2490d4a0",
       "name": "Основание с ламелями База compact 202*142 (200*140)",
-      "qty": 14,
+      "qty": 16,
       "feature": "Решетки",
       "size": "202*142",
       "modifiedDate": "2026-08-27"
@@ -59891,7 +60611,7 @@
     {
       "productId": "569fcff9-ae0d-4606-a882-cb9af747ab3c",
       "name": "Основание с ламелями База compact 202*182 (200*180)",
-      "qty": 12,
+      "qty": 14,
       "feature": "Решетки",
       "size": "202*182",
       "modifiedDate": "2026-08-27"
@@ -60153,6 +60873,14 @@
       "modifiedDate": "2026-05-20"
     },
     {
+      "productId": "61628350-0f14-45bf-9854-fd5437a4b6a2",
+      "name": "Основание с ПМ 190*120",
+      "qty": 2,
+      "feature": "Основания с ПМ",
+      "size": "190*120",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "34d1480c-d822-4150-aedd-dee6d350b500",
       "name": "Основание с ПМ 190*120 Extra",
       "qty": 8,
@@ -60171,7 +60899,7 @@
     {
       "productId": "ae35b66d-4aa2-4fc9-b2ae-15c92d4aec4c",
       "name": "Основание с ПМ 190*140",
-      "qty": 10,
+      "qty": 12,
       "feature": "Основания с ПМ",
       "size": "190*140",
       "modifiedDate": "2026-08-27"
@@ -60191,6 +60919,14 @@
       "feature": "Доп элементы к кроватям",
       "size": "200*080",
       "modifiedDate": "2026-08-12"
+    },
+    {
+      "productId": "5f0cc9d1-ce2b-4202-94da-4e9c8fd50d73",
+      "name": "Основание с ПМ 200*090",
+      "qty": 4,
+      "feature": "Основания с ПМ",
+      "size": "200*090",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "f7e05722-d94c-4f45-abfa-6580fb23437c",
@@ -60217,6 +60953,14 @@
       "modifiedDate": "2026-08-27"
     },
     {
+      "productId": "85562711-28b5-4eaf-b15b-6a15ac52abf7",
+      "name": "Основание с ПМ 200*120",
+      "qty": 11,
+      "feature": "Основания с ПМ",
+      "size": "200*120",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "a3ad9c82-0509-4d20-9835-d65572098b77",
       "name": "Основание с ПМ 200*125",
       "qty": 1,
@@ -60227,10 +60971,10 @@
     {
       "productId": "025dd74b-b963-4d2d-9564-cfea7c3ecfb9",
       "name": "Основание с ПМ 200*140",
-      "qty": 1,
+      "qty": 14,
       "feature": "Основания с ПМ",
       "size": "200*140",
-      "modifiedDate": "2026-08-19"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "7280a512-8eb6-4f2c-bc5b-2a5dc9a7d686",
@@ -60243,7 +60987,7 @@
     {
       "productId": "1b42cb2d-575d-4737-9e7d-ab32da16990d",
       "name": "Основание с ПМ 200*160",
-      "qty": 154,
+      "qty": 153,
       "feature": "Основания с ПМ",
       "size": "200*160",
       "modifiedDate": "2026-08-27"
@@ -60259,7 +61003,7 @@
     {
       "productId": "82847487-303f-41f9-af1e-46e78d78009c",
       "name": "Основание с ПМ 200*180",
-      "qty": 536,
+      "qty": 608,
       "feature": "Основания с ПМ",
       "size": "200*180",
       "modifiedDate": "2026-08-27"
@@ -60283,7 +61027,7 @@
     {
       "productId": "f0f6bd00-277f-4415-91eb-4ac89dababe2",
       "name": "Основание с ПМ 200*200",
-      "qty": 44,
+      "qty": 54,
       "feature": "Основания с ПМ",
       "size": "200*200",
       "modifiedDate": "2026-08-27"
@@ -60319,6 +61063,14 @@
       "feature": "Основания с ПМ",
       "size": "210*180",
       "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "db66dd2c-ac6c-4830-8024-83a563b5a1a2",
+      "name": "Основание с ПМ 210*200",
+      "qty": 1,
+      "feature": "Основания с ПМ",
+      "size": "210*200",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "893596fb-6e52-4207-a3f9-46c43d213d95",
@@ -62779,7 +63531,7 @@
     {
       "productId": "d89d5394-ac78-4e34-a3b9-4f15ef440242",
       "name": "Подушка 050*070 Balance серия Basic",
-      "qty": 604,
+      "qty": 601,
       "feature": "Подушки",
       "size": "050*070",
       "modifiedDate": "2026-08-27"
@@ -63083,7 +63835,7 @@
     {
       "productId": "6d0ca798-ce42-40f4-b3b2-907c53551cc2",
       "name": "Подушка Askona Kids Unicorn (Единорог)",
-      "qty": 317,
+      "qty": 316,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63099,7 +63851,7 @@
     {
       "productId": "204da748-c318-4180-bced-82f6db7c02ee",
       "name": "Подушка Baby 1+ Cloud",
-      "qty": 459,
+      "qty": 458,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63299,7 +64051,7 @@
     {
       "productId": "4b1cb83b-7db1-444a-8044-690da05a5459",
       "name": "Подушка New Born Cloud",
-      "qty": 146,
+      "qty": 145,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63307,7 +64059,7 @@
     {
       "productId": "5a333729-fe81-4722-9f2c-9b02eebc4d58",
       "name": "Подушка Pillo New",
-      "qty": 66,
+      "qty": 65,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -69227,10 +69979,10 @@
     {
       "productId": "c30b7798-a620-4102-a71c-300b7533aeef",
       "name": "Простынь 090*200 Askona Comfort Cotton Серо-голубой",
-      "qty": 27,
+      "qty": 26,
       "feature": "КПБ",
       "size": "090*200",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8502a61d-c503-408a-bf1a-910af0660808",
@@ -69947,10 +70699,10 @@
     {
       "productId": "9673fd45-0136-4784-ad43-b5ec5f9c34c4",
       "name": "Простынь 140*200 Askona Home Белый снег",
-      "qty": 655,
+      "qty": 654,
       "feature": "КПБ",
       "size": "140*200",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8b6882c9-29df-47ca-a968-6b31d6b0c366",
@@ -73131,10 +73883,10 @@
     {
       "productId": "cbff188f-0a0a-4551-9647-da8c78eccde4",
       "name": "ПФ Планка для МТ АТС Next 180",
-      "qty": 1,
+      "qty": 2,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-20"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "476adf16-fb63-497d-ba9c-6181d722655a",
@@ -73207,6 +73959,14 @@
       "feature": "Доп элементы к кроватям",
       "size": "",
       "modifiedDate": "2026-08-17"
+    },
+    {
+      "productId": "c88fc609-01ab-4492-8d25-6f494ceb5294",
+      "name": "ПФ Подлокотник Ральф-Тк. Forte 03 (левый)",
+      "qty": 1,
+      "feature": "Доп элементы к кроватям",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "f36b286c-3499-4c00-bf10-5046b5bfe069",
@@ -75379,10 +76139,10 @@
     {
       "productId": "7a8ad16a-33ba-4a9c-91b1-a2d71d968024",
       "name": "Рекламный образец Тк. Dumont 31 Askona",
-      "qty": 22,
+      "qty": 23,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-18"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "fc4de57e-a7bc-4a9d-8771-ecbdd4e0c44d",
@@ -75555,10 +76315,10 @@
     {
       "productId": "e166abd5-04ed-44be-a31a-76457a2f85be",
       "name": "Рекламный образец Тк. Hilton 03 Askona",
-      "qty": 9,
+      "qty": 10,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-16"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8db0daa9-e5e9-407d-a310-6b7a2141b8f5",
@@ -75699,10 +76459,10 @@
     {
       "productId": "ee8cc67c-0f14-4c39-9b7a-b10cbdd30e48",
       "name": "Рекламный образец Тк. Lidot lilac Askona",
-      "qty": 33,
+      "qty": 34,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-18"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8b8097c6-6cf7-4e8e-b0f4-04dfe25a96cd",
@@ -75747,10 +76507,10 @@
     {
       "productId": "2469e008-8fdd-46ad-9446-60e468ab5505",
       "name": "Рекламный образец Тк. Montreal 1012 Askona",
-      "qty": 15,
+      "qty": 16,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-16"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "a2426571-76f5-475e-b2b0-28696468237d",
@@ -76051,10 +76811,10 @@
     {
       "productId": "c6de80c3-fa8b-4de9-8537-5e83a0ea9c6b",
       "name": "Рекламный образец Тк. Sky Velvet 03 Askona",
-      "qty": 39,
+      "qty": 40,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-25"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "ffe5cd55-3951-4c5f-bffa-d08a5c3fb696",
@@ -76099,10 +76859,10 @@
     {
       "productId": "6bfe94f9-c2e8-48e8-b31c-bedb04f49fc6",
       "name": "Рекламный образец Тк. Sky Velvet 18 Askona",
-      "qty": 31,
+      "qty": 32,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-19"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "bb2fc548-afc7-4125-a583-eda149d2a467",
@@ -76123,18 +76883,18 @@
     {
       "productId": "6833e50c-3c85-4b0e-b5bc-baf6f8716ae2",
       "name": "Рекламный образец Тк. Sky Velvet 253 Askona",
-      "qty": 11,
+      "qty": 12,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-18"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "fd22f5d9-34e8-4021-963b-d8eaccbbaea6",
       "name": "Рекламный образец Тк. Sky Velvet 30 Askona",
-      "qty": 22,
+      "qty": 23,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-24"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "b3ed3d3d-a75d-4922-a36a-cf48cb26d28d",
@@ -76211,10 +76971,10 @@
     {
       "productId": "1e1cbec1-7667-465c-ba41-c21869c98419",
       "name": "Рекламный образец Тк. Soul 292 Askona",
-      "qty": 32,
+      "qty": 33,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-16"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8548cfcd-64fa-4845-9119-a1abe73eb054",
@@ -76339,18 +77099,18 @@
     {
       "productId": "d39ba4e4-26e0-48ee-915f-9d4ca196b4d0",
       "name": "Рекламный образец Тк. Velutto 47 Askona",
-      "qty": 8,
+      "qty": 9,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-24"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "837e0478-e53b-46c3-ae02-58a897978755",
       "name": "Рекламный образец Тк. Velutto 48 Askona",
-      "qty": 11,
+      "qty": 12,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-24"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "3e0d0b7c-2140-49f6-ab92-1b31868c386f",
@@ -76499,10 +77259,10 @@
     {
       "productId": "37414dae-1188-45d1-8429-81ce6c6727e3",
       "name": "Рефил для диффузора Oud 0,25 л",
-      "qty": 125,
+      "qty": 124,
       "feature": "Ароматы",
       "size": "",
-      "modifiedDate": "2026-08-25"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "6f494a72-d9d4-4445-bc11-238b38a3d1ad",
@@ -78425,6 +79185,14 @@
       "modifiedDate": "2026-08-13"
     },
     {
+      "productId": "8820ab75-0079-4cd7-ab89-b06a6c6c891d",
+      "name": "Секция L канапе Ральф-трио-Тк. Forte 03",
+      "qty": 1,
+      "feature": "Комплектующие к диванам",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "892d4341-746d-42f4-992d-cbb860aa378f",
       "name": "Секция L канапе Ральф-трио-Тк. Royal I Aqua",
       "qty": 1,
@@ -78553,6 +79321,14 @@
       "modifiedDate": "2026-08-07"
     },
     {
+      "productId": "012e958c-7d73-41c6-ad0d-f7b29addcaa3",
+      "name": "Секция центральная Ральф-трио-Тк. Forte 03",
+      "qty": 2,
+      "feature": "Комплектующие к диванам",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "b182f890-491b-42bd-83d2-a017aed0a944",
       "name": "Секция центральная Ральф-трио-Тк. Royal I Aqua",
       "qty": 2,
@@ -78631,6 +79407,14 @@
       "feature": "Комплектующие к диванам",
       "size": "",
       "modifiedDate": "2026-05-20"
+    },
+    {
+      "productId": "3040793d-70ae-4bc2-aa06-64b1ec09258e",
+      "name": "Сидение M Диван-кровать Локо ПРО-Тк. Casanova Grey",
+      "qty": 1,
+      "feature": "Комплектующие к диванам",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "5e792cdc-263c-4fae-91c2-83b8e585ef3f",
@@ -81633,6 +82417,14 @@
       "modifiedDate": "2026-08-21"
     },
     {
+      "productId": "be26ae3b-5bfa-4206-90ed-bcb55a8321cf",
+      "name": "Стол придиваный Coffic (Коффик) 040*035*072 Дуб Бардолино натуральный",
+      "qty": 1,
+      "feature": "Журнальные столы",
+      "size": "040*035",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "968a97e3-7ebc-453b-bc29-046bd250f8c9",
       "name": "Стол приставной Adapt Flex (Адапт Флекс) 080*040 белый",
       "qty": 76,
@@ -83347,10 +84139,10 @@
     {
       "productId": "0b43dcad-4f1d-4a33-832e-d7ea70d203fa",
       "name": "Тумба Cristall (Кристалл) Тк. Casanova Stone",
-      "qty": 2,
+      "qty": 4,
       "feature": "Малые формы",
       "size": "",
-      "modifiedDate": "2026-08-25"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8a525f30-34f9-40e5-b1cc-cf4d89107571",
@@ -83363,10 +84155,10 @@
     {
       "productId": "42e5cb50-7d24-43ae-bf73-edd8bd76cee7",
       "name": "Тумба Cristall (Кристалл) Тк. Galaktika brown",
-      "qty": 3,
+      "qty": 4,
       "feature": "Малые формы",
       "size": "",
-      "modifiedDate": "2026-08-23"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "b77e27bb-a5b9-4684-8816-28783ef81d40",
@@ -83569,12 +84361,28 @@
       "modifiedDate": "2026-08-22"
     },
     {
+      "productId": "f7574399-ff3c-45dd-accc-d079a39dd5fc",
+      "name": "Тумба Joy (Джой) Белый премиум",
+      "qty": 1,
+      "feature": "Малые формы",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "4760a2c2-72ee-43b7-b577-ab5bdf9cd297",
       "name": "Тумба Leda (Леда) Тк. Casanova Ice",
       "qty": 1,
       "feature": "Малые формы",
       "size": "",
       "modifiedDate": "2026-08-23"
+    },
+    {
+      "productId": "34367398-927c-4c38-a56c-e45af6803fe9",
+      "name": "Тумба Leda (Леда) Тк. Casanova Milk",
+      "qty": 1,
+      "feature": "Малые формы",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "8dd9c6cf-abef-495c-98d8-03bc4d499c23",
@@ -83985,6 +84793,14 @@
       "modifiedDate": "2026-06-27"
     },
     {
+      "productId": "4f8fd683-d306-44ca-8af1-0423b8935b02",
+      "name": "Тумба Vena nova (Вена нова) Тк. Montreal 1012",
+      "qty": 1,
+      "feature": "Малые формы",
+      "size": "",
+      "modifiedDate": "2026-08-27"
+    },
+    {
       "productId": "6ee7bbb4-7c7b-4325-ab4e-d130755ff19a",
       "name": "Тумба Vena nova (Вена нова) Тк. Sky Velvet 252",
       "qty": 1,
@@ -84315,10 +85131,10 @@
     {
       "productId": "db60d538-98b5-466a-9a18-d5cce65a0056",
       "name": "Тумба прикроватная Arle (Арле) 50*36*45 белый шагрень",
-      "qty": 2,
+      "qty": 1,
       "feature": "Малые формы",
       "size": "50*36",
-      "modifiedDate": "2026-08-20"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "97c3f219-800b-4468-9be1-199d8d014b26",
@@ -88675,7 +89491,7 @@
     {
       "productId": "adb374af-4e2b-4987-b228-7921f0fc7aaa",
       "name": "Чехол 200*180*30 Base 2.0",
-      "qty": 764,
+      "qty": 763,
       "feature": "Чехлы",
       "size": "200*180",
       "modifiedDate": "2026-08-27"
@@ -88683,7 +89499,7 @@
     {
       "productId": "48b79d3d-4ad9-43a8-98b2-faeee59d819d",
       "name": "Чехол 200*180*35,6 Nesty",
-      "qty": 132,
+      "qty": 131,
       "feature": "Чехлы",
       "size": "200*180",
       "modifiedDate": "2026-08-27"
@@ -89315,7 +90131,7 @@
     {
       "productId": "4cd89332-5875-49ca-a45e-228b6c4ab4de",
       "name": "Чехол на матрас 200*140*030 Солид",
-      "qty": 183,
+      "qty": 182,
       "feature": "Чехлы",
       "size": "200*140",
       "modifiedDate": "2026-08-27"
@@ -89483,7 +90299,7 @@
     {
       "productId": "d1089e9a-8636-4526-bf66-697dc2342cf1",
       "name": "Чехол на подушку детский 050*035 Baby",
-      "qty": 507,
+      "qty": 505,
       "feature": "Чехлы",
       "size": "050*035",
       "modifiedDate": "2026-08-27"
@@ -89727,6 +90543,14 @@
       "feature": "Диваны",
       "size": "",
       "modifiedDate": "2026-08-26"
+    },
+    {
+      "productId": "9ba3e69f-ef2c-42eb-a5f1-0fa22c12bf57",
+      "name": "Чехол Ника 140-Тк. Dumont 26+Dumont 26 Акция",
+      "qty": 1,
+      "feature": "Диваны",
+      "size": "",
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "090d3006-437c-4901-bab2-e0ab9db2f688",

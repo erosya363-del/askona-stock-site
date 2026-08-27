@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-27T03:34:43+04:00",
+    "generatedAt": "2026-08-27T04:08:01+04:00",
     "timezone": "Europe/Astrakhan",
     "skuCount": 11590
   },
@@ -27811,7 +27811,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 11194,
+      "qty": 11193,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63403,7 +63403,7 @@
     {
       "productId": "6d0ca798-ce42-40f4-b3b2-907c53551cc2",
       "name": "Подушка Askona Kids Unicorn (Единорог)",
-      "qty": 320,
+      "qty": 319,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63475,10 +63475,10 @@
     {
       "productId": "b26ee03f-3251-4ab1-989c-173cb7419fe2",
       "name": "Подушка Element New",
-      "qty": 111,
+      "qty": 110,
       "feature": "Подушки",
       "size": "",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "d02dcf4f-5a01-4aa3-bc2f-db6907bc68f2",

@@ -3,9 +3,9 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-28T02:59:36+04:00",
+    "generatedAt": "2026-08-28T03:31:00+04:00",
     "timezone": "Europe/Astrakhan",
-    "skuCount": 11554
+    "skuCount": 11565
   },
   "items": [
     {
@@ -2275,7 +2275,7 @@
     {
       "productId": "6e056293-7b76-4f80-a316-0c351bf53aec",
       "name": "100105 Газовая пружина 1000N (шарнир)",
-      "qty": 17,
+      "qty": 48,
       "feature": "Метизы",
       "size": "",
       "modifiedDate": "2026-08-28"
@@ -2283,10 +2283,10 @@
     {
       "productId": "44fcfef8-7738-42cc-852c-3e5e2213296c",
       "name": "100105 Газовая пружина 1150N (шарнир)",
-      "qty": 184,
+      "qty": 239,
       "feature": "Метизы",
       "size": "",
-      "modifiedDate": "2026-08-27"
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "d3f42543-905e-4dd5-9595-2909fadfb146",
@@ -2337,6 +2337,14 @@
       "modifiedDate": "2026-05-20"
     },
     {
+      "productId": "ab125f6a-998e-4bbd-9983-43940c0442fd",
+      "name": "100105 Латодержатель пластик 53*8 наружный сер",
+      "qty": 1,
+      "feature": "Комплектующие к диванам",
+      "size": "53*8",
+      "modifiedDate": "2026-08-28"
+    },
+    {
       "productId": "13242886-a38f-4170-bc45-a6001e37f004",
       "name": "100105 Латофлекс 590*53*8",
       "qty": 2,
@@ -2350,6 +2358,14 @@
       "qty": 2,
       "feature": "Фурнитура для решеток ортопедических",
       "size": "600*53",
+      "modifiedDate": "2026-08-28"
+    },
+    {
+      "productId": "41b4223a-87b3-45aa-92af-9e1b620d2b74",
+      "name": "100105 Латофлекс 605*64*8",
+      "qty": 1,
+      "feature": "Фурнитура для решеток ортопедических",
+      "size": "605*64",
       "modifiedDate": "2026-08-28"
     },
     {
@@ -2375,6 +2391,22 @@
       "feature": "Фурнитура для решеток ортопедических",
       "size": "810*53",
       "modifiedDate": "2026-08-14"
+    },
+    {
+      "productId": "1129f5e8-32e7-4081-b8f8-6550876e8064",
+      "name": "100105 Латофлекс 885*64*8",
+      "qty": 4,
+      "feature": "Фурнитура для решеток ортопедических",
+      "size": "885*64",
+      "modifiedDate": "2026-08-28"
+    },
+    {
+      "productId": "59eb6d2f-39ef-41f1-b006-ae4c7ec0ad54",
+      "name": "100105 Латофлекс 910*53*8",
+      "qty": 10,
+      "feature": "Фурнитура для решеток ортопедических",
+      "size": "910*53",
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "a93d2031-34cc-46db-a98d-da53e5247c07",
@@ -27475,10 +27507,10 @@
     {
       "productId": "69ac0538-bc35-42ff-a31c-299ad10cf066",
       "name": "Комплект Elso Large",
-      "qty": 564,
+      "qty": 563,
       "feature": "СЕТЫ",
       "size": "",
-      "modifiedDate": "2026-08-27"
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "8a0049c6-0a1b-4e3e-b708-45434f3c1a13",
@@ -27699,7 +27731,7 @@
     {
       "productId": "80dff205-2da5-46b5-8134-1391f2130020",
       "name": "Комплект матрасодержателей накладных d5 оцинк 2 шт",
-      "qty": 1,
+      "qty": 2,
       "feature": "Запчасти к товарам закупным",
       "size": "",
       "modifiedDate": "2026-08-28"
@@ -27767,6 +27799,14 @@
       "feature": "Доп элементы к кроватям",
       "size": "",
       "modifiedDate": "2026-05-20"
+    },
+    {
+      "productId": "10bc1487-6606-4188-800e-0dbc78880629",
+      "name": "Комплект механизмов МТ Ника",
+      "qty": 1,
+      "feature": "Решетки",
+      "size": "",
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "2f0fdf51-3521-48db-9b05-a9227ebf0c2e",
@@ -27963,7 +28003,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 9321,
+      "qty": 9320,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-28"
@@ -29783,6 +29823,14 @@
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-27"
+    },
+    {
+      "productId": "e4d42cf8-b692-4a36-baa0-0cc106c8a902",
+      "name": "КПБ Askona Comfort Maco Sateen 2.0 (евро) Кремовый",
+      "qty": 1,
+      "feature": "КПБ",
+      "size": "",
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "c7ca6e5b-4b57-42f8-99bd-2078da8b0e8b",
@@ -45577,6 +45625,14 @@
       "modifiedDate": "2026-08-27"
     },
     {
+      "productId": "d73bb5fe-e6d2-4d44-adec-19c4e460542f",
+      "name": "Крышка хангера на 15 мм Askona (комплект)",
+      "qty": 2,
+      "feature": "Прочая упаковка",
+      "size": "",
+      "modifiedDate": "2026-08-28"
+    },
+    {
       "productId": "8fe0016c-ac48-449c-9353-b65b47d80793",
       "name": "Крючки к столу приставному Adapt Air (Адапт Эйр) белые",
       "qty": 3,
@@ -47471,6 +47527,14 @@
       "feature": "Матрасы",
       "size": "180*100",
       "modifiedDate": "2026-07-21"
+    },
+    {
+      "productId": "07e40682-abf8-4357-aa43-331f68352b88",
+      "name": "Матрас 180*100 Teeny",
+      "qty": 1,
+      "feature": "Матрасы",
+      "size": "180*100",
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "a4528f18-07f2-408b-af75-b73bb2b812b1",
@@ -57595,10 +57659,10 @@
     {
       "productId": "4b6a8ccf-67b4-4f33-8484-5b770b927422",
       "name": "Одеяло 205*140 Askona Kids Happy (pink)",
-      "qty": 208,
+      "qty": 207,
       "feature": "Одеяла",
       "size": "205*140",
-      "modifiedDate": "2026-08-27"
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "0f739996-a2d6-4e3f-821e-e0aa64b3b3ce",
@@ -58169,6 +58233,14 @@
       "modifiedDate": "2026-08-27"
     },
     {
+      "productId": "89e6f163-65c7-406f-8f7e-fd9b999faad8",
+      "name": "Опора дер h-150 D-60/D-45 М8*10 бук",
+      "qty": 4,
+      "feature": "Доп элементы к кроватям",
+      "size": "8*10",
+      "modifiedDate": "2026-08-28"
+    },
+    {
       "productId": "0879c12a-b364-4e77-b543-a9b74695fc18",
       "name": "Опора дер h-150 бел дуб шп М8",
       "qty": 1,
@@ -58371,10 +58443,10 @@
     {
       "productId": "e9d7da13-cdd7-4a11-ad05-b609993dacd0",
       "name": "Опора металл h-100 D-50 M8*10 серый",
-      "qty": 4,
+      "qty": 5,
       "feature": "Доп элементы к кроватям",
       "size": "8*10",
-      "modifiedDate": "2026-08-23"
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "82f880e3-f32c-4f06-94cd-d75bfbf6497a",
@@ -58403,10 +58475,10 @@
     {
       "productId": "bde6ed54-8f0f-4550-8f0e-103390fb9832",
       "name": "Опора металл h-150 D-50 M8*10 серый",
-      "qty": 3,
+      "qty": 4,
       "feature": "Доп элементы к кроватям",
       "size": "8*10",
-      "modifiedDate": "2026-08-27"
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "b0e15257-93c5-41b2-809f-e607b2391f5b",
@@ -63371,7 +63443,7 @@
     {
       "productId": "204da748-c318-4180-bced-82f6db7c02ee",
       "name": "Подушка Baby 1+ Cloud",
-      "qty": 409,
+      "qty": 407,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-28"
@@ -63587,7 +63659,7 @@
     {
       "productId": "5a333729-fe81-4722-9f2c-9b02eebc4d58",
       "name": "Подушка Pillo New",
-      "qty": 44,
+      "qty": 43,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-28"
@@ -70539,10 +70611,10 @@
     {
       "productId": "bee21f93-8580-45c0-b19a-2d41ca62aece",
       "name": "Простынь 160*200 Askona Comfort Cotton Синий",
-      "qty": 20,
+      "qty": 19,
       "feature": "КПБ",
       "size": "160*200",
-      "modifiedDate": "2026-08-27"
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "1998cd47-8e6a-4c45-9542-c280ddcc2552",
@@ -71419,7 +71491,7 @@
     {
       "productId": "b2b66421-2a99-4e17-a5f1-0c33d47b111d",
       "name": "Простынь 200*200*40 Askona Comfort Maco Sateen 2.0 Кремовый",
-      "qty": 66,
+      "qty": 67,
       "feature": "КПБ",
       "size": "200*200",
       "modifiedDate": "2026-08-28"
@@ -72831,6 +72903,14 @@
       "feature": "Комплектующие к диванам",
       "size": "20*20",
       "modifiedDate": "2026-05-20"
+    },
+    {
+      "productId": "b8991b59-4e77-4b5d-b254-61822e413158",
+      "name": "ПФ Замок АТС Нью",
+      "qty": 40,
+      "feature": "Комплектующие к диванам",
+      "size": "",
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "c44f3290-84a5-417b-b06e-c01e6466c32e",
@@ -81175,6 +81255,14 @@
       "feature": "ПФ, ремонт",
       "size": "",
       "modifiedDate": "2026-05-20"
+    },
+    {
+      "productId": "be742d53-d910-426d-b116-99186d4059d4",
+      "name": "Стекло 400*390*4 отв4 D10",
+      "qty": 1,
+      "feature": "Стекло",
+      "size": "400*390",
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "2f968cfd-7875-4e39-a799-43ce66da0219",

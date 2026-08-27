@@ -3,9 +3,9 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-27T07:12:37+04:00",
+    "generatedAt": "2026-08-27T07:43:27+04:00",
     "timezone": "Europe/Astrakhan",
-    "skuCount": 11530
+    "skuCount": 11529
   },
   "items": [
     {
@@ -27355,7 +27355,7 @@
     {
       "productId": "69ac0538-bc35-42ff-a31c-299ad10cf066",
       "name": "Комплект Elso Large",
-      "qty": 571,
+      "qty": 570,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -27363,7 +27363,7 @@
     {
       "productId": "8a0049c6-0a1b-4e3e-b708-45434f3c1a13",
       "name": "Комплект Elso Small",
-      "qty": 315,
+      "qty": 314,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -27827,7 +27827,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 11186,
+      "qty": 11180,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -57243,7 +57243,7 @@
     {
       "productId": "e1b6bf9b-c70f-4a00-8870-89916566579e",
       "name": "Одеяло 110*140 Effi",
-      "qty": 226,
+      "qty": 225,
       "feature": "Одеяла",
       "size": "110*140",
       "modifiedDate": "2026-08-27"
@@ -57347,7 +57347,7 @@
     {
       "productId": "a61a4a0d-26d4-458b-9fcc-c6964e87c29c",
       "name": "Одеяло 200*200 Elso",
-      "qty": 343,
+      "qty": 342,
       "feature": "Одеяла",
       "size": "200*200",
       "modifiedDate": "2026-08-27"
@@ -57683,7 +57683,7 @@
     {
       "productId": "8501adaa-18cd-4752-ab14-290fb9a5999b",
       "name": "Одеяло 220*200 Elso",
-      "qty": 200,
+      "qty": 197,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-27"
@@ -57699,7 +57699,7 @@
     {
       "productId": "77441d32-da53-402a-ade8-312f6772c7a4",
       "name": "Одеяло 220*200 Freshly",
-      "qty": 358,
+      "qty": 357,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-27"
@@ -57739,10 +57739,10 @@
     {
       "productId": "389cba4c-3eb3-47d3-bb18-a425209f14ef",
       "name": "Одеяло 220*200 Natural Dream",
-      "qty": 264,
+      "qty": 263,
       "feature": "Одеяла",
       "size": "220*200",
-      "modifiedDate": "2026-08-26"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "424cc5ab-b1bf-49ce-b76a-3d60a7746dcb",
@@ -59595,7 +59595,7 @@
     {
       "productId": "01ea93bb-de2c-4445-957e-6b8fbc754910",
       "name": "Основание с ламелями 200*120",
-      "qty": 10,
+      "qty": 9,
       "feature": "Решетки",
       "size": "200*120",
       "modifiedDate": "2026-08-27"
@@ -62875,7 +62875,7 @@
     {
       "productId": "0176f436-f99d-4656-950f-229b78a45a94",
       "name": "Подушка 070*050 Ray",
-      "qty": 938,
+      "qty": 937,
       "feature": "Подушки",
       "size": "070*050",
       "modifiedDate": "2026-08-27"
@@ -63035,7 +63035,7 @@
     {
       "productId": "1ae3b9a9-8e51-410c-b407-9e3abc58bc59",
       "name": "Подушка Askona Kids Dino (Дино)",
-      "qty": 255,
+      "qty": 254,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63083,7 +63083,7 @@
     {
       "productId": "204da748-c318-4180-bced-82f6db7c02ee",
       "name": "Подушка Baby 1+ Cloud",
-      "qty": 460,
+      "qty": 459,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63291,7 +63291,7 @@
     {
       "productId": "5a333729-fe81-4722-9f2c-9b02eebc4d58",
       "name": "Подушка Pillo New",
-      "qty": 68,
+      "qty": 67,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -63379,7 +63379,7 @@
     {
       "productId": "ae819e5f-0d16-4904-b349-762e505ca8b2",
       "name": "Подушка StopSnoring",
-      "qty": 45,
+      "qty": 44,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-27"
@@ -76763,10 +76763,10 @@
     {
       "productId": "179fc424-918d-4d50-808d-283a10b4d099",
       "name": "Рубашка для менеджера NEW Аскона муж. - 58, рост 170-176",
-      "qty": 6,
+      "qty": 4,
       "feature": "СПЕЦОДЕЖДА",
       "size": "",
-      "modifiedDate": "2026-06-14"
+      "modifiedDate": "2026-08-27"
     },
     {
       "productId": "f9262c12-222e-4d5d-be5e-fd7cbeb7af56",
@@ -78207,14 +78207,6 @@
       "feature": "СПЕЦОДЕЖДА",
       "size": "",
       "modifiedDate": "2026-08-18"
-    },
-    {
-      "productId": "f8b877b7-97f4-479a-b912-854ad8de38ac",
-      "name": "Свитшот для менеджера NEW Аскона муж. - 58, рост 170-176",
-      "qty": 2,
-      "feature": "СПЕЦОДЕЖДА",
-      "size": "",
-      "modifiedDate": "2026-05-20"
     },
     {
       "productId": "fda6046b-3eb2-4469-afbe-de4325f32fe1",
@@ -88675,7 +88667,7 @@
     {
       "productId": "48b79d3d-4ad9-43a8-98b2-faeee59d819d",
       "name": "Чехол 200*180*35,6 Nesty",
-      "qty": 135,
+      "qty": 132,
       "feature": "Чехлы",
       "size": "200*180",
       "modifiedDate": "2026-08-27"

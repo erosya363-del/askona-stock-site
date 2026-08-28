@@ -3,8 +3,8 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-28T10:24:04+04:00",
-    "itemCount": 374
+    "generatedAt": "2026-08-28T12:52:39+04:00",
+    "itemCount": 372
   },
   "items": [
     {
@@ -213,14 +213,6 @@
       "finalPrice": 7443,
       "oldPrice": 14899,
       "discountPercent": 50,
-      "saleQty": 1
-    },
-    {
-      "name": "Журнальный стол Cristofer (Кристофер) 085*063*039 Венге Мали Тк. Royal I Shiitake",
-      "series": "Cristofer (Кристофер)",
-      "finalPrice": 11878,
-      "oldPrice": 16999,
-      "discountPercent": 30,
       "saleQty": 1
     },
     {
@@ -1878,14 +1870,6 @@
       "oldPrice": 39099,
       "discountPercent": 20,
       "saleQty": 2
-    },
-    {
-      "name": "Кровать с ПМ 200*120 Mira nova (Мира нова) Тк. Velutto 71",
-      "series": "Mira nova (Мира нова)",
-      "finalPrice": 12032,
-      "oldPrice": 13799,
-      "discountPercent": 15,
-      "saleQty": 1
     },
     {
       "name": "Кровать с ПМ 200*120 Nery (Нэри) Тк. Forte 17",

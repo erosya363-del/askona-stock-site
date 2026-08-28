@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-28T03:31:00+04:00",
+    "generatedAt": "2026-08-28T04:03:04+04:00",
     "timezone": "Europe/Astrakhan",
     "skuCount": 11565
   },
@@ -28003,7 +28003,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 9320,
+      "qty": 9317,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-28"
@@ -60099,7 +60099,7 @@
     {
       "productId": "88944fb4-4110-4c98-8e9e-1cf08c1d216c",
       "name": "Основание с ламелями База 202*142 (200*140)",
-      "qty": 75,
+      "qty": 74,
       "feature": "Решетки",
       "size": "202*142",
       "modifiedDate": "2026-08-27"
@@ -60555,7 +60555,7 @@
     {
       "productId": "1b42cb2d-575d-4737-9e7d-ab32da16990d",
       "name": "Основание с ПМ 200*160",
-      "qty": 191,
+      "qty": 190,
       "feature": "Основания с ПМ",
       "size": "200*160",
       "modifiedDate": "2026-08-28"
@@ -63243,7 +63243,7 @@
     {
       "productId": "0176f436-f99d-4656-950f-229b78a45a94",
       "name": "Подушка 070*050 Ray",
-      "qty": 861,
+      "qty": 860,
       "feature": "Подушки",
       "size": "070*050",
       "modifiedDate": "2026-08-28"
@@ -63395,7 +63395,7 @@
     {
       "productId": "1ae3b9a9-8e51-410c-b407-9e3abc58bc59",
       "name": "Подушка Askona Kids Dino (Дино)",
-      "qty": 235,
+      "qty": 234,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-28"
@@ -63659,7 +63659,7 @@
     {
       "productId": "5a333729-fe81-4722-9f2c-9b02eebc4d58",
       "name": "Подушка Pillo New",
-      "qty": 43,
+      "qty": 42,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-28"
@@ -84947,10 +84947,10 @@
     {
       "productId": "ed86d82d-d419-42f0-a184-e74fa757a13d",
       "name": "Тумба прикроватная с ящиком навесная Felino (Фелино) 053*028*035 французская ель+черный",
-      "qty": 2,
+      "qty": 1,
       "feature": "Малые формы",
       "size": "053*028",
-      "modifiedDate": "2026-08-27"
+      "modifiedDate": "2026-08-28"
     },
     {
       "productId": "d8cbad5c-6da0-405f-90a4-628a8066d95b",
@@ -88947,7 +88947,7 @@
     {
       "productId": "b44bad76-869e-454a-b8f0-7407964516f5",
       "name": "Чехол 200*160*35,6 Pad",
-      "qty": 153,
+      "qty": 152,
       "feature": "Чехлы",
       "size": "200*160",
       "modifiedDate": "2026-08-28"

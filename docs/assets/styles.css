@@ -129,13 +129,50 @@ input {
   border: 0;
 }
 
-.ambient {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  overflow: hidden;
+/* Subtle decorative mark */
+.ambient-signature {
+  position: absolute;
+
+  right: 18px;
+  bottom: 18px;
+
+  width: 38px;
+  height: 38px;
+
+  background-image: url("fya-mark.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  opacity: 0.035;
+
+  filter:
+    grayscale(1)
+    saturate(0.45)
+    contrast(0.85);
+
   pointer-events: none;
-  background: var(--canvas);
+  user-select: none;
+
+  transform: translateZ(0);
+}
+html.light .ambient-signature {
+  opacity: 0.025;
+
+  filter:
+    grayscale(1)
+    saturate(0.35)
+    contrast(0.8);
+}
+
+html.dark .ambient-signature {
+  opacity: 0.04;
+
+  filter:
+    grayscale(1)
+    saturate(0.3)
+    brightness(1.4)
+    contrast(0.75);
 }
 
 .ambient-dots {

@@ -1,6 +1,14 @@
 (() => {
   const STOCK_STALE_DAYS = 14;
   const PAGE = 50;
+
+  const BUILD_PROFILE = Object.freeze({
+    renderer: "28fda05f",
+    schema: "fc7d95b0",
+    revision: "fff0c7e6",
+    profile: "7789eacd",
+  });
+  
   const CATEGORIES = [
     "Кровати",
     "Диваны",

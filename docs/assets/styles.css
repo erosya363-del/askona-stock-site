@@ -4,6 +4,7 @@
   --bg: #121214;
   --canvas: #0c0c0e;
   --panel: rgba(22, 22, 24, 0.94);
+  --row-bg: rgba(22, 22, 24, 0.8);
   --card: #1a1a1d;
   --elevated: #26262a;
   --primary: #f2f2f3;
@@ -35,6 +36,7 @@ html.light {
   --bg: #f8fafc;
   --canvas: #f5f7f9;
   --panel: rgba(255, 255, 255, 0.86);
+  --row-bg: rgba(255, 255, 255, 0.8);
   --card: #ffffff;
   --elevated: #f1f5f9;
   --primary: #1a202c;
@@ -138,45 +140,6 @@ input {
   overflow: hidden;
 }
 
-/* Subtle decorative mark */
-.ambient-signature {
-  position: absolute;
-  right: 18px;
-  bottom: 18px;
-  width: 38px;
-  height: 38px;
-  background-image: url("fya_logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  opacity: 0.035;
-  filter:
-    grayscale(1)
-    saturate(0.45)
-    contrast(0.85);
-  pointer-events: none;
-  user-select: none;
-  transform: translateZ(0);
-}
-html.light .ambient-signature {
-  opacity: 0.025;
-
-  filter:
-    grayscale(1)
-    saturate(0.35)
-    contrast(0.8);
-}
-
-html.dark .ambient-signature {
-  opacity: 0.04;
-
-  filter:
-    grayscale(1)
-    saturate(0.3)
-    brightness(1.4)
-    contrast(0.75);
-}
-
 .ambient-dots {
   position: absolute;
   inset: 0;
@@ -193,7 +156,6 @@ html.dark .ambient-signature {
   border-radius: 50%;
   filter: blur(90px);
   opacity: 0.28;
-  animation: ambient-drift 26s ease-in-out infinite alternate;
 }
 
 .ambient-glow-a {
@@ -210,7 +172,6 @@ html.dark .ambient-signature {
   right: -160px;
   bottom: -200px;
   background: radial-gradient(circle, rgba(var(--acc-rgb), 0.06), transparent 65%);
-  animation-delay: -12s;
 }
 
 html.light .ambient-dots {
@@ -225,12 +186,6 @@ html.light .ambient-glow-a {
 html.light .ambient-glow-b {
   opacity: 0.18;
   background: radial-gradient(circle, rgba(139, 124, 248, 0.06), transparent 65%);
-}
-
-@keyframes ambient-drift {
-  to {
-    transform: translate3d(60px, 40px, 0) scale(1.08);
-  }
 }
 
 .top {
@@ -949,7 +904,7 @@ html.light .live__pill.is-on {
 }
 
 .card {
-  background: var(--panel);
+  background: var(--row-bg);
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 5px 8px;
@@ -967,7 +922,7 @@ html.light .live__pill.is-on {
 }
 
 .card--sale {
-  background: linear-gradient(var(--sale-fill), var(--sale-fill)), var(--panel);
+  background: linear-gradient(var(--sale-fill), var(--sale-fill)), var(--row-bg);
   border-color: color-mix(in srgb, var(--border) 55%, var(--error) 45%);
   box-shadow: none;
 }
@@ -1290,37 +1245,12 @@ html.light .card--sale {
   }
 }
 
-/* Embedded YaF mark — data lives in app.js, not a deletable asset file */
-.yaf-wm {
-  position: fixed;
-  right: max(10px, env(safe-area-inset-right));
-  bottom: max(10px, env(safe-area-inset-bottom));
-  z-index: 30;
-  width: 36px;
-  height: 36px;
-  pointer-events: none;
-  user-select: none;
-  opacity: 0.07;
-  filter: grayscale(1) contrast(0.9);
-}
-.yaf-wm img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
-html.light .yaf-wm {
-  opacity: 0.055;
-  filter: grayscale(1) contrast(0.85);
-}
-html.dark .yaf-wm {
-  opacity: 0.09;
-  filter: grayscale(1) brightness(1.35) contrast(0.8);
-}
-@media (max-width: 480px) {
-  .yaf-wm {
-    width: 28px;
-    height: 28px;
-    opacity: 0.06;
-  }
+.credit {
+  margin: 18px auto 4px;
+  max-width: 920px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  opacity: 0.72;
 }

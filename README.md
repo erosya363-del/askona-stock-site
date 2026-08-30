@@ -1,5 +1,9 @@
 # Askona — остатки Обухово
 
+Версия **1.0.10**  
+Автор: **Ярослав Федоренко**  
+Год: **2026**
+
 Статический сайт свободных остатков МОЛ «Обухово».
 
 ## Локально
@@ -24,3 +28,13 @@ https://erosya363-del.github.io/askona-stock-site/
 
 - `docs/data/stock.json` — остатки qty > 0
 - `docs/data/sale.json` — распродажа, exact match по названию; qty всегда из stock
+
+## Версия
+
+Формат: `major.minor.patch` (сейчас **1.0.10**).
+
+При каждой новой функции поднимать версию сразу в трёх местах:
+
+1. `SITE.version` в `docs/assets/app.js`
+2. подпись `v…` в `docs/index.html` (`#siteCredit`)
+3. этот README

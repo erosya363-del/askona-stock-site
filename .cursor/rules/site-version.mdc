@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Site version and credit
 
-When adding or changing a user-facing feature, bump `SITE.version` (semver `major.minor.patch`, currently 1.0.11) in `docs/assets/app.js`, the visible `v…` in `docs/index.html` (`#siteCredit`), and `README.md`. Do not bump for data-only `stock.json` / `sale.json` / `status.json` updates.
+When adding or changing a user-facing feature, bump `SITE.version` (semver `major.minor.patch`, currently 1.0.12) in `docs/assets/app.js`, the visible `v…` in `docs/index.html` (`#siteCredit`), and `README.md`. Do not bump for data-only `stock.json` / `sale.json` / `status.json` updates.
 
 Author is Ярослав Федоренко, year 2026. Keep `<meta name="author">`, `<meta name="copyright">`, and the on-page credit.
 

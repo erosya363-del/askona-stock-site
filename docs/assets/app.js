@@ -3,7 +3,7 @@
   const PAGE = 50;
 
   const SITE = Object.freeze({
-    version: "1.0.11",
+    version: "1.0.12",
     author: "Ярослав Федоренко",
     year: 2026,
   });
@@ -16,7 +16,7 @@
   });
 
   const HOST = { p: "", seal: null, ready: false };
-  const BOOT_STARTED = performance.now();
+  const BOOT_STARTED = Number(window.__bootAt) || performance.now();
   const PREFS_KEY = "askona-stock-prefs";
   
   const CATEGORIES = [
@@ -33,21 +33,21 @@
   ];
 
   const CAT_IMGS = {
-    Кровати: "assets/cats/krovati.png",
-    Диваны: "assets/cats/divany.png",
-    Ergo: "assets/cats/ergo.png",
-    Матрасы: "assets/cats/matrasy.png",
-    Кресла: "assets/cats/kresla.png",
-    Подушки: "assets/cats/podushki.png",
-    Одеяла: "assets/cats/odeyala.png",
-    Чехлы: "assets/cats/chehly.png",
-    КПБ: "assets/cats/kpb.png",
-    Прочее: "assets/cats/prochee.png",
+    Кровати: "assets/cats/krovati.png?v=2",
+    Диваны: "assets/cats/divany.png?v=2",
+    Ergo: "assets/cats/ergo.png?v=2",
+    Матрасы: "assets/cats/matrasy.png?v=2",
+    Кресла: "assets/cats/kresla.png?v=2",
+    Подушки: "assets/cats/podushki.png?v=2",
+    Одеяла: "assets/cats/odeyala.png?v=2",
+    Чехлы: "assets/cats/chehly.png?v=2",
+    КПБ: "assets/cats/kpb.png?v=2",
+    Прочее: "assets/cats/prochee.png?v=2",
   };
 
   function catChipHtml(c, on) {
     const src = CAT_IMGS[c] || CAT_IMGS["Прочее"];
-    return `<button type="button" class="cat${on ? " is-on" : ""}" data-cat="${escapeHtml(c)}" title="${escapeHtml(c)}" aria-label="${escapeHtml(c)}" aria-pressed="${on}"><span class="cat__pic"><img src="${src}" alt="" width="42" height="42" draggable="false"></span><span class="cat__name">${escapeHtml(c)}</span></button>`;
+    return `<button type="button" class="cat${on ? " is-on" : ""}" data-cat="${escapeHtml(c)}" title="${escapeHtml(c)}" aria-label="${escapeHtml(c)}" aria-pressed="${on}"><span class="cat__pic"><img src="${src}" alt="" width="46" height="46" draggable="false"></span><span class="cat__name">${escapeHtml(c)}</span></button>`;
   }
 
   const state = {
@@ -835,16 +835,17 @@
   function dismissSplash() {
     const el = $("bootSplash");
     if (!el) return Promise.resolve();
-    const minMs = 700;
+    const minMs = 3000;
     const wait = Math.max(0, minMs - (performance.now() - BOOT_STARTED));
     return new Promise((resolve) => {
       setTimeout(() => {
         el.classList.add("is-done");
         el.setAttribute("aria-busy", "false");
+        document.documentElement.classList.remove("is-booting");
         setTimeout(() => {
           el.remove();
           resolve();
-        }, 420);
+        }, 480);
       }, wait);
     });
   }

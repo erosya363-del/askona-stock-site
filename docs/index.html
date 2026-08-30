@@ -12,9 +12,9 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="icon" href="favicon.ico" sizes="48x48" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png" />
-    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+    <link rel="icon" href="favicon.ico?v=2" sizes="48x48" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png?v=2" />
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png?v=2" />
     <title>Остатки Обухово · Askona</title>
     <script>
       (function () {
@@ -26,13 +26,19 @@
           (pref !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
         var root = document.documentElement;
         root.classList.add(dark ? "dark" : "light");
+        root.classList.add("is-booting");
         root.dataset.theme = pref;
         root.style.colorScheme = dark ? "dark" : "light";
+        window.__bootAt = performance.now();
         var meta = document.getElementById("themeColor");
         if (meta) meta.setAttribute("content", dark ? "#121214" : "#f8fafc");
       })();
     </script>
     <style>
+      html.is-booting,
+      html.is-booting body {
+        overflow: hidden !important;
+      }
       .boot {
         position: fixed;
         inset: 0;
@@ -40,22 +46,24 @@
         display: grid;
         place-items: center;
         padding: max(24px, env(safe-area-inset-top)) 24px max(24px, env(safe-area-inset-bottom));
-        background: color-mix(in srgb, var(--boot-bg, #121214) 72%, transparent);
-        -webkit-backdrop-filter: blur(22px) saturate(1.15);
-        backdrop-filter: blur(22px) saturate(1.15);
-        transition: opacity 0.42s cubic-bezier(0.22, 0.61, 0.36, 1),
-          visibility 0.42s step-end;
+        background: color-mix(in srgb, var(--boot-bg, #121214) 78%, transparent);
+        -webkit-backdrop-filter: blur(28px) saturate(1.2);
+        backdrop-filter: blur(28px) saturate(1.2);
+        transform: translateZ(0);
+        will-change: opacity;
+        transition: opacity 0.48s cubic-bezier(0.22, 0.61, 0.36, 1),
+          visibility 0s linear 0.48s;
       }
       html.light .boot {
         --boot-bg: #f8fafc;
-        --boot-glass: rgba(255, 255, 255, 0.55);
+        --boot-glass: rgba(255, 255, 255, 0.58);
         --boot-line: rgba(15, 23, 42, 0.08);
         --boot-ink: #1a202c;
         --boot-muted: #718096;
       }
       html.dark .boot {
         --boot-bg: #121214;
-        --boot-glass: rgba(22, 22, 24, 0.52);
+        --boot-glass: rgba(22, 22, 24, 0.56);
         --boot-line: rgba(255, 255, 255, 0.08);
         --boot-ink: #f2f2f3;
         --boot-muted: #a1a1aa;
@@ -64,12 +72,11 @@
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
-        transition: opacity 0.42s cubic-bezier(0.22, 0.61, 0.36, 1),
-          visibility 0s linear 0.42s;
       }
       .boot__glass {
-        width: min(100%, 280px);
-        padding: 28px 24px 24px;
+        width: min(100%, 286px);
+        min-height: 196px;
+        padding: 28px 24px 22px;
         border-radius: 24px;
         border: 1px solid var(--boot-line);
         background: var(--boot-glass);
@@ -77,6 +84,7 @@
         text-align: center;
         -webkit-backdrop-filter: blur(18px);
         backdrop-filter: blur(18px);
+        transform: translateZ(0);
       }
       .boot__logo {
         display: block;
@@ -121,6 +129,7 @@
       }
       .boot__status {
         margin: 12px 0 0;
+        min-height: 18px;
         font-size: 12px;
         font-weight: 500;
         color: var(--boot-muted);
@@ -140,7 +149,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/styles.css?v=13" />
+    <link rel="stylesheet" href="assets/styles.css?v=14" />
   </head>
   <body>
     <div class="boot" id="bootSplash" role="status" aria-live="polite" aria-busy="true">
@@ -263,7 +272,7 @@
       <ul class="list" id="list"></ul>
       <p class="empty" id="empty" hidden>Ничего не найдено. Попробуйте «чехол» или «200*160».</p>
       <div id="sentinel" aria-hidden="true"></div>
-      <p class="credit" id="siteCredit">© 2026 Ярослав Федоренко · v1.0.11</p>
+      <p class="credit" id="siteCredit">© 2026 Ярослав Федоренко · v1.0.12</p>
     </main>
 
     <div class="sheet" id="sheet" hidden>
@@ -278,6 +287,6 @@
       </div>
     </div>
 
-    <script src="assets/app.js?v=13"></script>
+    <script src="assets/app.js?v=14"></script>
   </body>
 </html>

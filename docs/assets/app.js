@@ -3,7 +3,7 @@
   const PAGE = 50;
 
   const SITE = Object.freeze({
-    version: "1.0.12",
+    version: "1.0.13",
     author: "Ярослав Федоренко",
     year: 2026,
   });
@@ -33,16 +33,16 @@
   ];
 
   const CAT_IMGS = {
-    Кровати: "assets/cats/krovati.png?v=2",
-    Диваны: "assets/cats/divany.png?v=2",
-    Ergo: "assets/cats/ergo.png?v=2",
-    Матрасы: "assets/cats/matrasy.png?v=2",
-    Кресла: "assets/cats/kresla.png?v=2",
-    Подушки: "assets/cats/podushki.png?v=2",
-    Одеяла: "assets/cats/odeyala.png?v=2",
-    Чехлы: "assets/cats/chehly.png?v=2",
-    КПБ: "assets/cats/kpb.png?v=2",
-    Прочее: "assets/cats/prochee.png?v=2",
+    Кровати: "assets/cats/krovati.png?v=3",
+    Диваны: "assets/cats/divany.png?v=3",
+    Ergo: "assets/cats/ergo.png?v=3",
+    Матрасы: "assets/cats/matrasy.png?v=3",
+    Кресла: "assets/cats/kresla.png?v=3",
+    Подушки: "assets/cats/podushki.png?v=3",
+    Одеяла: "assets/cats/odeyala.png?v=3",
+    Чехлы: "assets/cats/chehly.png?v=3",
+    КПБ: "assets/cats/kpb.png?v=3",
+    Прочее: "assets/cats/prochee.png?v=3",
   };
 
   function catChipHtml(c, on) {

@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-31T03:09:39+04:00",
+    "generatedAt": "2026-08-31T03:40:26+04:00",
     "timezone": "Europe/Astrakhan",
     "skuCount": 11314
   },
@@ -7467,10 +7467,10 @@
     {
       "productId": "d24cc444-2a70-44e7-857d-cfd541473ee0",
       "name": "Вешалка многоуровневая для брюк Askona Home Pants розовый",
-      "qty": 596,
+      "qty": 595,
       "feature": "Организация пространства",
       "size": "",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "6b75a4cf-761f-4646-99fb-8bb943a8aa76",
@@ -29683,10 +29683,10 @@
     {
       "productId": "ea9c7bf5-e09b-4126-b6cf-8d3d0e43fceb",
       "name": "КПБ Askona Comfort Tencel (односпал) Белый",
-      "qty": 90,
+      "qty": 89,
       "feature": "КПБ",
       "size": "",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "afdcee77-371b-4c50-ac9c-e305225bdee9",
@@ -31011,7 +31011,7 @@
     {
       "productId": "a8cb3c36-6a5f-4a00-809d-f64cc726d316",
       "name": "КПБ Tencel Lumi (односп)",
-      "qty": 86,
+      "qty": 85,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -31075,10 +31075,10 @@
     {
       "productId": "e8596a18-88ff-4ed7-aebf-11d2f02e8926",
       "name": "КПБ Tencel Tender (односп)",
-      "qty": 153,
+      "qty": 152,
       "feature": "КПБ",
       "size": "",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "b0daa2b1-31fe-4dbe-aa17-e54a280f3ba9",
@@ -67923,10 +67923,10 @@
     {
       "productId": "0b23fbfb-b9e3-4e5a-a3fe-0b1f626d2e79",
       "name": "Простынь 090*200 Askona Comfort Tencel Аметистовый",
-      "qty": 78,
+      "qty": 77,
       "feature": "КПБ",
       "size": "090*200",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "0390e1be-6f1b-4458-ace3-b6fea070d211",
@@ -68011,10 +68011,10 @@
     {
       "productId": "058d9c11-6fa1-41dc-ada4-7d73c465e4d7",
       "name": "Простынь 090*200 Askona Home Graphite",
-      "qty": 67,
+      "qty": 66,
       "feature": "КПБ",
       "size": "090*200",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "2c28d35b-b149-44c2-8322-b9806406989e",
@@ -68299,10 +68299,10 @@
     {
       "productId": "fa970cc0-5c38-49a7-9859-88858d57c704",
       "name": "Простынь 090*200*40 Cotton Tencel Harmony Серебристый",
-      "qty": 152,
+      "qty": 151,
       "feature": "КПБ",
       "size": "090*200",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "2fbf79eb-7894-4e05-b34e-f009c0b838ed",

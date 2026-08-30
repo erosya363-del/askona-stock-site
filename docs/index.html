@@ -25,7 +25,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/styles.css?v=5" />
   </head>
   <body>
     <div class="ambient" aria-hidden="true">
@@ -88,24 +88,53 @@
               </svg>
             </button>
           </div>
-          <button class="btn btn--ghost" id="resetBtn" type="button">Сбросить</button>
+          <button class="btn btn--ghost btn--reset" id="resetBtn" type="button" title="Сбросить всё">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <path d="M4.5 12a7.5 7.5 0 1 0 2.1-5.3" stroke-linecap="round" />
+              <path d="M4.5 5.5v4h4" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span>Сброс</span>
+          </button>
         </div>
       </div>
-      <label class="search">
-        <span class="visually-hidden">Найти товар</span>
-        <input
-          id="q"
-          type="search"
-          enterkeyhint="search"
-          autocomplete="off"
-          placeholder="Найти товар: Elisa 160, чехол 180…"
-        />
-      </label>
+      <div class="search" id="searchBox">
+        <label class="search__field" for="q">
+          <span class="visually-hidden">Найти товар</span>
+          <svg class="search__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <circle cx="11" cy="11" r="6.2" />
+            <path d="M16 16.5 20 20.5" stroke-linecap="round" />
+          </svg>
+          <input
+            id="q"
+            type="search"
+            enterkeyhint="search"
+            autocomplete="off"
+            spellcheck="false"
+            placeholder=""
+            aria-autocomplete="list"
+            aria-controls="searchSuggest"
+            aria-expanded="false"
+          />
+          <span class="search__hint" id="searchHint" aria-hidden="true"></span>
+        </label>
+        <div class="search__drop" id="searchDrop" hidden>
+          <p class="search__drop-title" id="searchDropTitle">Популярные запросы</p>
+          <ul class="search__suggest" id="searchSuggest" role="listbox"></ul>
+        </div>
+      </div>
       <div class="top__actions">
         <button class="btn btn--sale" id="saleBtn" type="button" aria-pressed="false">Распродажа</button>
-        <button class="btn btn--primary" id="filtersBtn" type="button">Категории / фильтры</button>
+        <button class="btn btn--filter" id="filtersBtn" type="button" aria-pressed="false">Фильтры</button>
       </div>
-      <div class="chips" id="desktopChips" aria-label="Категории"></div>
+      <div class="cats" id="catsRail">
+        <button class="cats__nav cats__nav--prev" id="catsPrev" type="button" aria-label="Предыдущие категории" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14.5 6 8.5 12l6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="cats__track" id="desktopChips" aria-label="Категории"></div>
+        <button class="cats__nav cats__nav--next" id="catsNext" type="button" aria-label="Ещё категории" hidden>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9.5 6 15.5 12l-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
     </header>
 
     <main class="main">
@@ -120,13 +149,13 @@
       <div class="sheet__panel" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
         <div class="sheet__grab"></div>
         <div class="sheet__head">
-          <h2 id="sheetTitle">Категории и фильтры</h2>
+          <h2 id="sheetTitle">Фильтры</h2>
           <button class="btn btn--ghost" id="sheetClose" type="button">Готово</button>
         </div>
         <div class="sheet__body" id="sheetBody"></div>
       </div>
     </div>
 
-    <script src="assets/app.js?v=3"></script>
+    <script src="assets/app.js?v=5"></script>
   </body>
 </html>

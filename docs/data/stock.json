@@ -3,9 +3,9 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-31T01:37:05+04:00",
+    "generatedAt": "2026-08-31T02:07:54+04:00",
     "timezone": "Europe/Astrakhan",
-    "skuCount": 11310
+    "skuCount": 11309
   },
   "items": [
     {
@@ -6539,7 +6539,7 @@
     {
       "productId": "f4fc87df-8038-4475-b866-ebc3792a9e74",
       "name": "Брюки жен. Stay Warm сезон осень-зима 2023-2024 цвет черный размер M",
-      "qty": 27,
+      "qty": 26,
       "feature": "Одежда",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -22331,10 +22331,10 @@
     {
       "productId": "72b5b60c-a559-43a1-82b6-28f905c6c4b5",
       "name": "Доска разделочная Acacia tree 30*20*1,5",
-      "qty": 141,
+      "qty": 140,
       "feature": "Посуда",
       "size": "30*20",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "3bc8ceed-3848-4703-b027-8e36d69a8a9c",
@@ -27499,7 +27499,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 8118,
+      "qty": 8115,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -45705,14 +45705,6 @@
       "modifiedDate": "2026-08-30"
     },
     {
-      "productId": "b04fed30-f933-428e-815a-bf7529e06dbf",
-      "name": "Лонгслив жен. Stay Warm сезон осень-зима 2023-2024 цвет черный размер L",
-      "qty": 1,
-      "feature": "Одежда",
-      "size": "",
-      "modifiedDate": "2026-08-30"
-    },
-    {
       "productId": "dc5eb272-08e0-4266-8c2e-12819eaa6104",
       "name": "Лопатка Acacia Wood",
       "qty": 692,
@@ -50891,10 +50883,10 @@
     {
       "productId": "277b805c-bb33-4a99-9d1c-24629312cceb",
       "name": "Наволочка 50*70 Trend Tencel Mist (Тренд Тенсел Мист) (2 шт)",
-      "qty": 85,
+      "qty": 84,
       "feature": "КПБ",
       "size": "50*70",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "ee7fc09d-0c60-442f-91e9-0aefffb75d97",
@@ -56555,7 +56547,7 @@
     {
       "productId": "8501adaa-18cd-4752-ab14-290fb9a5999b",
       "name": "Одеяло 220*200 Elso",
-      "qty": 135,
+      "qty": 134,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-31"
@@ -61803,7 +61795,7 @@
     {
       "productId": "cc51f8eb-6ba4-4e58-9215-b3864257916c",
       "name": "Подушка Alpha серия Technology 2.0 L",
-      "qty": 207,
+      "qty": 206,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -61883,7 +61875,7 @@
     {
       "productId": "204da748-c318-4180-bced-82f6db7c02ee",
       "name": "Подушка Baby 1+ Cloud",
-      "qty": 245,
+      "qty": 244,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -62035,7 +62027,7 @@
     {
       "productId": "ba00a0c8-a493-429e-a333-f7688fbdbe7d",
       "name": "Подушка Men Only",
-      "qty": 43,
+      "qty": 42,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -62123,7 +62115,7 @@
     {
       "productId": "a9a88db0-9c35-429c-a8ef-ad6668b59784",
       "name": "Подушка Teen 7+",
-      "qty": 33,
+      "qty": 32,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -68931,7 +68923,7 @@
     {
       "productId": "1998cd47-8e6a-4c45-9542-c280ddcc2552",
       "name": "Простынь 160*200 Askona Comfort Tencel Аметистовый",
-      "qty": 132,
+      "qty": 131,
       "feature": "КПБ",
       "size": "160*200",
       "modifiedDate": "2026-08-31"
@@ -69091,10 +69083,10 @@
     {
       "productId": "5c8c29c5-fd56-4527-8060-9ac96a9e494a",
       "name": "Простынь 160*200*40 Askona Comfort Maco Sateen 2.0 Пепельный",
-      "qty": 113,
+      "qty": 112,
       "feature": "КПБ",
       "size": "160*200",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "fe41107c-ba6b-4153-b176-69bb8d4b3808",

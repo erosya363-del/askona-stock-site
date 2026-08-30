@@ -25,7 +25,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/styles.css?v=5" />
+    <link rel="stylesheet" href="assets/styles.css?v=9" />
   </head>
   <body>
     <div class="ambient" aria-hidden="true">
@@ -88,13 +88,6 @@
               </svg>
             </button>
           </div>
-          <button class="btn btn--ghost btn--reset" id="resetBtn" type="button" title="Сбросить всё">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-              <path d="M4.5 12a7.5 7.5 0 1 0 2.1-5.3" stroke-linecap="round" />
-              <path d="M4.5 5.5v4h4" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-            <span>Сброс</span>
-          </button>
         </div>
       </div>
       <div class="search" id="searchBox">
@@ -125,6 +118,11 @@
       <div class="top__actions">
         <button class="btn btn--sale" id="saleBtn" type="button" aria-pressed="false">Распродажа</button>
         <button class="btn btn--filter" id="filtersBtn" type="button" aria-pressed="false">Фильтры</button>
+        <button class="btn btn--reset" id="resetBtn" type="button" title="Сбросить всё" aria-label="Сбросить всё">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M7 7l10 10M17 7 7 17" stroke-linecap="round" />
+          </svg>
+        </button>
       </div>
       <div class="cats" id="catsRail">
         <button class="cats__nav cats__nav--prev" id="catsPrev" type="button" aria-label="Предыдущие категории" hidden>
@@ -156,6 +154,6 @@
       </div>
     </div>
 
-    <script src="assets/app.js?v=5"></script>
+    <script src="assets/app.js?v=9"></script>
   </body>
 </html>

@@ -557,18 +557,25 @@ html.light .top {
 }
 
 .btn--reset {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  padding: 6px 9px;
-  min-height: 34px;
-  font-size: 12px;
+  display: grid;
+  place-items: center;
+  flex: 0 0 42px;
+  width: 42px;
+  height: 42px;
+  min-height: 42px;
+  padding: 0;
+  border-radius: 50%;
+  background: var(--card);
+  color: var(--muted);
 }
 
 .btn--reset svg {
-  width: 14px;
-  height: 14px;
-  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+}
+
+.btn--reset:hover {
+  color: var(--primary);
 }
 
 .btn--primary {
@@ -594,7 +601,7 @@ html.light .top {
   background: linear-gradient(var(--sale-fill), var(--sale-fill)), var(--card);
   border-color: color-mix(in srgb, var(--border) 55%, var(--error) 45%);
   color: var(--error);
-  box-shadow: inset 3px 0 0 var(--sale-edge);
+  box-shadow: none;
   font-weight: 700;
 }
 
@@ -628,7 +635,7 @@ html.light .btn--sale[aria-pressed="true"] {
   background: linear-gradient(var(--accent-soft), var(--accent-soft)), var(--card);
   border-color: color-mix(in srgb, var(--border) 55%, var(--accent) 45%);
   color: var(--accent);
-  box-shadow: inset 3px 0 0 var(--accent);
+  box-shadow: none;
   font-weight: 700;
 }
 
@@ -710,11 +717,11 @@ html.light .btn--sale[aria-pressed="true"] {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 4px;
-  flex: 0 0 74px;
-  width: 74px;
-  max-width: 74px;
-  padding: 4px 4px 6px;
+  gap: 3px;
+  flex: 0 0 60px;
+  width: 60px;
+  max-width: 60px;
+  padding: 3px 2px 5px;
   border: 1px solid transparent;
   border-radius: 14px;
   background: transparent;
@@ -737,9 +744,9 @@ html.light .btn--sale[aria-pressed="true"] {
 }
 
 .cat__pic {
-  width: 52px;
-  height: 52px;
-  border-radius: 12px;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
   overflow: hidden;
   background: #fff;
   display: grid;
@@ -757,7 +764,7 @@ html.light .btn--sale[aria-pressed="true"] {
   display: block;
   width: 100%;
   max-width: 100%;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 600;
   line-height: 1.15;
   text-align: center;
@@ -768,7 +775,7 @@ html.light .btn--sale[aria-pressed="true"] {
 
 .cats__nav {
   position: absolute;
-  top: 18px;
+  top: 12px;
   z-index: 2;
   width: 32px;
   height: 32px;
@@ -806,7 +813,7 @@ html.light .btn--sale[aria-pressed="true"] {
 }
 
 .opts .cat {
-  flex: 0 0 74px;
+  flex: 0 0 60px;
 }
 
 .main {
@@ -912,6 +919,10 @@ html.light .live__pill.is-on {
   font-weight: 600;
 }
 
+.live__cadence {
+  display: none;
+}
+
 @keyframes live-pulse {
   50% {
     opacity: 0.35;
@@ -946,7 +957,7 @@ html.light .live__pill.is-on {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto auto;
   gap: 2px 8px;
-  align-items: center;
+  align-items: start;
   box-shadow: none;
   transition: border-color 0.15s var(--ease);
 }
@@ -958,46 +969,45 @@ html.light .live__pill.is-on {
 .card--sale {
   background: linear-gradient(var(--sale-fill), var(--sale-fill)), var(--panel);
   border-color: color-mix(in srgb, var(--border) 55%, var(--error) 45%);
-  box-shadow: inset 3px 0 0 var(--sale-edge), 0 1px 0 rgba(255, 255, 255, 0.03) inset,
-    var(--shadow-card);
+  box-shadow: none;
 }
 
 html.light .card--sale {
-  box-shadow: inset 3px 0 0 var(--sale-edge), 0 1px 0 rgba(255, 255, 255, 0.7) inset,
-    var(--shadow-card);
+  box-shadow: none;
 }
 
 .card--sale:hover {
   border-color: color-mix(in srgb, var(--border-strong) 40%, var(--error) 60%);
 }
 
-.card__lead {
-  min-width: 0;
+.card__foot {
+  grid-column: 1 / -1;
   display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: space-between;
+  gap: 8px;
+  min-width: 0;
 }
 
 .card__name {
   margin: 0;
   font-size: 12px;
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.3;
   min-width: 0;
-  flex: 1 1 auto;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .card__qty {
   font-family: var(--font-sans);
   font-size: 12px;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.3;
   color: var(--primary);
   white-space: nowrap;
-  padding-top: 0;
+  padding-top: 1px;
 }
 
 .card__copy {
@@ -1023,6 +1033,10 @@ html.light .card--sale {
   height: 13px;
 }
 
+.card__copy-ok {
+  display: none;
+}
+
 .card__copy:hover {
   color: var(--primary);
   border-color: var(--border-strong);
@@ -1034,14 +1048,12 @@ html.light .card--sale {
   background: rgba(52, 211, 153, 0.12);
 }
 
-.card__meta {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  gap: 3px;
-  flex: 0 1 auto;
-  min-width: 0;
-  overflow: hidden;
+.card__copy.is-copied .card__copy-icon {
+  display: none;
+}
+
+.card__copy.is-copied .card__copy-ok {
+  display: block;
 }
 
 .tag {
@@ -1063,16 +1075,16 @@ html.light .card--sale {
 }
 
 .tag--sale {
+  flex: 0 0 auto;
   background: var(--error-soft);
   border-color: rgba(251, 113, 133, 0.28);
   color: var(--error);
 }
 
 .price {
-  grid-column: 1 / -1;
+  min-width: 0;
   font-size: 10px;
   font-weight: 600;
-  min-width: 0;
   color: var(--primary);
 }
 
@@ -1202,14 +1214,18 @@ html.light .card--sale {
   }
 
   .cat {
-    flex-basis: 80px;
-    width: 80px;
-    max-width: 80px;
+    flex-basis: 64px;
+    width: 64px;
+    max-width: 64px;
   }
 
   .cat__pic {
-    width: 56px;
-    height: 56px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .live__cadence {
+    display: inline;
   }
 }
 

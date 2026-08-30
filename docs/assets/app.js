@@ -37,7 +37,7 @@
 
   function catChipHtml(c, on) {
     const src = CAT_IMGS[c] || CAT_IMGS["Прочее"];
-    return `<button type="button" class="cat${on ? " is-on" : ""}" data-cat="${escapeHtml(c)}" title="${escapeHtml(c)}" aria-label="${escapeHtml(c)}" aria-pressed="${on}"><span class="cat__pic"><img src="${src}" alt="" width="56" height="56" draggable="false"></span><span class="cat__name">${escapeHtml(c)}</span></button>`;
+    return `<button type="button" class="cat${on ? " is-on" : ""}" data-cat="${escapeHtml(c)}" title="${escapeHtml(c)}" aria-label="${escapeHtml(c)}" aria-pressed="${on}"><span class="cat__pic"><img src="${src}" alt="" width="42" height="42" draggable="false"></span><span class="cat__name">${escapeHtml(c)}</span></button>`;
   }
 
   const state = {
@@ -185,8 +185,8 @@
     // Beds
     if (n.startsWith("кровать") || n.startsWith("кроват")) return "Кровати";
 
-    // Sofas (including sofa-beds)
-    if (n.startsWith("диван")) return "Диваны";
+    // Sofas (including sofa-beds) and Nika sofa covers
+    if (n.startsWith("диван") || (n.startsWith("чехол") && n.includes("ника"))) return "Диваны";
 
     // Armchairs (including armchair-beds)
     if (n.startsWith("кресло") || n.startsWith("кресла")) return "Кресла";
@@ -231,10 +231,11 @@
 
   function sofaKind(name) {
     const n = cleanProductName(name).toLowerCase().replace(/ё/g, "е");
-    if (!n.includes("диван")) return "";
+    const isSofa =
+      n.startsWith("диван") || n.includes("диван") || (n.startsWith("чехол") && n.includes("ника"));
+    if (!isSofa) return "";
     if (n.includes("угловой")) return "Угловой";
-    if (n.includes("прямой")) return "Прямой";
-    return "";
+    return "Прямой";
   }
 
   function kpbKind(name) {
@@ -302,12 +303,11 @@
     if (!pill || !label || !text) return;
     pill.classList.toggle("is-on", on);
     label.textContent = on ? "Онлайн" : "Офлайн";
-    const when = formatRuDateTime(stockIso);
     const ago = formatAgo(stockIso);
     const mins = Math.max(1, Math.round((Number(state.stockIntervalSec) || 1800) / 60));
     text.innerHTML = stockIso
-      ? `Обновлено <time datetime="${stockIso}">${when}</time> · ${ago}<span class="live__cadence"> · каждые ${mins} мин</span>`
-      : "Нет отметки обновления";
+      ? `<time datetime="${stockIso}">${ago}</time><span class="live__cadence"> · каждые ${mins} мин</span>`
+      : "Нет отметки";
   }
 
   function merge(stock, sale) {
@@ -388,26 +388,16 @@
     const sale = it.sale
       ? `<div class="price"><s>${formatPrice(it.sale.oldPrice)}</s><b>${formatPrice(it.sale.finalPrice)}</b> · −${it.sale.discountPercent}%</div>`
       : "";
-    const tags = [it.size, it.bedPm, it.sofaKind, it.kpbKind]
-      .filter(Boolean)
-      .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
-      .join("");
-    const warn = it.stale
-      ? `<span class="tag tag--warn">⚠ ${escapeHtml(it.staleLabel)}</span>`
-      : "";
     const saleTag = it.sale ? `<span class="tag tag--sale">Распродажа</span>` : "";
     const nameAttr = escapeHtml(it.name);
-    const meta = `${warn}${saleTag}${tags}`;
     return `<li class="card${it.sale ? " card--sale" : ""}">
-      <div class="card__lead">
-        <p class="card__name">${nameAttr}</p>
-        ${meta ? `<div class="card__meta">${meta}</div>` : ""}
-      </div>
+      <p class="card__name">${nameAttr}</p>
       <div class="card__qty">${it.qty} шт</div>
       <button type="button" class="card__copy" data-copy="${nameAttr}" title="Скопировать название" aria-label="Скопировать название">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10" stroke-linecap="round"/></svg>
+        <svg class="card__copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10" stroke-linecap="round"/></svg>
+        <svg class="card__copy-ok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12.5 10 17.5 19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </button>
-      ${sale}
+      ${it.sale ? `<div class="card__foot">${sale}${saleTag}</div>` : ""}
     </li>`;
   }
 
@@ -455,12 +445,14 @@
       }
       if (btn) {
         btn.classList.add("is-copied");
-        const prev = btn.getAttribute("title");
         btn.setAttribute("title", "Скопировано");
-        setTimeout(() => {
+        btn.setAttribute("aria-label", "Скопировано");
+        clearTimeout(btn._copyT);
+        btn._copyT = setTimeout(() => {
           btn.classList.remove("is-copied");
-          if (prev) btn.setAttribute("title", prev);
-        }, 1200);
+          btn.setAttribute("title", "Скопировать название");
+          btn.setAttribute("aria-label", "Скопировать название");
+        }, 1400);
       }
     } catch (err) {
       console.error(err);
@@ -745,7 +737,7 @@
 
   function applyStatus(status, stock) {
     const fromStock = stock && stock.meta && stock.meta.generatedAt;
-    state.generatedAt = (status && status.generatedAt) || fromStock || state.generatedAt;
+    if (fromStock) state.generatedAt = fromStock;
     state.publishedAt = (status && status.publishedAt) || state.generatedAt;
     if (status && status.stockIntervalSec) state.stockIntervalSec = status.stockIntervalSec;
     if (status && status.agentOnlineTtlSec) state.agentOnlineTtlSec = status.agentOnlineTtlSec;

@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-31T02:38:47+04:00",
+    "generatedAt": "2026-08-31T03:09:39+04:00",
     "timezone": "Europe/Astrakhan",
     "skuCount": 11314
   },
@@ -27539,7 +27539,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 8114,
+      "qty": 8111,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -51259,10 +51259,10 @@
     {
       "productId": "04035e76-564b-4120-b2b5-cee587dfce0e",
       "name": "Нагрудник Bonbon (Бонбон) Blue",
-      "qty": 15,
+      "qty": 14,
       "feature": "Посуда",
       "size": "",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "6c18c831-088a-4651-8cc2-3340b0ac9e6d",
@@ -56643,7 +56643,7 @@
     {
       "productId": "389cba4c-3eb3-47d3-bb18-a425209f14ef",
       "name": "Одеяло 220*200 Natural Dream",
-      "qty": 244,
+      "qty": 243,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-31"
@@ -61699,7 +61699,7 @@
     {
       "productId": "ea3c5f80-2de5-4c46-a792-d4d1f1b18e5b",
       "name": "Подушка 050*070 Флекс",
-      "qty": 2196,
+      "qty": 2195,
       "feature": "Подушки",
       "size": "050*070",
       "modifiedDate": "2026-08-31"
@@ -62123,7 +62123,7 @@
     {
       "productId": "207267d4-0f77-403b-999e-462eed93f1a5",
       "name": "Подушка Sleepy 3+",
-      "qty": 484,
+      "qty": 483,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -66835,10 +66835,10 @@
     {
       "productId": "d88ff2fb-5651-48e6-8d31-56ada03892e9",
       "name": "Полотенце для рук Lay 30*50 маршмеллоу",
-      "qty": 293,
+      "qty": 292,
       "feature": "Текстиль",
       "size": "30*50",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "74993fb9-b3d1-4480-b4ef-a32932900563",

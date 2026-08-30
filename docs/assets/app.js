@@ -3,7 +3,7 @@
   const PAGE = 50;
 
   const SITE = Object.freeze({
-    version: "1.0.10",
+    version: "1.0.11",
     author: "Ярослав Федоренко",
     year: 2026,
   });
@@ -15,7 +15,9 @@
     profile: "7789eacd",
   });
 
-  const HOST = { p: "" };
+  const HOST = { p: "", seal: null, ready: false };
+  const BOOT_STARTED = performance.now();
+  const PREFS_KEY = "askona-stock-prefs";
   
   const CATEGORIES = [
     "Кровати",
@@ -391,6 +393,7 @@
     const stale = state.filtered.filter((x) => x.stale).length;
     $("metaLine").textContent = `${n} ${ruCount(n, "товар", "товара", "товаров")} · Обухово${stale ? ` · проверить дату: ${stale}` : ""}`;
     syncFilterBtn();
+    scheduleSavePrefs();
   }
 
   function cardHtml(it) {
@@ -593,6 +596,73 @@
     closeSuggest();
     renderChips();
     applyFilters();
+    savePrefs();
+  }
+
+  function asStringSet(values, allowed) {
+    const out = new Set();
+    if (!Array.isArray(values)) return out;
+    for (const value of values) {
+      const text = String(value || "").trim();
+      if (!text) continue;
+      if (allowed && !allowed.has(text)) continue;
+      out.add(text);
+    }
+    return out;
+  }
+
+  function savePrefs() {
+    try {
+      const payload = {
+        q: state.q || "",
+        saleOnly: Boolean(state.saleOnly),
+        cats: [...state.cats],
+        extras: {
+          bedPm: [...state.extras.bedPm],
+          sofaKind: [...state.extras.sofaKind],
+          kpbKind: [...state.extras.kpbKind],
+          sizes: [...state.extras.sizes],
+          staleOnly: Boolean(state.extras.staleOnly),
+        },
+      };
+      localStorage.setItem(PREFS_KEY, JSON.stringify(payload));
+    } catch (_) {
+      /* ignore quota / private mode */
+    }
+  }
+
+  let prefsTimer = 0;
+  function scheduleSavePrefs() {
+    clearTimeout(prefsTimer);
+    prefsTimer = setTimeout(savePrefs, 120);
+  }
+
+  function restorePrefs() {
+    let raw = null;
+    try {
+      raw = JSON.parse(localStorage.getItem(PREFS_KEY) || "null");
+    } catch (_) {
+      raw = null;
+    }
+    if (!raw || typeof raw !== "object") return;
+    const allowedCats = new Set(CATEGORIES);
+    state.q = typeof raw.q === "string" ? raw.q : "";
+    state.saleOnly = Boolean(raw.saleOnly);
+    state.cats = asStringSet(raw.cats, allowedCats);
+    const extras = raw.extras && typeof raw.extras === "object" ? raw.extras : {};
+    state.extras.bedPm = asStringSet(extras.bedPm, new Set(["С ПМ", "Без ПМ"]));
+    state.extras.sofaKind = asStringSet(extras.sofaKind, new Set(["Прямой", "Угловой"]));
+    state.extras.kpbKind = asStringSet(
+      extras.kpbKind,
+      new Set(["Комплект", "Наволочка", "Пододеяльник"])
+    );
+    state.extras.sizes = asStringSet(extras.sizes);
+    state.extras.staleOnly = Boolean(extras.staleOnly);
+    const q = $("q");
+    if (q) q.value = state.q;
+    const saleBtn = $("saleBtn");
+    if (saleBtn) saleBtn.setAttribute("aria-pressed", String(state.saleOnly));
+    syncSearchFill();
   }
 
   const SEARCH_KEY = "askona-stock-recent-q";
@@ -731,12 +801,16 @@
     return () => clearTimeout(timer);
   }
 
-  function dataUrl(file) {
-    return `./data/${file}?t=${Date.now()}`;
+  function dataUrl(file, version) {
+    const stamp = version != null ? String(version) : String(Date.now());
+    return `./data/${file}?v=${encodeURIComponent(stamp)}`;
   }
 
-  function fetchJson(file, optional = false) {
-    return fetch(dataUrl(file), { cache: "no-store" }).then((r) => {
+  function fetchJson(file, opts = {}) {
+    const optional = Boolean(opts.optional);
+    const version = opts.version;
+    const cache = opts.cache || (version != null ? "force-cache" : "no-store");
+    return fetch(dataUrl(file, version), { cache }).then((r) => {
       if (!r.ok) {
         if (optional) return null;
         throw new Error(`${file}: ${r.status}`);
@@ -753,14 +827,41 @@
     if (status && status.agentOnlineTtlSec) state.agentOnlineTtlSec = status.agentOnlineTtlSec;
   }
 
+  function setBootStatus(text) {
+    const el = $("bootStatus");
+    if (el) el.textContent = text;
+  }
+
+  function dismissSplash() {
+    const el = $("bootSplash");
+    if (!el) return Promise.resolve();
+    const minMs = 700;
+    const wait = Math.max(0, minMs - (performance.now() - BOOT_STARTED));
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        el.classList.add("is-done");
+        el.setAttribute("aria-busy", "false");
+        setTimeout(() => {
+          el.remove();
+          resolve();
+        }, 420);
+      }, wait);
+    });
+  }
+
   async function loadCatalog(status) {
     if (!hostReady()) throw new Error("profile");
+    const version =
+      (status && status.generatedAt) || state.generatedAt || String(Date.now());
+    setBootStatus("Загружаем остатки…");
     const [stock, sale] = await Promise.all([
-      fetchJson("stock.json"),
-      fetchJson("sale.json"),
+      fetchJson("stock.json", { version }),
+      fetchJson("sale.json", { version }),
     ]);
+    setBootStatus("Собираем каталог…");
     applyStatus(status, stock);
     state.items = merge(stock, sale);
+    restorePrefs();
     renderLive();
     renderChips();
     if ($("sheet") && !$("sheet").hidden) renderSheet();
@@ -775,8 +876,13 @@
   async function boot() {
     if (!bindHost()) throw new Error("profile");
     paintCredit();
-    const status = await fetchJson("status.json", true).catch(() => null);
+    setBootStatus("Проверяем обновления…");
+    const status = await fetchJson("status.json", { optional: true, cache: "no-store" }).catch(
+      () => null
+    );
     await loadCatalog(status);
+    setBootStatus("Готово");
+    await dismissSplash();
   }
 
   let ticking = false;
@@ -784,7 +890,10 @@
     if (ticking) return;
     ticking = true;
     try {
-      const status = await fetchJson("status.json", true).catch(() => null);
+      const status = await fetchJson("status.json", {
+        optional: true,
+        cache: "no-store",
+      }).catch(() => null);
       if (status) {
         const catalogChanged =
           Boolean(status.generatedAt) && status.generatedAt !== state.generatedAt;
@@ -6187,10 +6296,18 @@
   }
 
   function sealOk() {
+    if (HOST.seal !== null) return HOST.seal;
     const raw = HOST.p;
-    if (typeof raw !== "string" || raw.length < 8000) return false;
-    if (raw.slice(0, 10) !== "iVBORw0KGg") return false;
-    return fnv1a(raw) === BUILD_PROFILE.revision;
+    if (typeof raw !== "string" || raw.length < 8000) {
+      HOST.seal = false;
+      return false;
+    }
+    if (raw.slice(0, 10) !== "iVBORw0KGg") {
+      HOST.seal = false;
+      return false;
+    }
+    HOST.seal = fnv1a(raw) === BUILD_PROFILE.revision;
+    return HOST.seal;
   }
 
   function bindHost() {
@@ -6222,12 +6339,14 @@
       document.body.appendChild(box);
     }
     document.documentElement.dataset.sk = BUILD_PROFILE.revision;
+    HOST.ready = true;
     return !!document.getElementById(id);
   }
 
   function hostReady() {
     return (
-      sealOk() &&
+      HOST.ready &&
+      HOST.seal === true &&
       document.documentElement.dataset.sk === BUILD_PROFILE.revision &&
       document.getElementById("s" + BUILD_PROFILE.renderer)
     );
@@ -6235,12 +6354,14 @@
 
   bindHost();
   boot().catch((err) => {
+    setBootStatus("Не удалось загрузить");
     $("metaLine").textContent = "Не удалось загрузить данные. Запустите локальный сервер.";
     const label = $("liveLabel");
     const text = $("liveText");
     if (label) label.textContent = "Офлайн";
     if (text) text.textContent = "Нет данных";
     console.error(err);
+    dismissSplash();
   });
 
 })();

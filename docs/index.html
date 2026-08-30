@@ -28,17 +28,131 @@
         root.classList.add(dark ? "dark" : "light");
         root.dataset.theme = pref;
         root.style.colorScheme = dark ? "dark" : "light";
+        var meta = document.getElementById("themeColor");
+        if (meta) meta.setAttribute("content", dark ? "#121214" : "#f8fafc");
       })();
     </script>
+    <style>
+      .boot {
+        position: fixed;
+        inset: 0;
+        z-index: 1000;
+        display: grid;
+        place-items: center;
+        padding: max(24px, env(safe-area-inset-top)) 24px max(24px, env(safe-area-inset-bottom));
+        background: color-mix(in srgb, var(--boot-bg, #121214) 72%, transparent);
+        -webkit-backdrop-filter: blur(22px) saturate(1.15);
+        backdrop-filter: blur(22px) saturate(1.15);
+        transition: opacity 0.42s cubic-bezier(0.22, 0.61, 0.36, 1),
+          visibility 0.42s step-end;
+      }
+      html.light .boot {
+        --boot-bg: #f8fafc;
+        --boot-glass: rgba(255, 255, 255, 0.55);
+        --boot-line: rgba(15, 23, 42, 0.08);
+        --boot-ink: #1a202c;
+        --boot-muted: #718096;
+      }
+      html.dark .boot {
+        --boot-bg: #121214;
+        --boot-glass: rgba(22, 22, 24, 0.52);
+        --boot-line: rgba(255, 255, 255, 0.08);
+        --boot-ink: #f2f2f3;
+        --boot-muted: #a1a1aa;
+      }
+      .boot.is-done {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 0.42s cubic-bezier(0.22, 0.61, 0.36, 1),
+          visibility 0s linear 0.42s;
+      }
+      .boot__glass {
+        width: min(100%, 280px);
+        padding: 28px 24px 24px;
+        border-radius: 24px;
+        border: 1px solid var(--boot-line);
+        background: var(--boot-glass);
+        box-shadow: 0 18px 48px rgba(0, 0, 0, 0.18);
+        text-align: center;
+        -webkit-backdrop-filter: blur(18px);
+        backdrop-filter: blur(18px);
+      }
+      .boot__logo {
+        display: block;
+        width: 132px;
+        height: 34px;
+        margin: 0 auto 14px;
+        background: #11b5b0;
+        -webkit-mask: url("assets/logo-askona.png?v=3") left center / contain no-repeat;
+        mask: url("assets/logo-askona.png?v=3") left center / contain no-repeat;
+      }
+      .boot__title {
+        margin: 0;
+        font-family: "Unbounded", system-ui, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        color: var(--boot-ink);
+      }
+      .boot__sub {
+        margin: 4px 0 0;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--boot-muted);
+      }
+      .boot__bar {
+        margin: 22px auto 0;
+        width: 96px;
+        height: 3px;
+        border-radius: 999px;
+        overflow: hidden;
+        background: color-mix(in srgb, var(--boot-muted) 28%, transparent);
+      }
+      .boot__bar > span {
+        display: block;
+        height: 100%;
+        width: 42%;
+        border-radius: inherit;
+        background: #11b5b0;
+        animation: boot-slide 1.15s ease-in-out infinite;
+      }
+      .boot__status {
+        margin: 12px 0 0;
+        font-size: 12px;
+        font-weight: 500;
+        color: var(--boot-muted);
+      }
+      @keyframes boot-slide {
+        0% { transform: translateX(-120%); }
+        100% { transform: translateX(280%); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .boot__bar > span { animation: none; width: 100%; opacity: 0.7; }
+        .boot { transition: none; }
+      }
+    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/styles.css?v=12" />
+    <link rel="stylesheet" href="assets/styles.css?v=13" />
   </head>
   <body>
+    <div class="boot" id="bootSplash" role="status" aria-live="polite" aria-busy="true">
+      <div class="boot__glass">
+        <span class="boot__logo" aria-hidden="true"></span>
+        <p class="boot__title">Остатки</p>
+        <p class="boot__sub">Обухово</p>
+        <div class="boot__bar" aria-hidden="true"><span></span></div>
+        <p class="boot__status" id="bootStatus">Открываем каталог…</p>
+      </div>
+    </div>
+
     <div class="ambient" aria-hidden="true">
       <span class="ambient-dots"></span>
       <span class="ambient-glow ambient-glow-a"></span>
@@ -149,7 +263,7 @@
       <ul class="list" id="list"></ul>
       <p class="empty" id="empty" hidden>Ничего не найдено. Попробуйте «чехол» или «200*160».</p>
       <div id="sentinel" aria-hidden="true"></div>
-      <p class="credit" id="siteCredit">© 2026 Ярослав Федоренко · v1.0.10</p>
+      <p class="credit" id="siteCredit">© 2026 Ярослав Федоренко · v1.0.11</p>
     </main>
 
     <div class="sheet" id="sheet" hidden>
@@ -164,6 +278,6 @@
       </div>
     </div>
 
-    <script src="assets/app.js?v=12"></script>
+    <script src="assets/app.js?v=13"></script>
   </body>
 </html>

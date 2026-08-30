@@ -33,16 +33,16 @@
   ];
 
   const CAT_IMGS = {
-    Кровати: "assets/cats/krovati.png?v=3",
-    Диваны: "assets/cats/divany.png?v=3",
-    Ergo: "assets/cats/ergo.png?v=3",
-    Матрасы: "assets/cats/matrasy.png?v=3",
-    Кресла: "assets/cats/kresla.png?v=3",
-    Подушки: "assets/cats/podushki.png?v=3",
-    Одеяла: "assets/cats/odeyala.png?v=3",
-    Чехлы: "assets/cats/chehly.png?v=3",
-    КПБ: "assets/cats/kpb.png?v=3",
-    Прочее: "assets/cats/prochee.png?v=3",
+    Кровати: "assets/cats/krovati.png?v=4",
+    Диваны: "assets/cats/divany.png?v=4",
+    Ergo: "assets/cats/ergo.png?v=4",
+    Матрасы: "assets/cats/matrasy.png?v=4",
+    Кресла: "assets/cats/kresla.png?v=4",
+    Подушки: "assets/cats/podushki.png?v=4",
+    Одеяла: "assets/cats/odeyala.png?v=4",
+    Чехлы: "assets/cats/chehly.png?v=4",
+    КПБ: "assets/cats/kpb.png?v=4",
+    Прочее: "assets/cats/prochee.png?v=4",
   };
 
   function catChipHtml(c, on) {

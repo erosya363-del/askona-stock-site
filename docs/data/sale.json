@@ -3,8 +3,8 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-29T15:54:51+04:00",
-    "itemCount": 337
+    "generatedAt": "2026-08-27T13:20:49+04:00",
+    "itemCount": 374
   },
   "items": [
     {
@@ -96,15 +96,31 @@
       "saleQty": 1
     },
     {
-      "name": "Диван-кровать Карина Nova 140-БК-УКкНова68-Тк. Casanova Marsala+Casanova Marsala",
-      "series": "Карина Nova",
-      "finalPrice": 43593,
-      "oldPrice": 86899,
-      "discountPercent": 50,
+      "name": "Диван-кровать Домо ПРО 140-H-пл14-ромб-Тк. Sky Velvet 40",
+      "series": "Домо ПРО",
+      "finalPrice": 71207,
+      "oldPrice": 101799,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
+      "name": "Диван-кровать Карина ПРО 140-M-пл. фигурный-Тк. Sky Velvet 32",
+      "series": "Карина ПРО",
+      "finalPrice": 61074,
+      "oldPrice": 87199,
+      "discountPercent": 30,
       "saleQty": 1
     },
     {
       "name": "Диван-кровать Локо Мини-пл15-Тк. Sky Velvet 17",
+      "series": "Локо Мини",
+      "finalPrice": 54669,
+      "oldPrice": 78099,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
+      "name": "Диван-кровать Локо Мини-пл5-Тк. Montreal 1014",
       "series": "Локо Мини",
       "finalPrice": 54669,
       "oldPrice": 78099,
@@ -124,6 +140,14 @@
       "series": "Локо ПРО",
       "finalPrice": 73827,
       "oldPrice": 104999,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
+      "name": "Диван-кровать Персей Nova Люкс 160-БК-Тк. Sky Velvet 03+Sky Velvet 03",
+      "series": "Персей Nova Люкс",
+      "finalPrice": 65080,
+      "oldPrice": 92799,
       "discountPercent": 30,
       "saleQty": 1
     },
@@ -176,11 +200,11 @@
       "saleQty": 1
     },
     {
-      "name": "Журнальный стол Cristofer (Кристофер) 104*072*039 Венге Мали Тк. Casanova Seawave",
+      "name": "Журнальный стол Cristofer (Кристофер) 085*063*039 Венге Мали Тк. Royal I Shiitake",
       "series": "Cristofer (Кристофер)",
-      "finalPrice": 8955,
-      "oldPrice": 17999,
-      "discountPercent": 50,
+      "finalPrice": 11878,
+      "oldPrice": 16999,
+      "discountPercent": 30,
       "saleQty": 1
     },
     {
@@ -232,6 +256,14 @@
       "saleQty": 1
     },
     {
+      "name": "Кресло KURT-Тк. Casanova Grey",
+      "series": "KURT",
+      "finalPrice": 15075,
+      "oldPrice": 29999,
+      "discountPercent": 50,
+      "saleQty": 1
+    },
+    {
       "name": "Кресло Амани ПРО-пл15-Тк. Casanova Stone",
       "series": "Амани ПРО",
       "finalPrice": 18619,
@@ -240,10 +272,26 @@
       "saleQty": 1
     },
     {
+      "name": "Кресло Амани ПРО-пл15-Тк. Royal I Field",
+      "series": "Амани ПРО",
+      "finalPrice": 13899,
+      "oldPrice": 27799,
+      "discountPercent": 50,
+      "saleQty": 1
+    },
+    {
       "name": "Кресло Бейкер-Тк. Sky Velvet 42 св",
       "series": "Бейкер",
       "finalPrice": 22494,
       "oldPrice": 32199,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
+      "name": "Кресло Лагуна-Тк. Sky Velvet 40",
+      "series": "Лагуна",
+      "finalPrice": 19746,
+      "oldPrice": 27899,
       "discountPercent": 30,
       "saleQty": 1
     },
@@ -270,14 +318,6 @@
       "oldPrice": 36099,
       "discountPercent": 50,
       "saleQty": 3
-    },
-    {
-      "name": "Кресло Фомо-Тк. Sky Velvet 08",
-      "series": "Фомо",
-      "finalPrice": 16366,
-      "oldPrice": 32399,
-      "discountPercent": 50,
-      "saleQty": 1
     },
     {
       "name": "Кресло Хоган-Тк. Casanova Scandy",
@@ -437,7 +477,7 @@
       "finalPrice": 33083,
       "oldPrice": 36799,
       "discountPercent": 10,
-      "saleQty": 2
+      "saleQty": 1
     },
     {
       "name": "Кровать 090*190 Uno (Уно) Тк. Sky Velvet 03",
@@ -468,6 +508,14 @@
       "series": "Uno Duo (Уно Дуо)",
       "finalPrice": 23163,
       "oldPrice": 25899,
+      "discountPercent": 10,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать 090*200 Oliva Pro (Олива Про) Тк. Galaktika cacao",
+      "series": "Oliva Pro (Олива Про)",
+      "finalPrice": 21449,
+      "oldPrice": 23599,
       "discountPercent": 10,
       "saleQty": 1
     },
@@ -516,6 +564,14 @@
       "series": "Uno Duo (Уно Дуо)",
       "finalPrice": 26586,
       "oldPrice": 29599,
+      "discountPercent": 10,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать 090*200 Uno Duo (Уно Дуо) Тк. Sky Velvet 252",
+      "series": "Uno Duo (Уно Дуо)",
+      "finalPrice": 24617,
+      "oldPrice": 27399,
       "discountPercent": 10,
       "saleQty": 1
     },
@@ -688,6 +744,14 @@
       "saleQty": 1
     },
     {
+      "name": "Кровать 200*120 Avril (Аврил) Тк. Sky Velvet 18",
+      "series": "Avril (Аврил)",
+      "finalPrice": 11807,
+      "oldPrice": 13899,
+      "discountPercent": 15,
+      "saleQty": 1
+    },
+    {
       "name": "Кровать 200*120 Elisa nova (Элиза нова) Тк. Shammy Smoky",
       "series": "Elisa nova (Элиза нова)",
       "finalPrice": 26841,
@@ -768,6 +832,14 @@
       "saleQty": 1
     },
     {
+      "name": "Кровать 200*160 Andria (Андрия) Тк. Dumont 26",
+      "series": "Andria (Андрия)",
+      "finalPrice": 38756,
+      "oldPrice": 48499,
+      "discountPercent": 20,
+      "saleQty": 1
+    },
+    {
       "name": "Кровать 200*160 Astra Long (Астра Лонг) Тк. Sky Velvet 40",
       "series": "Astra Long (Астра Лонг)",
       "finalPrice": 17719,
@@ -826,7 +898,7 @@
     {
       "name": "Кровать 200*160 Prima (Прима) Ясень Шимо Светлый",
       "series": "Prima (Прима)",
-      "finalPrice": 17548,
+      "finalPrice": 16621,
       "oldPrice": 21899,
       "discountPercent": 20,
       "saleQty": 2
@@ -836,6 +908,22 @@
       "series": "Rachel New I (Рэйчел Нью)",
       "finalPrice": 77480,
       "oldPrice": 95699,
+      "discountPercent": 20,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать 200*160 Relax (Релакс) Тк. Dumont 26",
+      "series": "Relax (Релакс)",
+      "finalPrice": 15784,
+      "oldPrice": 22599,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать 200*160 Relax nova (Релакс нова) Тк. Casanova Stone",
+      "series": "Relax nova (Релакс нова)",
+      "finalPrice": 24280,
+      "oldPrice": 30399,
       "discountPercent": 20,
       "saleQty": 1
     },
@@ -1104,6 +1192,14 @@
       "saleQty": 1
     },
     {
+      "name": "Кровать без спинки 200*160 Chloe nova (Хлоя нова) Тк. Velutto 47",
+      "series": "Chloe nova (Хлоя нова)",
+      "finalPrice": 6160,
+      "oldPrice": 8699,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
       "name": "Кровать без спинки 200*160 Ergo Premium (Эрго Премиум) Тк. Casanova Grey",
       "series": "Ergo Premium (Эрго Премиум)",
       "finalPrice": 43464,
@@ -1248,6 +1344,14 @@
       "saleQty": 1
     },
     {
+      "name": "Кровать с ПМ 090*180 Plumpy (Плампи) Тк. Casanova Desert",
+      "series": "Plumpy (Плампи)",
+      "finalPrice": 21801,
+      "oldPrice": 24299,
+      "discountPercent": 10,
+      "saleQty": 1
+    },
+    {
       "name": "Кровать с ПМ 090*190 Eva Pro (Ева Про) Тк. Royal I Plombir",
       "series": "Eva Pro (Ева Про)",
       "finalPrice": 20902,
@@ -1368,6 +1472,14 @@
       "saleQty": 1
     },
     {
+      "name": "Кровать с ПМ 120*190 Eva Pro (Ева Про) Тк. Sky Velvet 21",
+      "series": "Eva Pro (Ева Про)",
+      "finalPrice": 20787,
+      "oldPrice": 23199,
+      "discountPercent": 10,
+      "saleQty": 1
+    },
+    {
       "name": "Кровать с ПМ 120*190 Plumpy (Плампи) Тк. Dumont 02",
       "series": "Plumpy (Плампи)",
       "finalPrice": 22086,
@@ -1380,6 +1492,14 @@
       "series": "Eva Pro (Ева Про)",
       "finalPrice": 23058,
       "oldPrice": 25699,
+      "discountPercent": 10,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать с ПМ 120*200 Oliva Pro (Олива Про) Тк. Alaska 02",
+      "series": "Oliva Pro (Олива Про)",
+      "finalPrice": 27539,
+      "oldPrice": 30299,
       "discountPercent": 10,
       "saleQty": 1
     },
@@ -1546,7 +1666,7 @@
     {
       "name": "Кровать с ПМ 190*160 Extra nova (Экстра нова) Тк. Royal I Capri",
       "series": "Extra nova (Экстра нова)",
-      "finalPrice": 18059,
+      "finalPrice": 18006,
       "oldPrice": 25799,
       "discountPercent": 30,
       "saleQty": 1
@@ -1570,9 +1690,17 @@
     {
       "name": "Кровать с ПМ 195*140 Extra nova (Экстра нова) Тк. Sky Velvet 02",
       "series": "Extra nova (Экстра нова)",
-      "finalPrice": 16449,
+      "finalPrice": 16389,
       "oldPrice": 23499,
       "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать с ПМ 200*090 Betsy New (Бэтси Нью) Тк. Casanova Seawave",
+      "series": "Betsy New (Бэтси Нью)",
+      "finalPrice": 22544,
+      "oldPrice": 25099,
+      "discountPercent": 10,
       "saleQty": 1
     },
     {
@@ -1597,6 +1725,14 @@
       "finalPrice": 27740,
       "oldPrice": 34699,
       "discountPercent": 20,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать с ПМ 200*090 Lovely New (Лавели Нью) Тк. Royal I Shiitake",
+      "series": "Lovely New (Лавели Нью)",
+      "finalPrice": 23681,
+      "oldPrice": 26399,
+      "discountPercent": 10,
       "saleQty": 1
     },
     {
@@ -1680,14 +1816,6 @@
       "saleQty": 1
     },
     {
-      "name": "Кровать с ПМ 200*120 Elisa nova (Элиза нова) Тк. Dumont 24",
-      "series": "Elisa nova (Элиза нова)",
-      "finalPrice": 21766,
-      "oldPrice": 30699,
-      "discountPercent": 30,
-      "saleQty": 1
-    },
-    {
       "name": "Кровать с ПМ 200*120 Elisa nova (Элиза нова) Тк. Forte 07",
       "series": "Elisa nova (Элиза нова)",
       "finalPrice": 24234,
@@ -1712,12 +1840,28 @@
       "saleQty": 2
     },
     {
+      "name": "Кровать с ПМ 200*120 Lovely New (Лавели Нью) Тк. Casanova Lilac",
+      "series": "Lovely New (Лавели Нью)",
+      "finalPrice": 22585,
+      "oldPrice": 25099,
+      "discountPercent": 10,
+      "saleQty": 1
+    },
+    {
       "name": "Кровать с ПМ 200*120 Milana nova (Милана нова) Тк. Sky Velvet 30",
       "series": "Milana nova (Милана нова)",
       "finalPrice": 31266,
       "oldPrice": 39099,
       "discountPercent": 20,
       "saleQty": 2
+    },
+    {
+      "name": "Кровать с ПМ 200*120 Mira nova (Мира нова) Тк. Velutto 71",
+      "series": "Mira nova (Мира нова)",
+      "finalPrice": 12032,
+      "oldPrice": 13799,
+      "discountPercent": 15,
+      "saleQty": 1
     },
     {
       "name": "Кровать с ПМ 200*120 Nery (Нэри) Тк. Forte 17",
@@ -1760,10 +1904,10 @@
       "saleQty": 1
     },
     {
-      "name": "Кровать с ПМ 200*140 Murrey nova (Мюррей нова) Тк. Casanova Chocolate",
-      "series": "Murrey nova (Мюррей нова)",
-      "finalPrice": 35926,
-      "oldPrice": 44999,
+      "name": "Кровать с ПМ 200*140 Milana nova (Милана нова) Тк. Lidot beige",
+      "series": "Milana nova (Милана нова)",
+      "finalPrice": 34471,
+      "oldPrice": 43099,
       "discountPercent": 20,
       "saleQty": 1
     },
@@ -1773,6 +1917,22 @@
       "finalPrice": 28677,
       "oldPrice": 35899,
       "discountPercent": 20,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать с ПМ 200*140 Vanessa nova (Ванесса нова) Тк. Shammy Foggy",
+      "series": "Vanessa nova (Ванесса нова)",
+      "finalPrice": 25493,
+      "oldPrice": 36499,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать с ПМ 200*160 DOMENICO Тк. Dumont 26",
+      "series": "DOMENICO",
+      "finalPrice": 19407,
+      "oldPrice": 27799,
+      "discountPercent": 30,
       "saleQty": 1
     },
     {
@@ -1788,6 +1948,14 @@
       "series": "Extra I (Экстра)",
       "finalPrice": 19449,
       "oldPrice": 27099,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать с ПМ 200*160 Extra I (Экстра) Тк. Soul 000",
+      "series": "Extra I (Экстра)",
+      "finalPrice": 21783,
+      "oldPrice": 30399,
       "discountPercent": 30,
       "saleQty": 1
     },
@@ -1828,14 +1996,6 @@
       "series": "Gracia (Грация)",
       "finalPrice": 65191,
       "oldPrice": 92199,
-      "discountPercent": 30,
-      "saleQty": 1
-    },
-    {
-      "name": "Кровать с ПМ 200*160 Margot nova (Марго нова) Тк. Galaktika blue",
-      "series": "Margot nova (Марго нова)",
-      "finalPrice": 41710,
-      "oldPrice": 58999,
       "discountPercent": 30,
       "saleQty": 1
     },
@@ -1920,6 +2080,14 @@
       "saleQty": 1
     },
     {
+      "name": "Кровать с ПМ 200*180 Gracia (Грация) Тк. Galaktika beige",
+      "series": "Gracia (Грация)",
+      "finalPrice": 73221,
+      "oldPrice": 103599,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
       "name": "Кровать с ПМ 200*180 Mira nova (Мира нова) Тк. Aura 09",
       "series": "Mira nova (Мира нова)",
       "finalPrice": 17651,
@@ -1952,6 +2120,14 @@
       "saleQty": 1
     },
     {
+      "name": "Кровать с ПМ 200*180 Relax nova (Релакс нова) Тк. Sky Velvet 03",
+      "series": "Relax nova (Релакс нова)",
+      "finalPrice": 23602,
+      "oldPrice": 33799,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
       "name": "Кровать с ПМ 200*180 Richard New (Ричард Нью) Тк. Aura 09",
       "series": "Richard New (Ричард Нью)",
       "finalPrice": 56949,
@@ -1968,6 +2144,14 @@
       "saleQty": 1
     },
     {
+      "name": "Кровать с ПМ 200*180 Richard New (Ричард Нью) Тк. Sky Velvet 16",
+      "series": "Richard New (Ричард Нью)",
+      "finalPrice": 50847,
+      "oldPrice": 71999,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
       "name": "Кровать с ПМ 200*180 Silvana nova (Сильвана нова) Тк. Sky Velvet 16",
       "series": "Silvana nova (Сильвана нова)",
       "finalPrice": 43075,
@@ -1981,6 +2165,30 @@
       "finalPrice": 17039,
       "oldPrice": 21299,
       "discountPercent": 20,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать с ПМ 200*180 Vanessa nova (Ванесса нова) Тк. Montreal 1014",
+      "series": "Vanessa nova (Ванесса нова)",
+      "finalPrice": 24155,
+      "oldPrice": 34599,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать с ПМ 200*200 Alfa (Альфа) Тк. Sky Velvet 03",
+      "series": "Alfa (Альфа)",
+      "finalPrice": 18000,
+      "oldPrice": 25799,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
+      "name": "Кровать с ПМ 200*200 Andria (Андрия) Тк. Dumont 10",
+      "series": "Andria (Андрия)",
+      "finalPrice": 40987,
+      "oldPrice": 58599,
+      "discountPercent": 30,
       "saleQty": 1
     },
     {
@@ -2005,7 +2213,7 @@
       "finalPrice": 26550,
       "oldPrice": 37999,
       "discountPercent": 30,
-      "saleQty": 2
+      "saleQty": 3
     },
     {
       "name": "Кровать с ПМ 200*200 Duglas New I (Дуглас Нью) Тк. Casanova Chocolate пуговица хром нога венге",
@@ -2048,6 +2256,14 @@
       "saleQty": 1
     },
     {
+      "name": "Кровать с ПМ 200*200 Margot nova (Марго нова) Тк. Casanova Lilac",
+      "series": "Margot nova (Марго нова)",
+      "finalPrice": 44798,
+      "oldPrice": 63299,
+      "discountPercent": 30,
+      "saleQty": 1
+    },
+    {
       "name": "Кровать с ПМ 200*200 Mira nova (Мира нова) Тк. Dumont 24",
       "series": "Mira nova (Мира нова)",
       "finalPrice": 15860,
@@ -2061,7 +2277,7 @@
       "finalPrice": 18282,
       "oldPrice": 20299,
       "discountPercent": 12,
-      "saleQty": 4
+      "saleQty": 2
     },
     {
       "name": "Кровать с ПМ 200*200 Murrey nova (Мюррей нова) Тк. Aldo Blue",
@@ -2136,6 +2352,14 @@
       "saleQty": 1
     },
     {
+      "name": "Матрас 160*120 Askona Ortho Omniflex",
+      "series": "Askona Ortho Omniflex",
+      "finalPrice": 4452,
+      "oldPrice": 8999,
+      "discountPercent": 50,
+      "saleQty": 1
+    },
+    {
       "name": "Матрас 170*075 Robby",
       "series": "Robby",
       "finalPrice": 7563,
@@ -2192,9 +2416,17 @@
       "saleQty": 1
     },
     {
+      "name": "Матрас 183*080 COMFORT PLUS",
+      "series": "COMFORT PLUS",
+      "finalPrice": 4040,
+      "oldPrice": 8399,
+      "discountPercent": 50,
+      "saleQty": 1
+    },
+    {
       "name": "Матрас 186*145 Extra Comfort Hard",
       "series": "Extra Comfort Hard",
-      "finalPrice": 8648,
+      "finalPrice": 8405,
       "oldPrice": 17299,
       "discountPercent": 50,
       "saleQty": 1
@@ -2210,7 +2442,7 @@
     {
       "name": "Матрас 190*145 COMFORT PLUS",
       "series": "COMFORT PLUS",
-      "finalPrice": 6123,
+      "finalPrice": 5975,
       "oldPrice": 12299,
       "discountPercent": 50,
       "saleQty": 1
@@ -2218,7 +2450,7 @@
     {
       "name": "Матрас 190*180 SERTA PARKER",
       "series": "SERTA PARKER",
-      "finalPrice": 40944,
+      "finalPrice": 39793,
       "oldPrice": 81999,
       "discountPercent": 50,
       "saleQty": 1
@@ -2248,6 +2480,14 @@
       "saleQty": 1
     },
     {
+      "name": "Матрас 200*070 Family Lovely",
+      "series": "Family Lovely",
+      "finalPrice": 13125,
+      "oldPrice": 26199,
+      "discountPercent": 50,
+      "saleQty": 1
+    },
+    {
       "name": "Матрас 200*085 Askona Ortho Soft",
       "series": "Askona Ortho Soft",
       "finalPrice": 17275,
@@ -2256,11 +2496,27 @@
       "saleQty": 1
     },
     {
+      "name": "Матрас 200*115 Askona Ortho Medium",
+      "series": "Askona Ortho Medium",
+      "finalPrice": 21440,
+      "oldPrice": 42899,
+      "discountPercent": 50,
+      "saleQty": 2
+    },
+    {
       "name": "Матрас 200*180 Classic Duo Hard-Soft",
       "series": "Classic Duo Hard-Soft",
       "finalPrice": 18804,
       "oldPrice": 37899,
       "discountPercent": 50,
+      "saleQty": 1
+    },
+    {
+      "name": "Матрас 200*190 Basic Optima Hard",
+      "series": "Basic Optima Hard",
+      "finalPrice": 16661,
+      "oldPrice": 29699,
+      "discountPercent": 30,
       "saleQty": 1
     },
     {
@@ -2274,7 +2530,7 @@
     {
       "name": "Матрас 200*240 Grether & Wells Gris",
       "series": "Grether & Wells Gris",
-      "finalPrice": 82549,
+      "finalPrice": 80185,
       "oldPrice": 165099,
       "discountPercent": 50,
       "saleQty": 1
@@ -2282,7 +2538,7 @@
     {
       "name": "Матрас 200*240 Serta Atlanta Medium",
       "series": "Serta Atlanta Medium",
-      "finalPrice": 52643,
+      "finalPrice": 51129,
       "oldPrice": 105299,
       "discountPercent": 50,
       "saleQty": 1
@@ -2290,7 +2546,7 @@
     {
       "name": "Матрас 205*193 Grether & Wells Regal",
       "series": "Grether & Wells Regal",
-      "finalPrice": 58609,
+      "finalPrice": 56953,
       "oldPrice": 116999,
       "discountPercent": 50,
       "saleQty": 1
@@ -2298,7 +2554,7 @@
     {
       "name": "Матрас 206*195 Grether & Wells Regal",
       "series": "Grether & Wells Regal",
-      "finalPrice": 59503,
+      "finalPrice": 57822,
       "oldPrice": 118799,
       "discountPercent": 50,
       "saleQty": 1
@@ -2346,7 +2602,7 @@
     {
       "name": "Матрас 210*195 Grether & Wells Regal",
       "series": "Grether & Wells Regal",
-      "finalPrice": 60659,
+      "finalPrice": 58945,
       "oldPrice": 121099,
       "discountPercent": 50,
       "saleQty": 1
@@ -2370,7 +2626,7 @@
     {
       "name": "Матрас 220*090 Serta Atlanta Medium",
       "series": "Serta Atlanta Medium",
-      "finalPrice": 24919,
+      "finalPrice": 24222,
       "oldPrice": 49899,
       "discountPercent": 50,
       "saleQty": 1
@@ -2378,7 +2634,7 @@
     {
       "name": "Матрас 220*120 Grether & Wells Heaven Luxury кремовый",
       "series": "Grether & Wells Heaven Luxury кремовый",
-      "finalPrice": 61949,
+      "finalPrice": 60150,
       "oldPrice": 123899,
       "discountPercent": 50,
       "saleQty": 1
@@ -2386,7 +2642,7 @@
     {
       "name": "Матрас 220*140 Grether & Wells Regal",
       "series": "Grether & Wells Regal",
-      "finalPrice": 49901,
+      "finalPrice": 48503,
       "oldPrice": 99599,
       "discountPercent": 50,
       "saleQty": 1
@@ -2402,7 +2658,7 @@
     {
       "name": "Матрас 220*190 Grether & Wells Regal",
       "series": "Grether & Wells Regal",
-      "finalPrice": 61918,
+      "finalPrice": 60171,
       "oldPrice": 123599,
       "discountPercent": 50,
       "saleQty": 1
@@ -2472,6 +2728,14 @@
       "saleQty": 1
     },
     {
+      "name": "Наматрасник 208*147 Top Serta",
+      "series": "Top Serta",
+      "finalPrice": 6808,
+      "oldPrice": 13699,
+      "discountPercent": 50,
+      "saleQty": 1
+    },
+    {
       "name": "Наматрасник 210*200 Top Basic Hard",
       "series": "Top Basic Hard",
       "finalPrice": 5914,
@@ -2485,6 +2749,14 @@
       "finalPrice": 3153,
       "oldPrice": 6399,
       "discountPercent": 50,
+      "saleQty": 1
+    },
+    {
+      "name": "Основание Ergomotion 200*180 серия 450 Grey",
+      "series": "Ergomotion 450 Grey",
+      "finalPrice": 78962,
+      "oldPrice": 112899,
+      "discountPercent": 30,
       "saleQty": 1
     },
     {
@@ -2509,7 +2781,7 @@
       "finalPrice": 13229,
       "oldPrice": 18899,
       "discountPercent": 30,
-      "saleQty": 3
+      "saleQty": 2
     },
     {
       "name": "Стол письменный Rondon (Рондон) 084*085*045 дуб светлый",
@@ -2520,12 +2792,20 @@
       "saleQty": 1
     },
     {
+      "name": "Туалетный столик Fransis (Френсис) 2 отсека Тк. Sky Velvet 08",
+      "series": "Fransis (Френсис)",
+      "finalPrice": 14519,
+      "oldPrice": 17899,
+      "discountPercent": 20,
+      "saleQty": 1
+    },
+    {
       "name": "Тумба Cristall (Кристалл) Тк. Galaktika brown",
       "series": "Cristall (Кристалл)",
       "finalPrice": 4317,
       "oldPrice": 5399,
       "discountPercent": 20,
-      "saleQty": 4
+      "saleQty": 3
     },
     {
       "name": "Тумба Emma (Эмма) Тк. Aura 12",
@@ -2616,6 +2896,14 @@
       "saleQty": 1
     },
     {
+      "name": "Тумба Oscar (Оскар) со стеклом Тк. Royal I Mist",
+      "series": "Oscar (Оскар)",
+      "finalPrice": 6500,
+      "oldPrice": 9199,
+      "discountPercent": 20,
+      "saleQty": 2
+    },
+    {
       "name": "Тумба Teffi (Тэффи) со стеклом Тк. Belgium 7007",
       "series": "Teffi (Тэффи)",
       "finalPrice": 13468,
@@ -2680,12 +2968,20 @@
       "saleQty": 2
     },
     {
+      "name": "Чехол Ника ПРО-Тк. Montreal 1005",
+      "series": "Ника ПРО",
+      "finalPrice": 6199,
+      "oldPrice": 12399,
+      "discountPercent": 50,
+      "saleQty": 1
+    },
+    {
       "name": "Чехол Ника ПРО-Тк. Prime Beige",
       "series": "Ника ПРО",
       "finalPrice": 5529,
       "oldPrice": 7899,
       "discountPercent": 30,
-      "saleQty": 2
+      "saleQty": 4
     },
     {
       "name": "Шкаф стекло 2 двери + 2 ящика Ivina (Ивина) 99,5*203,0*41,0 Черный",

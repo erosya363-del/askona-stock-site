@@ -3,7 +3,7 @@
   const PAGE = 50;
 
   const SITE = Object.freeze({
-    version: "1.0.13",
+    version: "1.0.14",
     author: "Ярослав Федоренко",
     year: 2026,
   });
@@ -832,6 +832,52 @@
     if (el) el.textContent = text;
   }
 
+  function setBootProgress(pct) {
+    const bar = document.querySelector("#bootSplash .boot__bar > span");
+    if (!bar) return;
+    const value = Math.max(0, Math.min(100, Number(pct) || 0));
+    bar.style.width = value + "%";
+    bar.style.transform = "none";
+    bar.style.animation = "none";
+  }
+
+  function waitBoot(ms) {
+    return new Promise((resolve) => setTimeout(resolve, Math.max(0, ms)));
+  }
+
+  async function runBootStages(workPromise) {
+    const total = 3000;
+    // проверка 30% · загрузка 60% · готово 10%
+    const checkMs = Math.round(total * 0.3);
+    const loadMs = Math.round(total * 0.6);
+    const readyMs = Math.max(0, total - checkMs - loadMs);
+    const loadHalf = Math.round(loadMs / 2);
+
+    setBootStatus("Проверяем обновления…");
+    setBootProgress(8);
+    await waitBoot(checkMs * 0.45);
+    setBootProgress(22);
+    await waitBoot(checkMs * 0.55);
+    setBootProgress(30);
+
+    setBootStatus("Загружаем остатки…");
+    await waitBoot(loadHalf * 0.55);
+    setBootProgress(55);
+    await waitBoot(loadHalf * 0.45);
+    setBootProgress(70);
+
+    setBootStatus("Собираем каталог…");
+    await waitBoot(loadHalf * 0.55);
+    setBootProgress(88);
+    await waitBoot(loadHalf * 0.45);
+    setBootProgress(96);
+
+    await workPromise;
+    setBootStatus("Готово");
+    setBootProgress(100);
+    await waitBoot(readyMs);
+  }
+
   function dismissSplash() {
     const el = $("bootSplash");
     if (!el) return Promise.resolve();
@@ -854,12 +900,10 @@
     if (!hostReady()) throw new Error("profile");
     const version =
       (status && status.generatedAt) || state.generatedAt || String(Date.now());
-    setBootStatus("Загружаем остатки…");
     const [stock, sale] = await Promise.all([
       fetchJson("stock.json", { version }),
       fetchJson("sale.json", { version }),
     ]);
-    setBootStatus("Собираем каталог…");
     applyStatus(status, stock);
     state.items = merge(stock, sale);
     restorePrefs();
@@ -877,12 +921,14 @@
   async function boot() {
     if (!bindHost()) throw new Error("profile");
     paintCredit();
-    setBootStatus("Проверяем обновления…");
-    const status = await fetchJson("status.json", { optional: true, cache: "no-store" }).catch(
-      () => null
-    );
-    await loadCatalog(status);
-    setBootStatus("Готово");
+    const work = (async () => {
+      const status = await fetchJson("status.json", {
+        optional: true,
+        cache: "no-store",
+      }).catch(() => null);
+      await loadCatalog(status);
+    })();
+    await runBootStages(work);
     await dismissSplash();
   }
 

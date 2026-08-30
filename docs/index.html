@@ -122,10 +122,10 @@
       .boot__bar > span {
         display: block;
         height: 100%;
-        width: 42%;
+        width: 8%;
         border-radius: inherit;
         background: #11b5b0;
-        animation: boot-slide 1.15s ease-in-out infinite;
+        transition: width 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
       }
       .boot__status {
         margin: 12px 0 0;
@@ -134,12 +134,8 @@
         font-weight: 500;
         color: var(--boot-muted);
       }
-      @keyframes boot-slide {
-        0% { transform: translateX(-120%); }
-        100% { transform: translateX(280%); }
-      }
       @media (prefers-reduced-motion: reduce) {
-        .boot__bar > span { animation: none; width: 100%; opacity: 0.7; }
+        .boot__bar > span { transition: none; }
         .boot { transition: none; }
       }
     </style>
@@ -149,7 +145,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/styles.css?v=15" />
+    <link rel="stylesheet" href="assets/styles.css?v=16" />
   </head>
   <body>
     <div class="boot" id="bootSplash" role="status" aria-live="polite" aria-busy="true">
@@ -272,7 +268,7 @@
       <ul class="list" id="list"></ul>
       <p class="empty" id="empty" hidden>Ничего не найдено. Попробуйте «чехол» или «200*160».</p>
       <div id="sentinel" aria-hidden="true"></div>
-      <p class="credit" id="siteCredit">© 2026 Ярослав Федоренко · v1.0.13</p>
+      <p class="credit" id="siteCredit">© 2026 Ярослав Федоренко · v1.0.14</p>
     </main>
 
     <div class="sheet" id="sheet" hidden>
@@ -287,6 +283,6 @@
       </div>
     </div>
 
-    <script src="assets/app.js?v=15"></script>
+    <script src="assets/app.js?v=16"></script>
   </body>
 </html>

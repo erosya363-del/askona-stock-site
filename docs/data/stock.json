@@ -3,9 +3,9 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-31T09:22:33+04:00",
+    "generatedAt": "2026-08-31T09:53:28+04:00",
     "timezone": "Europe/Astrakhan",
-    "skuCount": 11266
+    "skuCount": 11263
   },
   "items": [
     {
@@ -22857,14 +22857,6 @@
       "modifiedDate": "2026-08-22"
     },
     {
-      "productId": "5bf9774a-e74f-4dda-884d-443ad8259af6",
-      "name": "Журнальный стол стекло Ivina (Ивина) Капучино",
-      "qty": 1,
-      "feature": "Журнальные столы",
-      "size": "",
-      "modifiedDate": "2026-08-29"
-    },
-    {
       "productId": "5ee27b75-0951-4d86-85f9-e478330192d2",
       "name": "Журнальный стол стекло Ivina (Ивина) Черный",
       "qty": 2,
@@ -26275,10 +26267,10 @@
     {
       "productId": "d337ef74-6ea0-4b7c-ab3a-fea24981e1bf",
       "name": "Ковш Terra Cotta 1,4 л терракотовый",
-      "qty": 33,
+      "qty": 32,
       "feature": "Посуда",
       "size": "",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "85c876a4-2493-4a85-b44e-51308380f0fc",
@@ -26603,10 +26595,10 @@
     {
       "productId": "4ed01c36-a742-44e5-ab5b-8bfb18e5a2af",
       "name": "Комод 4 ящика Tokko (Токко) 080*100*040 Серый",
-      "qty": 10,
+      "qty": 9,
       "feature": "Малые формы",
       "size": "080*100",
-      "modifiedDate": "2026-08-14"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "c776686e-aca4-49e5-a00f-6c6e455ba8ad",
@@ -27035,7 +27027,7 @@
     {
       "productId": "8a0049c6-0a1b-4e3e-b708-45434f3c1a13",
       "name": "Комплект Elso Small",
-      "qty": 269,
+      "qty": 268,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -27515,7 +27507,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 8073,
+      "qty": 8064,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -29294,7 +29286,7 @@
       "qty": 44,
       "feature": "КПБ",
       "size": "",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "2672e521-ff8f-4704-ae7a-ca5701ffc743",
@@ -30683,10 +30675,10 @@
     {
       "productId": "44006012-1dcf-4913-98a1-4bb0a34ee059",
       "name": "КПБ Natural Balance (односп) Оливково-серый",
-      "qty": 3,
+      "qty": 2,
       "feature": "КПБ",
       "size": "",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-18"
     },
     {
       "productId": "b1ce1848-c142-4e32-b599-701fabd9a488",
@@ -44235,10 +44227,10 @@
     {
       "productId": "ea12019f-8c7c-44e1-b059-c25af15230c0",
       "name": "Крышка стеклянная Natures Essence 26 сливочный",
-      "qty": 79,
+      "qty": 78,
       "feature": "Посуда",
       "size": "",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "6540236c-bd9e-4719-99f4-72419c8f9235",
@@ -45931,10 +45923,10 @@
     {
       "productId": "189cda20-8cf1-4f76-9ed8-10e122de1994",
       "name": "Матрас 140 Nika Medium",
-      "qty": 34,
+      "qty": 33,
       "feature": "Комплектующие к диванам",
       "size": "",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "a1ad415b-ee9c-4942-a088-137e9981c0f9",
@@ -49043,7 +49035,7 @@
     {
       "productId": "d977fd50-e21f-4c10-8f1b-7da6b26c480a",
       "name": "МТ НИКА",
-      "qty": 35,
+      "qty": 34,
       "feature": "Комплектующие к диванам",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -51663,14 +51655,6 @@
       "feature": "Доп элементы к шкафам",
       "size": "150*230",
       "modifiedDate": "2026-08-30"
-    },
-    {
-      "productId": "f436283d-0d82-4588-8eaf-d91718a2b709",
-      "name": "Направляющие неполного выдвижения шариковые L300 арт.DB1711Zn",
-      "qty": 1,
-      "feature": "Доп элементы к кроватям",
-      "size": "",
-      "modifiedDate": "2026-08-20"
     },
     {
       "productId": "7e9a9734-4eae-4265-895d-5f49390ff56a",
@@ -56155,7 +56139,7 @@
     {
       "productId": "3234ec5f-ba18-4dbe-8358-0aaac3ab39a0",
       "name": "Одеяло 205*140 EasySummer",
-      "qty": 1769,
+      "qty": 1767,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-31"
@@ -56299,7 +56283,7 @@
     {
       "productId": "e18e0fe2-be53-4d87-9ca2-fd14cd9088d2",
       "name": "Одеяло 205*140 Roostik",
-      "qty": 669,
+      "qty": 668,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-31"
@@ -56459,7 +56443,7 @@
     {
       "productId": "389cba4c-3eb3-47d3-bb18-a425209f14ef",
       "name": "Одеяло 220*200 Natural Dream",
-      "qty": 242,
+      "qty": 241,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-31"
@@ -56475,7 +56459,7 @@
     {
       "productId": "ac6d144f-5298-4e83-9bbd-df859f74d772",
       "name": "Одеяло 220*200 Антистресс Технолоджи",
-      "qty": 425,
+      "qty": 424,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-31"
@@ -57455,14 +57439,6 @@
       "feature": "Ergomotion",
       "size": "200*140",
       "modifiedDate": "2026-08-31"
-    },
-    {
-      "productId": "3dc350fe-48cb-48e5-ad22-58037f09b35f",
-      "name": "Основание Askona Ergobalance Connect PRO 200*140 Grey",
-      "qty": 1,
-      "feature": "Ergomotion",
-      "size": "200*140",
-      "modifiedDate": "2026-08-30"
     },
     {
       "productId": "614d290d-8f1c-4970-8abd-d9dae94f90db",
@@ -58819,7 +58795,7 @@
     {
       "productId": "1b42cb2d-575d-4737-9e7d-ab32da16990d",
       "name": "Основание с ПМ 200*160",
-      "qty": 308,
+      "qty": 307,
       "feature": "Основания с ПМ",
       "size": "200*160",
       "modifiedDate": "2026-08-31"
@@ -61379,7 +61355,7 @@
     {
       "productId": "d89d5394-ac78-4e34-a3b9-4f15ef440242",
       "name": "Подушка 050*070 Balance серия Basic",
-      "qty": 5,
+      "qty": 1,
       "feature": "Подушки",
       "size": "050*070",
       "modifiedDate": "2026-08-31"
@@ -61419,7 +61395,7 @@
     {
       "productId": "ce9bca36-098a-4fab-a8c1-4eae23a14811",
       "name": "Подушка 050*070 Protect-a-bed серия Basic",
-      "qty": 1372,
+      "qty": 1371,
       "feature": "Подушки",
       "size": "050*070",
       "modifiedDate": "2026-08-31"
@@ -61475,7 +61451,7 @@
     {
       "productId": "0176f436-f99d-4656-950f-229b78a45a94",
       "name": "Подушка 070*050 Ray",
-      "qty": 653,
+      "qty": 652,
       "feature": "Подушки",
       "size": "070*050",
       "modifiedDate": "2026-08-31"
@@ -61491,7 +61467,7 @@
     {
       "productId": "982c9f05-92a7-413f-978c-098ed0ff4221",
       "name": "Подушка 070*050 Viva",
-      "qty": 2121,
+      "qty": 2118,
       "feature": "Подушки",
       "size": "070*050",
       "modifiedDate": "2026-08-31"
@@ -61619,7 +61595,7 @@
     {
       "productId": "1ae3b9a9-8e51-410c-b407-9e3abc58bc59",
       "name": "Подушка Askona Kids Dino (Дино)",
-      "qty": 175,
+      "qty": 174,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -61651,7 +61627,7 @@
     {
       "productId": "6d0ca798-ce42-40f4-b3b2-907c53551cc2",
       "name": "Подушка Askona Kids Unicorn (Единорог)",
-      "qty": 235,
+      "qty": 234,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -61867,7 +61843,7 @@
     {
       "productId": "207267d4-0f77-403b-999e-462eed93f1a5",
       "name": "Подушка Sleepy 3+",
-      "qty": 466,
+      "qty": 464,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -63819,10 +63795,10 @@
     {
       "productId": "1321884b-4123-42ab-a50d-a9da114b0361",
       "name": "Половник Acacia Wood",
-      "qty": 599,
+      "qty": 598,
       "feature": "Посуда",
       "size": "",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "55c8053c-e10e-420f-bb62-6026da7025d3",
@@ -67467,7 +67443,7 @@
     {
       "productId": "53e5ec93-b6bd-4054-b68f-553a1e3c7ba1",
       "name": "Простынь 060*120*015 Askona Kids Сахар (Sugar)",
-      "qty": 73,
+      "qty": 72,
       "feature": "КПБ",
       "size": "060*120",
       "modifiedDate": "2026-08-31"
@@ -69859,7 +69835,7 @@
     {
       "productId": "ad3b036b-8d92-4b96-b5c0-9af018ffc588",
       "name": "Простынь 240*260 Askona Home Graphite",
-      "qty": 114,
+      "qty": 113,
       "feature": "КПБ",
       "size": "240*260",
       "modifiedDate": "2026-08-31"
@@ -77835,26 +77811,26 @@
     {
       "productId": "fbe3c943-6f71-417b-a5c1-4d65902305f3",
       "name": "Сковорода Terra Cotta 22 терракотовый",
-      "qty": 469,
+      "qty": 468,
       "feature": "Посуда",
       "size": "",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "708df768-c770-4a80-b5b6-ccd8d654a248",
       "name": "Сковорода Terra Cotta 24 терракотовый",
-      "qty": 127,
+      "qty": 126,
       "feature": "Посуда",
       "size": "",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "02694410-70f9-4796-93b1-d02840b0caea",
       "name": "Сковорода Terra Cotta 26 терракотовый",
-      "qty": 214,
+      "qty": 213,
       "feature": "Посуда",
       "size": "",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "ae87cdcc-e82a-4545-84cb-6af45b855290",
@@ -77867,10 +77843,10 @@
     {
       "productId": "64f75a6d-be4e-4687-837c-33342fda3c00",
       "name": "Сковорода блинная Terra Cotta 28 терракотовый",
-      "qty": 134,
+      "qty": 133,
       "feature": "Посуда",
       "size": "",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "ac12f368-f449-46d9-a5a9-69476901b6ae",
@@ -79771,7 +79747,7 @@
     {
       "productId": "6ca3e9b5-1392-4922-b573-4b15acd3171d",
       "name": "Стол письменный однодверный с ящиком Kasli (Касли) 120*075*060 Белый",
-      "qty": 21,
+      "qty": 22,
       "feature": "Домашний офис",
       "size": "120*075",
       "modifiedDate": "2026-08-31"
@@ -86699,7 +86675,7 @@
     {
       "productId": "9b483d38-bac3-49fa-a6cf-a39b64a1a493",
       "name": "Чехол 200*160*35,6 Protect-a-Bed Terry",
-      "qty": 635,
+      "qty": 633,
       "feature": "Чехлы",
       "size": "200*160",
       "modifiedDate": "2026-08-31"
@@ -87003,7 +86979,7 @@
     {
       "productId": "89332cdc-43c4-4fc8-9212-833363133cb3",
       "name": "Чехол на матрас 120*060*017 Baby Terry",
-      "qty": 44,
+      "qty": 43,
       "feature": "Чехлы",
       "size": "120*060",
       "modifiedDate": "2026-08-31"
@@ -87211,10 +87187,10 @@
     {
       "productId": "8bc8d8c6-adcf-40e1-b12f-8799ab7455b7",
       "name": "Чехол на матрас 190*090*023 Kids Terry",
-      "qty": 29,
+      "qty": 28,
       "feature": "Чехлы",
       "size": "190*090",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "6f18698e-10a1-43bf-bfe3-2f208d7c8289",
@@ -87331,7 +87307,7 @@
     {
       "productId": "5ad907d8-64a6-41c0-974e-9e0dae59ee34",
       "name": "Чехол на матрас 200*140*35,6 Protect-a-Bed Arctic Plus",
-      "qty": 4,
+      "qty": 3,
       "feature": "Чехлы",
       "size": "200*140",
       "modifiedDate": "2026-08-31"
@@ -87355,7 +87331,7 @@
     {
       "productId": "d1a96049-ae3e-4fa1-836a-52e7ffda0a66",
       "name": "Чехол на матрас 200*160*030 Солид",
-      "qty": 376,
+      "qty": 375,
       "feature": "Чехлы",
       "size": "200*160",
       "modifiedDate": "2026-08-31"
@@ -88611,10 +88587,10 @@
     {
       "productId": "cac11ac9-cd88-46dd-aeab-78120ee5b420",
       "name": "Шкаф двухдверный с ящиками Noble (Нобл) 090*224*053 Белый премиум",
-      "qty": 5,
+      "qty": 4,
       "feature": "Шкафы",
       "size": "090*224",
-      "modifiedDate": "2026-08-28"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "a07bb347-0b44-4a61-8189-8604ed2b3c09",
@@ -89339,10 +89315,10 @@
     {
       "productId": "d7a7ef6f-786c-49b4-9474-663f3ab3d985",
       "name": "Шумовка Acacia Wood",
-      "qty": 364,
+      "qty": 363,
       "feature": "Посуда",
       "size": "",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "94e0eb13-4502-4f8f-ad3f-a941fab8c9b3",

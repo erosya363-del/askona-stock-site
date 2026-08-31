@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-31T07:50:10+04:00",
+    "generatedAt": "2026-08-31T08:20:57+04:00",
     "timezone": "Europe/Astrakhan",
     "skuCount": 11272
   },
@@ -26451,10 +26451,10 @@
     {
       "productId": "9630172f-983b-4815-977a-8535065f2a91",
       "name": "Комод 3 ящика Istra (Истра) Белый",
-      "qty": 5,
+      "qty": 4,
       "feature": "Малые формы",
       "size": "",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "d65f51e6-31b0-4162-ba3f-f66e34ea67d3",
@@ -26515,18 +26515,18 @@
     {
       "productId": "1965fada-f253-49a0-9648-ee3645fc0dc9",
       "name": "Комод 3 ящика Tim (Тим) 065*072*040 Белый",
-      "qty": 15,
+      "qty": 14,
       "feature": "Малые формы",
       "size": "065*072",
-      "modifiedDate": "2026-08-28"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "4738f94e-d0a8-488e-b8a9-b1be61b70cf3",
       "name": "Комод 3 ящика Tim (Тим) 065*072*040 Графит",
-      "qty": 18,
+      "qty": 17,
       "feature": "Малые формы",
       "size": "065*072",
-      "modifiedDate": "2026-08-27"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "3e31cba7-e577-42a8-b28b-94985083edb6",
@@ -29587,7 +29587,7 @@
     {
       "productId": "984a1113-0151-4d71-89dc-cf44158e0d97",
       "name": "КПБ Askona Comfort Tencel (евро) Ванильный",
-      "qty": 366,
+      "qty": 365,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -56051,7 +56051,7 @@
     {
       "productId": "1e5df1b0-78f9-409d-ab3d-940cff7bd023",
       "name": "Одеяло 110*140 Roostik",
-      "qty": 369,
+      "qty": 368,
       "feature": "Одеяла",
       "size": "110*140",
       "modifiedDate": "2026-08-31"
@@ -56419,7 +56419,7 @@
     {
       "productId": "8501adaa-18cd-4752-ab14-290fb9a5999b",
       "name": "Одеяло 220*200 Elso",
-      "qty": 134,
+      "qty": 133,
       "feature": "Одеяла",
       "size": "220*200",
       "modifiedDate": "2026-08-31"
@@ -61419,7 +61419,7 @@
     {
       "productId": "d89d5394-ac78-4e34-a3b9-4f15ef440242",
       "name": "Подушка 050*070 Balance серия Basic",
-      "qty": 11,
+      "qty": 10,
       "feature": "Подушки",
       "size": "050*070",
       "modifiedDate": "2026-08-31"
@@ -61515,7 +61515,7 @@
     {
       "productId": "0176f436-f99d-4656-950f-229b78a45a94",
       "name": "Подушка 070*050 Ray",
-      "qty": 660,
+      "qty": 659,
       "feature": "Подушки",
       "size": "070*050",
       "modifiedDate": "2026-08-31"
@@ -61531,7 +61531,7 @@
     {
       "productId": "982c9f05-92a7-413f-978c-098ed0ff4221",
       "name": "Подушка 070*050 Viva",
-      "qty": 2123,
+      "qty": 2122,
       "feature": "Подушки",
       "size": "070*050",
       "modifiedDate": "2026-08-31"
@@ -61635,7 +61635,7 @@
     {
       "productId": "cc51f8eb-6ba4-4e58-9215-b3864257916c",
       "name": "Подушка Alpha серия Technology 2.0 L",
-      "qty": 168,
+      "qty": 167,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -61699,7 +61699,7 @@
     {
       "productId": "204da748-c318-4180-bced-82f6db7c02ee",
       "name": "Подушка Baby 1+ Cloud",
-      "qty": 235,
+      "qty": 233,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -61835,10 +61835,10 @@
     {
       "productId": "34f92bc2-0d98-4395-996c-19d9e085534a",
       "name": "Подушка Little Girl",
-      "qty": 132,
+      "qty": 131,
       "feature": "Подушки",
       "size": "",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "2165ae9d-12fc-4e2c-aad4-12f352c19a84",
@@ -69019,7 +69019,7 @@
     {
       "productId": "815f37ff-1cc8-4bda-8843-6415d187bacb",
       "name": "Простынь 180*200 Askona Comfort Tencel Ванильный",
-      "qty": 65,
+      "qty": 64,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-31"
@@ -69083,7 +69083,7 @@
     {
       "productId": "d94b861b-1e2f-49e6-8d06-b2899dc6b207",
       "name": "Простынь 180*200 Askona Home Graphite",
-      "qty": 371,
+      "qty": 370,
       "feature": "КПБ",
       "size": "180*200",
       "modifiedDate": "2026-08-31"
@@ -79827,10 +79827,10 @@
     {
       "productId": "6ca3e9b5-1392-4922-b573-4b15acd3171d",
       "name": "Стол письменный однодверный с ящиком Kasli (Касли) 120*075*060 Белый",
-      "qty": 22,
+      "qty": 21,
       "feature": "Домашний офис",
       "size": "120*075",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "5b06f21f-73fb-4b6e-ac84-446370b0fcbd",
@@ -87435,7 +87435,7 @@
     {
       "productId": "1da19cbc-cf55-43e0-b3ee-2cb9eeb20bd0",
       "name": "Чехол на матрас 200*160*35,6 Protect-a-bed Tencel",
-      "qty": 77,
+      "qty": 76,
       "feature": "Чехлы",
       "size": "200*160",
       "modifiedDate": "2026-08-31"

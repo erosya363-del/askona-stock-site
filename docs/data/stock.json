@@ -3,7 +3,7 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-31T06:48:34+04:00",
+    "generatedAt": "2026-08-31T07:19:24+04:00",
     "timezone": "Europe/Astrakhan",
     "skuCount": 11273
   },
@@ -6531,7 +6531,7 @@
     {
       "productId": "c099bb02-2457-4c20-8161-0cf35c14b631",
       "name": "Брюки жен. Stay Warm сезон осень-зима 2023-2024 цвет черный размер L",
-      "qty": 9,
+      "qty": 4,
       "feature": "Одежда",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -6539,7 +6539,7 @@
     {
       "productId": "f4fc87df-8038-4475-b866-ebc3792a9e74",
       "name": "Брюки жен. Stay Warm сезон осень-зима 2023-2024 цвет черный размер M",
-      "qty": 24,
+      "qty": 16,
       "feature": "Одежда",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -6547,7 +6547,7 @@
     {
       "productId": "39f91e7e-39bf-46e4-b87e-429abb34c4fd",
       "name": "Брюки жен. Stay Warm сезон осень-зима 2023-2024 цвет черный размер S",
-      "qty": 65,
+      "qty": 61,
       "feature": "Одежда",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -27515,7 +27515,7 @@
     {
       "productId": "6f176b5a-627b-4936-9d0c-089bd45d4e0a",
       "name": "Комплект подушек Ray",
-      "qty": 8108,
+      "qty": 8107,
       "feature": "СЕТЫ",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -30819,10 +30819,10 @@
     {
       "productId": "3d334b11-a398-4ef9-ac01-46701f629fbe",
       "name": "КПБ Organic Cotton (евро) Голубая полоска",
-      "qty": 50,
+      "qty": 49,
       "feature": "КПБ",
       "size": "",
-      "modifiedDate": "2026-08-30"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "786c2e52-ada2-4f89-a457-a7460bb7bab8",
@@ -58731,7 +58731,7 @@
     {
       "productId": "88b58422-8b94-4f39-9437-2d5e19008a92",
       "name": "Основание с ПМ 190*100 Ultra",
-      "qty": 22,
+      "qty": 20,
       "feature": "Основания детские",
       "size": "190*100",
       "modifiedDate": "2026-08-31"
@@ -61635,7 +61635,7 @@
     {
       "productId": "cc51f8eb-6ba4-4e58-9215-b3864257916c",
       "name": "Подушка Alpha серия Technology 2.0 L",
-      "qty": 183,
+      "qty": 168,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -61643,7 +61643,7 @@
     {
       "productId": "925c55d7-cce6-445a-b9a7-02875c1c6e24",
       "name": "Подушка Alpha серия Technology 2.0 M",
-      "qty": 60,
+      "qty": 59,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -61699,7 +61699,7 @@
     {
       "productId": "204da748-c318-4180-bced-82f6db7c02ee",
       "name": "Подушка Baby 1+ Cloud",
-      "qty": 236,
+      "qty": 235,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -61851,7 +61851,7 @@
     {
       "productId": "ba00a0c8-a493-429e-a333-f7688fbdbe7d",
       "name": "Подушка Men Only",
-      "qty": 12,
+      "qty": 3,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -61907,7 +61907,7 @@
     {
       "productId": "207267d4-0f77-403b-999e-462eed93f1a5",
       "name": "Подушка Sleepy 3+",
-      "qty": 470,
+      "qty": 466,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -61915,10 +61915,10 @@
     {
       "productId": "db715fe0-527b-48f9-8f34-15ba9f2a0379",
       "name": "Подушка Smart Pillow 5.0 Anatomic",
-      "qty": 6,
+      "qty": 5,
       "feature": "Подушки",
       "size": "",
-      "modifiedDate": "2026-08-29"
+      "modifiedDate": "2026-08-31"
     },
     {
       "productId": "de9c887f-a230-4dce-ac76-2cb64ae55e0b",
@@ -86755,7 +86755,7 @@
     {
       "productId": "9b483d38-bac3-49fa-a6cf-a39b64a1a493",
       "name": "Чехол 200*160*35,6 Protect-a-Bed Terry",
-      "qty": 636,
+      "qty": 635,
       "feature": "Чехлы",
       "size": "200*160",
       "modifiedDate": "2026-08-31"

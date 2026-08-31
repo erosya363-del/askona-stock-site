@@ -3,9 +3,9 @@
     "schemaVersion": 1,
     "warehouseId": "obukhovo",
     "warehouseName": "Обухово",
-    "generatedAt": "2026-08-31T03:40:26+04:00",
+    "generatedAt": "2026-08-31T04:14:32+04:00",
     "timezone": "Europe/Astrakhan",
-    "skuCount": 11314
+    "skuCount": 11313
   },
   "items": [
     {
@@ -29747,7 +29747,7 @@
     {
       "productId": "b891b3f8-ef9f-4834-a70f-43b4d14f0b01",
       "name": "КПБ Askona Home (евро икеа) Дымчатый",
-      "qty": 213,
+      "qty": 212,
       "feature": "КПБ",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -56363,7 +56363,7 @@
     {
       "productId": "de059b48-66ae-46bf-a621-2747ce8a1b99",
       "name": "Одеяло 205*140 Fenix серия Basic",
-      "qty": 323,
+      "qty": 322,
       "feature": "Одеяла",
       "size": "205*140",
       "modifiedDate": "2026-08-31"
@@ -59339,7 +59339,7 @@
     {
       "productId": "b9cba3c6-9349-4cbd-86a4-30a097a107d3",
       "name": "Пакеты zip-lock Fresh 16*14",
-      "qty": 2804,
+      "qty": 2803,
       "feature": "Посуда",
       "size": "16*14",
       "modifiedDate": "2026-08-31"
@@ -61907,7 +61907,7 @@
     {
       "productId": "6d0ca798-ce42-40f4-b3b2-907c53551cc2",
       "name": "Подушка Askona Kids Unicorn (Единорог)",
-      "qty": 238,
+      "qty": 237,
       "feature": "Подушки",
       "size": "",
       "modifiedDate": "2026-08-31"
@@ -87847,14 +87847,6 @@
       "feature": "Чехлы",
       "size": "125*017",
       "modifiedDate": "2026-08-06"
-    },
-    {
-      "productId": "ba793a33-5950-41a6-bbbb-a7456583b584",
-      "name": "Чехол на подушку 50*70 Protect-a-Pillow Simple",
-      "qty": 1,
-      "feature": "Чехлы",
-      "size": "50*70",
-      "modifiedDate": "2026-08-30"
     },
     {
       "productId": "6b95dc7f-f6b3-48cf-8047-54b08fae2078",
